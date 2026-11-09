@@ -1,0 +1,2 @@
+[console_scripts]
+aiot-sim = aiot_sim.cli:main
