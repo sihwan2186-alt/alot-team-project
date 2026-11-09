@@ -1,0 +1,14 @@
+# Per room-minute probability; all assumptions.
+probability_per_minute = 0.0008
+duration_minutes = [5, 40]
+spike = 1200.0
+bias_per_minute = 4.0
+severity = "moderate"
+[weights]
+missing = 2
+spike = 1
+stuck = 1
+bias = 1
+ventilation_failure = 1
+hvac_failure = 1
+high_occupancy = 1

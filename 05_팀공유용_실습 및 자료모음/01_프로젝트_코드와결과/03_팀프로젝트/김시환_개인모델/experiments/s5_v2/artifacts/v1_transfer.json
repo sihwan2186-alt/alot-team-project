@@ -1,0 +1,15 @@
+{
+  "n": 16248,
+  "mae_ppm": 61.060852496099564,
+  "rmse_ppm": 79.73186665344637,
+  "p95_error_ppm": 156.21981480116443,
+  "bias_ppm": 29.616399611418146,
+  "TP": 5076,
+  "FP": 4145,
+  "FN": 1557,
+  "TN": 5470,
+  "future_exceedance_precision": 0.5504825940787333,
+  "future_exceedance_recall": 0.7652645861601085,
+  "future_exceedance_f1": 0.640343131071023,
+  "true_exceedance_fraction": 0.4082348596750369
+}

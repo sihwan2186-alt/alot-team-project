@@ -1,0 +1,1644 @@
+[
+  {
+    "path": "01_AIOT-W03_이론발표_V1.0_260914_v1.pdf",
+    "size": 546053,
+    "sha256": "ee236d6f80cdc894084f07092f6c8142b6c7cf98519e5183de7b21ee5a5c92ef",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "01_AIOT-W04_이론발표_V1.1_260922.pdf",
+    "size": 1655447,
+    "sha256": "f61ced68b4b57ea546d30a3830c1f65b82832ee834d28457987bab4d67ef9bdd",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "01_AIOT-W05_이론발표_V1.2_260928.pdf",
+    "size": 2029514,
+    "sha256": "586bac4327b60a6a6871900614fe8f1a4dced8a8bee9eba3439843352ff97d1c",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "01_AIOT-W06_이론발표_V1.3_261004.pdf",
+    "size": 671615,
+    "sha256": "e73e1b59acb09caaa8b8cc84441b3019053ec91ab13aa4461789729d53423bf9",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "01_AIOT-W07_이론발표_V1.6_261012.pdf",
+    "size": 3228914,
+    "sha256": "5614b2ba03f555d46ad2a71b7f2e4056b2b75920004a033ca5029b7f669905d7",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "03_AIOT-W03_실습발표_V1.0_260914_v1.pdf",
+    "size": 407065,
+    "sha256": "6ad67491455cf115a23bcf7efb80f513744fdce8e5467e4dd626674db787f7e5",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "03_AIOT-W04_실습발표_V1.1_260922.pdf",
+    "size": 1569512,
+    "sha256": "fe6a67cb368bb43568c3d63a5bedc00ce09d2610e1c0538dffc723bfaeb8dc50",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "03_AIOT-W05_실습발표_V1.2_260928.pdf",
+    "size": 985382,
+    "sha256": "71fc5d09b56c97ae389f5ec886aacbb9921003a4c13a2ed5a3a5034831444a7b",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "03_AIOT-W06_실습발표_V1.3_261004.pdf",
+    "size": 682268,
+    "sha256": "bea1cccc0d37c71a2f3e18b34f6a31171fd9919cf6b8c625004e91fcf0f76209",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "03_AIOT-W07_실습발표_V1.6_261012.pdf",
+    "size": 1343759,
+    "sha256": "bcb484bd27c7aa7d1e0e3ce4a53bd2bc7ea4ccc0c7c4bd8dcebeab8837781da7",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "04_AIOT-W03_실습보고서샘플_V1.0_260914_v1.pdf",
+    "size": 2289318,
+    "sha256": "9c9699bf3be3e063242ffde77bcf4f3e9733e364d1b0c87baeeaa921efd340db",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "04_AIOT-W04_실습보고서샘플_V1.1_260922.pdf",
+    "size": 258147,
+    "sha256": "5580bebb304abdd13b02afce2f1468713284e8ec748531623ceb3368ee4dcb3c",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "05_AIOT-W03_학생제출용보고서_V1.0_260914_제이개선본_v1.docx",
+    "size": 301535,
+    "sha256": "86aabda380e9f6ba969c123dfa0f41e46afe977ecda2631be933578c934eb81e",
+    "method": "content_read"
+  },
+  {
+    "path": "05_AIOT-W03_학생제출용보고서_작성완료본_v1.docx",
+    "size": 266003,
+    "sha256": "61322aabfcbbf8f0d71c540c1a2a1851389d7905b5e20cb771ee43780ab82028",
+    "method": "content_read"
+  },
+  {
+    "path": "05_AIOT-W04_학생제출용보고서_V1.1_260922 (1).docx",
+    "size": 317198,
+    "sha256": "01df6022d4cad654ec2f717866a7ea8e059bf1283353202da14b1997f1d7ec7a",
+    "method": "content_read"
+  },
+  {
+    "path": "05_AIOT-W04_학생제출용보고서_V1.1_260922.docx",
+    "size": 26259,
+    "sha256": "387c6b818539b6d8d3d2460348f3cc57550cf3450483a5eb37ab72d051cdd9ba",
+    "method": "content_read"
+  },
+  {
+    "path": "05_AIOT-W05_학생제출용보고서_V1.2_260928.docx",
+    "size": 172683,
+    "sha256": "f196fa04735187388cc409f6c178d6efc492f23d8259f3e5e9e055a3183c23a0",
+    "method": "content_read"
+  },
+  {
+    "path": "05_AIOT-W05_학생제출용보고서_내용작성본.docx",
+    "size": 32133,
+    "sha256": "49851d9601aee678314841967233ce542b7180cf7dfd813d2d3e5a307fc8ee83",
+    "method": "content_read"
+  },
+  {
+    "path": "05_AIOT-W06_학생제출용보고서_V1.2_260928 (1).docx",
+    "size": 34367,
+    "sha256": "6963144dbd8c3bdebad2ee50ba753e18567ecdf094a3a29754e27824ee66713f",
+    "method": "content_read"
+  },
+  {
+    "path": "05_AIOT-W06_학생제출용보고서_V1.2_260928.docx",
+    "size": 34367,
+    "sha256": "6963144dbd8c3bdebad2ee50ba753e18567ecdf094a3a29754e27824ee66713f",
+    "method": "content_read"
+  },
+  {
+    "path": "05_AIOT-W07_학생제출용보고서_V1.5_261012.docx",
+    "size": 41621,
+    "sha256": "812e70c4a1b16012f6a15e09a8a147079d1ade4032e1799050b6a73d3b6c5604",
+    "method": "content_read"
+  },
+  {
+    "path": "4주차_실습예제.zip",
+    "size": 2385,
+    "sha256": "1c274d6d62090f10be5e8d071dfe31b3786ca0ed18d422a196d9d44a5f1c2dc7",
+    "method": "content_read"
+  },
+  {
+    "path": "7장 함수.ppt",
+    "size": 2580992,
+    "sha256": "86b516abc5950e9153cda9b993bf3ab6b9059fb583ba7e06138076345faa1074",
+    "method": "legacy_binary_inventory_only"
+  },
+  {
+    "path": "integrate_report.py",
+    "size": 10380,
+    "sha256": "dd2595ab7f109cd537335ce44373c8b08255e0bac2a7f6ed4ea995c5d9b8ea60",
+    "method": "content_read"
+  },
+  {
+    "path": "review_scenarios.py",
+    "size": 572,
+    "sha256": "a9562a67fa74d88952ea7c5e6d9e134ce07a50c846c5d4512257d764a7469319",
+    "method": "content_read"
+  },
+  {
+    "path": "W05_예제.zip",
+    "size": 9360,
+    "sha256": "444b9883683b40d3c7b207263ab45356c5ea42c58cd7d50e681a1fa577b6592c",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_실습보고서_진행본.docx",
+    "size": 32472,
+    "sha256": "0380149c8da1ad202f0ee8f0079561c3993f85e0784feb938216214380bd6c36",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_예제.zip",
+    "size": 10132,
+    "sha256": "d850bbb321481c074af47ccdf244ad7317d4534061a52d93a44f1688be6af42a",
+    "method": "content_read"
+  },
+  {
+    "path": "W07_예제.zip",
+    "size": 14609,
+    "sha256": "f47d8887d2993fc4174984df9be47e6b7077e679e5b2e6f13b8f8ac7e1bef289",
+    "method": "content_read"
+  },
+  {
+    "path": "과제1_W02-W07_준비체크리스트.md",
+    "size": 21783,
+    "sha256": "f3211b575525ff7ab8de7a5c4ed63f2be4ca22e445608de7081c3cce5b34f09b",
+    "method": "content_read"
+  },
+  {
+    "path": "시나리오_ver1.docx",
+    "size": 28057,
+    "sha256": "f8c3f953244b8001fb82bfbdebc3cc4f79cb5fab2f54f60d5d8e339eac8ad6af",
+    "method": "content_read"
+  },
+  {
+    "path": "시나리오_ver2.docx",
+    "size": 43813,
+    "sha256": "4b1bddc0585579ea7fc3ee79b9ee5fd4617ba8dc1a5b6fa6526c8f085f7d11b0",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/analyze.py",
+    "size": 2428,
+    "sha256": "a848131fe555dd351b520c37a111ef3c6cda73f886867ab06e7de97af2312a85",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/build_report.py",
+    "size": 10155,
+    "sha256": "570589e3a12c9dfb7c86a9b7f8af2d89ee8f47a2b5dcb0e6e6a73783f9ddb10c",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/collect.py",
+    "size": 1405,
+    "sha256": "bfad43bfea6854aedc7e84ca63fad132dca256db39c610a70a296819d4d8e640",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/file_manifest.json",
+    "size": 794,
+    "sha256": "069ff52ffc55d0d30c8c2908592458f47ef03e72f22c05a60a68682f40539131",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/prediction.txt",
+    "size": 311,
+    "sha256": "dfda554d5cd959dc05df9da584276252e2e95762646d5ea9459ad0316ed0421e",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/README.md",
+    "size": 3240,
+    "sha256": "3f72a31b8e2ca8899fe87cb74822b819cf7be6329f8f1560e89d0befb17cf6d2",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/results.json",
+    "size": 1573,
+    "sha256": "a6cd061b31e2ae470c10698573fe18dfcff7e817aca8831a72a74013961387cf",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/run_lab.py",
+    "size": 1213,
+    "sha256": "c07bc1ab2aa34815dd570bee2ebaf4b04217e9c7d5889e4a2195d14c5d88da96",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/run_metadata.json",
+    "size": 782,
+    "sha256": "6bf1fbe61592fafd3f4f1c0ee8ddcc98f7d109650abe097b01c9de92c0db394b",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/sensor_log.csv",
+    "size": 1710,
+    "sha256": "e51c1704955dc59beed29af31dfcaf3b1e5169501f5b3fa9148e8afbbd4d1b05",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/statistics.csv",
+    "size": 346,
+    "sha256": "321dd0868119b836ee2144f9a7da65468ed5ac4c117e0424d0242d6a76cade6b",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/variable_list.csv",
+    "size": 573,
+    "sha256": "0b5a8e7cc2dc286eba53fa9a9a7e2874009581c394214e3f1adc56c8b56ada93",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/verify.py",
+    "size": 1561,
+    "sha256": "f45eb88942e24a2ff3b45749e13732a3d1f2c1adcee46d4f87cf0c52bb7b16a1",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/virtual_sensor.py",
+    "size": 779,
+    "sha256": "7d45b40890225c01c0e2a2f38a7f6a90d16623fa6d54badf24d16d2f2ef27d08",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/W03_실습보고서_실행결과.docx",
+    "size": 265388,
+    "sha256": "3d24ef54e246f2ea83cfb9c463c0d8c7442a03c15801310b2dc8de45e58471f3",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/01_AIOT-W04_이론발표_V1.1_260922.txt",
+    "size": 11965,
+    "sha256": "e7e9cd8def6d45bc7cb550db8ca16ce18884354cff7ed357035d063acfec43f4",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/03_AIOT-W04_실습발표_V1.1_260922.txt",
+    "size": 9571,
+    "sha256": "2f290ac8cb4b4d00bfaf0e04315a5cc39480a60407ed4b6861157aaa30a58cb9",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/04_AIOT-W04_실습보고서샘플_V1.1_260922.txt",
+    "size": 10465,
+    "sha256": "f31fe4fb766b62cd821d557d3ac877975764421160f5e37fe072e4f3a3ab1fbf",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/audit_submission.py",
+    "size": 5485,
+    "sha256": "ec5418640281729ccc9ecd770ea0c1f81d1c846d0b5298159afb8bac6c837982",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/capture_guide.txt",
+    "size": 1296,
+    "sha256": "8d530ba1737a905ca1548759231e0249d1294bc7247264d7589285ae888c0e96",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/check_step.py",
+    "size": 4341,
+    "sha256": "74d135567f5a1afbe54fd46b33e725bd91453bd174634ca9cc7b9e164c9b0df4",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo_lab.py",
+    "size": 8246,
+    "sha256": "59b523073cd2a1279775a40e647a6f0213a1ab023b1062762f1d34b9b1454f00",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/fill_student_report.py",
+    "size": 3624,
+    "sha256": "311cee9c0f0b90b68f47846379e631d457df1610b7ed208e798177b5ee6819f0",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/inspect_materials.py",
+    "size": 504,
+    "sha256": "ef9f154682819980586a4ed0d043f38a589f20f421ffaadd0988eb9695445de9",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/pdf_steps_log.txt",
+    "size": 13258,
+    "sha256": "0408c1e081f3d0e83c4bd965bb73fca42cb60a3a729f1358faf143b0afa3c2ae",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/pdf_steps_status.txt",
+    "size": 93,
+    "sha256": "21ebd0bd4a83f1e3c089564d285ab488d11daac3dc664f52c417c17693f3efb2",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/PDF순서대로실행.ps1",
+    "size": 2202,
+    "sha256": "5c22d7618dc12a49bba4dfa49444b9cf7cf3eba6bab79d86cdcfd5e4d4882da7",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/prepare.py",
+    "size": 706,
+    "sha256": "27d3c728fd62261dcba0a2b2048b3bae122d628bc130f4b53433210f8289b6a7",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/prepare_sequential.py",
+    "size": 1308,
+    "sha256": "42310b60ada4a33a10cbb59cdf3244419abd855659b24b977e8779c70fc2678d",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/README.md",
+    "size": 4306,
+    "sha256": "be6ac741ef25019e69acb1ea1b4b4236bff08b513c2bb978011a9d9ec146b8b3",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/run_lab.py",
+    "size": 4933,
+    "sha256": "06d6e7c265d6943145801a21c92525732dd526d119ca73d3053e5aee94dc49e9",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/step1_4_terminal.txt",
+    "size": 145,
+    "sha256": "bfe2add56a06598104bf009eed79b4cdf45d6999c3a313a45ff69419311f154a",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/step2_3_5_terminal.txt",
+    "size": 4784,
+    "sha256": "5ff2a53bc030d4954e7dde4c1714ffa957456eda2148a24e0d862b93b63701ad",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/step_results.txt",
+    "size": 1430,
+    "sha256": "eefdfbfd3b36277ba0300efb177f2607facd85fea9bd43bf289e0405243bfd19",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/terminal_log.txt",
+    "size": 4011,
+    "sha256": "48b5bc4cda830d5f0fc207e26131a4be18d783b706e4f510fa17fd0c0e579e0e",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/use_w03.py",
+    "size": 5693,
+    "sha256": "fb449b9fa44c30f4dc3003dd9dcfd8e0a2765a61f249f3547db7973fe3973786",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/W04_샘플대조_검토결과.md",
+    "size": 3107,
+    "sha256": "81d9d3ca6ee7968155d2897574aa38a3fbeff0250da05c0954c786c1f66778d1",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/실습실행.ps1",
+    "size": 742,
+    "sha256": "dac107d707f7f0b76d933be71a6a2619ef5146727bfca97b5fe589166fe8a956",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/실습통계_해석.md",
+    "size": 5723,
+    "sha256": "eb7ceefd773ff6a667bd5649667e4fa6627a3f933e975a754d469543d5f59c91",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/지난주값으로실행.ps1",
+    "size": 363,
+    "sha256": "f2d2ccae4c606cd4e8ceddfa04ed993ab2b1fd8b0c4177dbe4f426788296fc6d",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/합성데이터실습.ps1",
+    "size": 429,
+    "sha256": "073cc3260626d7913e6719f301bb1a1c19fcb2bc2bc67739672a1d89b5df5eee",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/01_AIOT-W05_이론발표_V1.2_260928.txt",
+    "size": 16846,
+    "sha256": "ab4ef8a79e0d24d3f6e9afa70b5cfc8add3e03665773c16a490c3552a8f1aacc",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/03_AIOT-W05_실습발표_V1.2_260928.txt",
+    "size": 3972,
+    "sha256": "28071984e11abaf5ad7baf872f0f5984522bf58ca40930603b28e98cc3f53f98",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/artifact.md",
+    "size": 2540,
+    "sha256": "d66b0c8473cedbf64eb593d8f81601225633713f5b021ac0f50bd83db0d6fe14",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/build_report.py",
+    "size": 11296,
+    "sha256": "38b04dd4fc4e3788f62aadc6b63db1b9b15e9fc3b80e06b678b1e56f5abc45d5",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/final_qa.pdf",
+    "size": 101340,
+    "sha256": "3d483e2f0524497363c6d73dce99d5c7d7b3b52e506a5b534fc6a61b8db7b5f1",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "W05/package_inventory.json",
+    "size": 3041,
+    "sha256": "5d45efcd7c8f2b22aff9f3cb2ea0bb2e08fa52126e657ae0b241a5be6bcc2721",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/reference.pdf",
+    "size": 82425,
+    "sha256": "f50ce12dbb3ce9d6d5c9a2d403b2b5723111522819db2d6b50dbea6b18451be4",
+    "method": "existing_text_extraction"
+  },
+  {
+    "path": "W06_ExerciseRun/execution_log.txt",
+    "size": 3643,
+    "sha256": "b6556e986e94bf7e30c78d4b8680263b49711e08289bae6c5b0b208e8cb9da94",
+    "method": "content_read"
+  },
+  {
+    "path": "week02/basics.py",
+    "size": 255,
+    "sha256": "567d6249f2dda9d39f2258b88558f94a3d292efc542ed5e6b71b36d32fe701f7",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/aiot_hourly.csv",
+    "size": 9367,
+    "sha256": "25b6d3d0fe6b7c8c0f9c8a61fa82455408103dafb32c21708ee7d9fd5020df7b",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/aiot_hourly_pdf.csv",
+    "size": 8059,
+    "sha256": "e203b6195aee200b0a1ece4dafd62c3bd987e61f4944b719110f26afadf7574a",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/aiot_sensor.csv",
+    "size": 15891,
+    "sha256": "5ec3eaff7cae53243227ea52db5f2b4a4b57c040aa2187371a26742dd7f775a3",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/inspect_time.py",
+    "size": 1425,
+    "sha256": "38e2620799187a17bd4e693ee2377cf51ba0b3a3e18e8d4778db83b45c66c397",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/PROVENANCE.md",
+    "size": 721,
+    "sha256": "ff49606c23c5873d40d6b4171fe23f8738dc260782cffb6e7ede66485060a51c",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/results.json",
+    "size": 549,
+    "sha256": "3c44fcd6873d4092a50ae5b58c4f098de70c2ff8e2ccc1d18b0e6f02642a877a",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/space_hour_pattern.csv",
+    "size": 2333,
+    "sha256": "9060113cca8f83c831acbccd7cdc722b5b47d6b7bff15971f7c7ca0cd88d1478",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/time_series.py",
+    "size": 736,
+    "sha256": "40ec86452bbd8ef8b71c49984fa7f588748711819dfa81857374396f3498791f",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/2022451032_김시환_W02_시나리오반영.docx",
+    "size": 16775,
+    "sha256": "242a10862c2ca14e746eec4c68cc5d76072efd8de267b9fe8edf6fefaba8b74c",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/2022451032_김시환_W03_시나리오반영.docx",
+    "size": 267893,
+    "sha256": "9e22b5e5849c26c6da8c76a1237063abdd2c4ee78d95fcbe0896d7bb9ebe3531",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/2022451032_김시환_W04_시나리오반영.docx",
+    "size": 276981,
+    "sha256": "40c6e18cee33cf65afd5eeb50b455bfa65802637c11c14abf99f9f8ae6224253",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/2022451032_김시환_W05_시나리오반영.docx",
+    "size": 156949,
+    "sha256": "517162c36654e8f29f9dcc1095faede9c17c077947f7a144f5cd571c0504d0d5",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/2022451032_김시환_W06_시나리오반영.docx",
+    "size": 34644,
+    "sha256": "275e92fb779809924788759d6c369f151af55225c04babbb39081c5cd8d36992",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/2022451032_김시환_W07_과제1.docx",
+    "size": 341840,
+    "sha256": "c64000af04d8161f9a241f760a38dc054b38a5d56364da325050e300a362278b",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/2022451032_김시환_W07_과제1_시나리오수정본.docx",
+    "size": 340530,
+    "sha256": "3c6e9e658caf2f1f0859231b9a88846977edfa73b6c168a927e695335f6001ee",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/2022451032_김시환_W07_시나리오반영.docx",
+    "size": 44319,
+    "sha256": "d3c46f9f375d7b2e5fe8722277400adb959f5965f6a82b5464cce0dd7891b510",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/W02-W07_주차별검토용_수정본.zip",
+    "size": 786923,
+    "sha256": "ed227730df3aa4b125faf3682be22cb7e0c7341f7a2f3faf01663c8e7cc58c12",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/읽어주세요.md",
+    "size": 3908,
+    "sha256": "cf20e06bc84ad390ecf91e7ce5c4dfc9759b1c4a594487cdc91b3ff064612691",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/주차별_대조결과.md",
+    "size": 5419,
+    "sha256": "22689f66ab9e56709b437036d5b1862c8cd4d6a9f3b99916c9dcabfb0c3d225c",
+    "method": "content_read"
+  },
+  {
+    "path": "시나리오_모의검증/mock_control_cases.csv",
+    "size": 867,
+    "sha256": "05bfb55cb236ff69c4cc0a6e28f511e4eb186619bc40f257fc0f47dfe854bed6",
+    "method": "content_read"
+  },
+  {
+    "path": "시나리오_모의검증/README.md",
+    "size": 2278,
+    "sha256": "4aacda8da1c60a76daf5dd1907b644279d5529d02f1ae8836fbb83ab025d2a4c",
+    "method": "content_read"
+  },
+  {
+    "path": "시나리오_모의검증/results.json",
+    "size": 3065,
+    "sha256": "47facc5caf41bdc93696edca7ed2d6d65faa627a510bb5336f3416245ff76589",
+    "method": "content_read"
+  },
+  {
+    "path": "시나리오_모의검증/simulate.py",
+    "size": 5315,
+    "sha256": "491ac80ee52e6f17fd3cd85763ae5a5255691ee3d631c5b5c177cd7be550c237",
+    "method": "content_read"
+  },
+  {
+    "path": "시나리오_모의검증/synthetic_rankings.csv",
+    "size": 11940,
+    "sha256": "b12b4312911d81ee8b24209001792c2b46bed2fe71d777b9eecc0271b9c9536e",
+    "method": "content_read"
+  },
+  {
+    "path": "시나리오_모의검증/synthetic_snapshot.csv",
+    "size": 9231,
+    "sha256": "d9a9c76f6b2ecc6c25dc9b788e063b62f7e994c8e1128f7a1dedce92df6bb299",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/add_simulation_notes.py",
+    "size": 9401,
+    "sha256": "5840fd06abb58a5a6f637f9a357e8c1ae01a5202939f9a840fa1b061d9a0da75",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/append_evidence.ps1",
+    "size": 5437,
+    "sha256": "547cc9aecf37c86b618b705894160dec4a0cd27d3a09fd1d2705f33c144cedfb",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/apply_v2_review.py",
+    "size": 18366,
+    "sha256": "fc546ce47d159f846f8066fcf070bf79b07e60a4904d1d2cb39ba029a12676f4",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/artifact.md",
+    "size": 3008,
+    "sha256": "901d848533e0002e73362fa95335b2c353fc1ba77d7d3eea23e23df2c7224bf3",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/audit_data.py",
+    "size": 1344,
+    "sha256": "08d93c34449e8418e0748033902bd298ae8d5ff1767650ae9f22871f4e649a9c",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/batch-v2.txt",
+    "size": 1506,
+    "sha256": "3708436784c35ba7ba6e62dd21bb78c16b9f6f60edaaacea1c6cf514f4a515cc",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/build_reports.ps1",
+    "size": 10032,
+    "sha256": "59edbb49d68147faf1b9cab33da58ed7cd79da8e271dec7f9adde92a9a6761f2",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/contact_sheets.ps1",
+    "size": 967,
+    "sha256": "8bb6bf8651202c24363d340b97ce2858ec4f3e3d5afbc1da2e9cb2246574c363",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/contact_v2.ps1",
+    "size": 960,
+    "sha256": "6bbd716bd0282374610a7311f4dc74aa7c3ae3c50c9ee97a165ff84d7d2f3866",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/finalize_notes.py",
+    "size": 8349,
+    "sha256": "183ff055fdc1c3d3f4e85d192bfbfde6bbc7ff6f865a905469da1896abcf4d91",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/finish_weekly.py",
+    "size": 11876,
+    "sha256": "09318c10e2f096d2ee9e4ff111916bb9e9a4acce7ffbb5f73e3f2fe8d5866c83",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render_batch.txt",
+    "size": 5155,
+    "sha256": "d1c2fafb3cdaadb0a95b73891a425aa20872d6397e95bcf653b8eeb3ccf16a82",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render_pdf.ps1",
+    "size": 2002,
+    "sha256": "e058f038b207633448818ad56658e99ac2f2e4578139e9a52ada6fe826c8c2d6",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/review_all.py",
+    "size": 5501,
+    "sha256": "a8b1cb9f172f9c1383789365388f345435be5a7f808bda98fc650ea627f11e82",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/split_qa.ps1",
+    "size": 2082,
+    "sha256": "a011e4fff6a5b9e758400c755044c5f980dd40d72d805cd487ea251c0efe1e06",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/verify_packages.ps1",
+    "size": 2005,
+    "sha256": "48249c7416f45912b3dff36c951599d427f35bfeaabf5fc9dddd023887b3e897",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/W02_본문.md",
+    "size": 5118,
+    "sha256": "fba00638282cbe228064a45c1574a2eaa6242f1d20111ddb9d0c763e5247306e",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/누적보고서_본문.md",
+    "size": 28118,
+    "sha256": "d325f52987215f8055acf8e4425622edd08958b07b1d3d694f0c37e078c261be",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/데이터검증.json",
+    "size": 4921,
+    "sha256": "aacc19612f485c5b81eb28b2cb18722106efb263faab03a2206f32bff290438f",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/수정_manifest.json",
+    "size": 7652,
+    "sha256": "95fdf592d80f24c4998afd925c4a7580f4db390d064668fce2fe5cdd13c6ba3a",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/수정내용.json",
+    "size": 21445,
+    "sha256": "1a765b3b548e46cf1513382fa4b80f040cf3dd5c2d58ebedbe55a0fe77059814",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/원본본문.json",
+    "size": 100454,
+    "sha256": "da525833643193b6c63b48305674139a6823fe2f231f3b3908312c4e4a90a03c",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/주차별_시나리오연결.json",
+    "size": 22294,
+    "sha256": "eff4238b18e8dc7591ce4312cb8826f2cd5f955c8a9b9b072095c1dc58908159",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/최종_파일검증.json",
+    "size": 2228,
+    "sha256": "89ebc5bab8ef9b09471b73eef40163b4b85e10f5d544fc6c2442652a19304de3",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-1.docx",
+    "size": 327782,
+    "sha256": "1bcbed3a2f0544e48b2b0d88a364edf0f724c71831301df3cf48b1cf1a2d8f54",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-10.docx",
+    "size": 327676,
+    "sha256": "23ec5444bba1e719e8ed3003a4d4c61d4734c7f06816ee661e6235f02f99aa38",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-11.docx",
+    "size": 326639,
+    "sha256": "bbf03f5faf3c058c2b17ab3b62626c65e363893d563a7dd5836189efae175a82",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-12.docx",
+    "size": 326718,
+    "sha256": "4fe68390cf97592f2a5f4ce9006a714915abee48e1f8252543d7bf169b185170",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-13.docx",
+    "size": 326802,
+    "sha256": "b8e5b7e2d1e8a05a94952788db9f91adc841eb18aef3ff875564e88f5e09971d",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-2.docx",
+    "size": 327856,
+    "sha256": "a9f60e2b359885e7a92f9dd85cf4106f972cf886e041b10d07ecdc646299c6bb",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-3.docx",
+    "size": 327535,
+    "sha256": "3dd8c16d9ad3a0dc0c5a77bfc75ada14139cce8e8c3ee2e128628ad5597daf21",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-4.docx",
+    "size": 327414,
+    "sha256": "1bd5c3263c98a29affcca07e08bd30d3d08b7f4a50e54999fffa7a377c758666",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-5.docx",
+    "size": 327833,
+    "sha256": "e7f75211a96fdd584fb47a17e4fa5e4804eea0f9e7f1eb9a2ddc66fa23e0a34c",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-6.docx",
+    "size": 327413,
+    "sha256": "0624fba8970a871e4e75e9d0c25bd8fd4de362fdf2e77d0f5e8433bd844c5e80",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-7.docx",
+    "size": 327896,
+    "sha256": "8dfef130b44e5f7e21b5fa0e1230e61683201e35929edd4071ed7973c4c8e421",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-8.docx",
+    "size": 327208,
+    "sha256": "5b6f171940cd9efad8dbfc028c7565c983e9ba27151525a21068bacb1005400e",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/cumulative-excerpts/section-9.docx",
+    "size": 327879,
+    "sha256": "85f457077cc5568ee24e8310aca3375afae05a9e04edcad0d2edf8ad835c86b1",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-v2-final-W02/rendered-text.txt",
+    "size": 3994,
+    "sha256": "66540c0c4808fdf1ee016fcc555eeb6bbaa57d9edc09107df3bade1b3367c749",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/01_AIOT-W03_이론발표_V1.0_260914_v1.txt",
+    "size": 14462,
+    "sha256": "99eafc60af9e1058cf0bb39af86d91ea4960bdf823c9aa83d8e79b265cc7b63c",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/01_AIOT-W04_이론발표_V1.1_260922.txt",
+    "size": 13299,
+    "sha256": "2dd8a8e41cc59d31a5347d0368315dfb650ea2a6196b1f9ea85f05be8d5f216e",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/01_AIOT-W05_이론발표_V1.2_260928.txt",
+    "size": 16846,
+    "sha256": "ab4ef8a79e0d24d3f6e9afa70b5cfc8add3e03665773c16a490c3552a8f1aacc",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/01_AIOT-W06_이론발표_V1.3_261004.txt",
+    "size": 19818,
+    "sha256": "b4ba07bdd887b49207819180c1442325fa1469f7d2e3352f31887d49d6dc59fb",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/01_AIOT-W07_이론발표_V1.6_261012.txt",
+    "size": 27727,
+    "sha256": "0887a0849e56183a3d29fcc9dec8a058aa9b74b6f1f13f089ecfc5ac52034e34",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/03_AIOT-W03_실습발표_V1.0_260914_v1.txt",
+    "size": 7412,
+    "sha256": "62ecde1d9dbaf39f1fdc8953838799521a7907fdc5bf051118647f4fe7dea8ed",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/03_AIOT-W04_실습발표_V1.1_260922.txt",
+    "size": 10560,
+    "sha256": "6be490caf588e8e40482e429a920ea65f993df70336f643ac21a437a5c6c95fc",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/03_AIOT-W05_실습발표_V1.2_260928.txt",
+    "size": 3972,
+    "sha256": "28071984e11abaf5ad7baf872f0f5984522bf58ca40930603b28e98cc3f53f98",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/03_AIOT-W06_실습발표_V1.3_261004.txt",
+    "size": 5110,
+    "sha256": "92a2e80f87bcd8a18b1b713da2da12040443efaa1f3f68aceb50b53c6d69224f",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/03_AIOT-W07_실습발표_V1.6_261012.txt",
+    "size": 7021,
+    "sha256": "f9e23954b18c4aad47cee0cc4198424dd847dc938f7455a695a89aa804ff64d7",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/04_AIOT-W03_실습보고서샘플_V1.0_260914_v1.txt",
+    "size": 15806,
+    "sha256": "4a64135270183159cb22936c726b40cb650e2c63deb02bb9d847a0cc71e9294f",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/04_AIOT-W04_실습보고서샘플_V1.1_260922.txt",
+    "size": 10276,
+    "sha256": "aa23786d43e95cb19da720ddf257129e0e0996fb98022c9213bcef3f262a831b",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/final_qa.txt",
+    "size": 9976,
+    "sha256": "656566107ce83052db4561cba061849664aa88be52ac5b201824cb2db0cf4acd",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/reference.txt",
+    "size": 5666,
+    "sha256": "bfc9b93c0dffea7c71e9d5eff23731b4fb7c07e8beea6ed14a6fc6e9fe462106",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/전체텍스트.txt",
+    "size": 645813,
+    "sha256": "e6a92da3eecf05714f6447233c78d0f7c9fef4456ac5b2a562dd27f0b3f5d2f1",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/정합검증.json",
+    "size": 1292,
+    "sha256": "34858126415eb61a1cc44240fe1a13f9fc98a679358c4ff3d12f57c15fe7a331",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/전체대조/파일목록.json",
+    "size": 49108,
+    "sha256": "b1c751700f25204e3910563788b85b2282ff74acb7ac7f705d8ca6e036786d60",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render-final/2022451032_김시환_W02_시나리오반영/rendered-text.txt",
+    "size": 3767,
+    "sha256": "0f7a00e74f07365155c25dccfcf209c6ebb92c99c008c95d51f72292bdd5d07e",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render-final/2022451032_김시환_W03_시나리오반영/rendered-text.txt",
+    "size": 6282,
+    "sha256": "e653b374d386a6ef60c74e7e3e669f0ab7090f13f1aab620bf892639736f0352",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render-final/2022451032_김시환_W04_시나리오반영/rendered-text.txt",
+    "size": 6085,
+    "sha256": "5c6c560fb643107bdfccca847eef709aee38e668b5f339f63a2beda6b55ff976",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render-final/2022451032_김시환_W05_시나리오반영/rendered-text.txt",
+    "size": 9024,
+    "sha256": "957221918c1edb91e5002ac1ba6692337a4e7cfce60d075a367992b541f3cfc2",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render-final/2022451032_김시환_W06_시나리오반영/rendered-text.txt",
+    "size": 11099,
+    "sha256": "46439ca3669a39875568c37acd063e22a9c915031c06405d9f14bca1e171ccee",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render-final/2022451032_김시환_W07_과제1_시나리오수정본/rendered-text.txt",
+    "size": 16275,
+    "sha256": "5725c516d8de8e54cb45164f5c67c697acf8e513044e11a87b7ebc9409b8daf9",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render-final/2022451032_김시환_W07_시나리오반영/rendered-text.txt",
+    "size": 8545,
+    "sha256": "126c45963fea3d356688ac5f7e0c2637c41cee43f1f018a307029e8c69c27131",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render/2022451032_김시환_W02_시나리오반영/rendered-text.txt",
+    "size": 3767,
+    "sha256": "0f7a00e74f07365155c25dccfcf209c6ebb92c99c008c95d51f72292bdd5d07e",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render/2022451032_김시환_W03_시나리오반영/rendered-text.txt",
+    "size": 6272,
+    "sha256": "9d90181604c6f538d7cc4d9023dde1eeaf9e2c163e57d3d8b8fccabcdd96bd37",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render/2022451032_김시환_W04_시나리오반영/rendered-text.txt",
+    "size": 6085,
+    "sha256": "5c6c560fb643107bdfccca847eef709aee38e668b5f339f63a2beda6b55ff976",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render/2022451032_김시환_W05_시나리오반영/rendered-text.txt",
+    "size": 9024,
+    "sha256": "3040fc310a5d3d9ce73d90bb37331506141f5aa63b5bf4c039c25b7b25cc0856",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render/2022451032_김시환_W06_시나리오반영/rendered-text.txt",
+    "size": 11101,
+    "sha256": "cbaf54566903da9951efaaf098c82ccac5d1628ac3cb95531975f7507f816849",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render/2022451032_김시환_W07_과제1_시나리오수정본/rendered-text.txt",
+    "size": 16238,
+    "sha256": "471a9be6d4ffe9853438a1c63a3adcc934016353891be10c32bdb6eb6739df0e",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/render/2022451032_김시환_W07_시나리오반영/rendered-text.txt",
+    "size": 8545,
+    "sha256": "126c45963fea3d356688ac5f7e0c2637c41cee43f1f018a307029e8c69c27131",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-v2/W02/rendered-text.txt",
+    "size": 4344,
+    "sha256": "7d492a6daca45f73f267c63d8d70b3d0e7a06f6879c00177748ad5e95759f8bd",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-v2/W03/rendered-text.txt",
+    "size": 6818,
+    "sha256": "c47c6af70357f6abff00d8a7aae5531b3904e1a0157ff19317449f9a63d7d65f",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-v2/W04/rendered-text.txt",
+    "size": 7886,
+    "sha256": "285168fe304e4e1929d25a5f6cf9aa711211429a60155ca14a0e8a6cf861b656",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-v2/W05/rendered-text.txt",
+    "size": 8807,
+    "sha256": "d3859f7961cce708f92c733ac396883900e6a99aaa06ceb334cb60822f76816b",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-v2/W06/rendered-text.txt",
+    "size": 11315,
+    "sha256": "e614f03f0ac7f7f6e066535c75db156d9e7c3fe2a5a4e45bff1b50595eee33a1",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-v2/W07/rendered-text.txt",
+    "size": 9046,
+    "sha256": "1e94939c441902eafdbe1735ab08f0bc7aaf6d891fce14c64ee83ac8563f4c85",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/2022451032_김시환_W02_시나리오반영/rendered-text.txt",
+    "size": 3767,
+    "sha256": "0f7a00e74f07365155c25dccfcf209c6ebb92c99c008c95d51f72292bdd5d07e",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/2022451032_김시환_W03_시나리오반영/rendered-text.txt",
+    "size": 6282,
+    "sha256": "e653b374d386a6ef60c74e7e3e669f0ab7090f13f1aab620bf892639736f0352",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/2022451032_김시환_W04_시나리오반영/rendered-text.txt",
+    "size": 6085,
+    "sha256": "5c6c560fb643107bdfccca847eef709aee38e668b5f339f63a2beda6b55ff976",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/2022451032_김시환_W05_시나리오반영/rendered-text.txt",
+    "size": 8664,
+    "sha256": "4752d33535d4993db06fe8dad8e657f8deec2e0f6e5450d4beb4d71bda84ae31",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/2022451032_김시환_W06_시나리오반영/rendered-text.txt",
+    "size": 10739,
+    "sha256": "18e8f500264abc48d236215659874fb5aa7026221b4e7964dfcf1189038051ed",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/2022451032_김시환_W07_시나리오반영/rendered-text.txt",
+    "size": 8545,
+    "sha256": "126c45963fea3d356688ac5f7e0c2637c41cee43f1f018a307029e8c69c27131",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-1/rendered-text.txt",
+    "size": 2032,
+    "sha256": "1e8f8426b4da17e8ffa16840e3211a659eb3585c037ed4e15d118ab5211ddfa1",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-10/rendered-text.txt",
+    "size": 2651,
+    "sha256": "6264ad66bb859c37090a958efe23d046a6d12fb505e9ad863ce147ccb74c9c06",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-11/rendered-text.txt",
+    "size": 470,
+    "sha256": "c178acbf7c15c09883b21daab7a63af649732365c66eaf529cc660c9ba3e6b95",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-12/rendered-text.txt",
+    "size": 542,
+    "sha256": "bd361d87f8adb7208ecc7e8a5e7fe18f5acb088d555facddff6f22f98fd0e828",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-13/rendered-text.txt",
+    "size": 585,
+    "sha256": "79deb85a2934c9e2928e8cadc68c13574cc925141b2a424025f34a458d9c87e6",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-2/rendered-text.txt",
+    "size": 2271,
+    "sha256": "69d8935f0486e2d63b06342feb6fb9836421dd27899c42277ce12ef0fdcc25a5",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-3/rendered-text.txt",
+    "size": 2247,
+    "sha256": "07627752b5e7845abeadc01721dae5dbbd8c4ef8177d13f7b0b4a81d436932e2",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-4/rendered-text.txt",
+    "size": 2206,
+    "sha256": "399e70bb083d8778ea1f764dc7ce3a0c2d7e649e953866e500e03360a36bfa34",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-5/rendered-text.txt",
+    "size": 2135,
+    "sha256": "a6d12484f2d2042fc7ce21dbc4dc6cd0ddff13ccda2326b554aa339e042e0ef6",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-6/rendered-text.txt",
+    "size": 2131,
+    "sha256": "25ec3001aa7c90eda3c07f0c3d4b064007acb95cfe3aacb6158523c7814b59cf",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-7/rendered-text.txt",
+    "size": 2319,
+    "sha256": "debab0623e7c5d906afead796b5786ce19f49aa6a7712357e4e703b245326b5d",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-8/rendered-text.txt",
+    "size": 1837,
+    "sha256": "69b025c9e126143f97cd80b361dccfe4bdc32b264934c9b1bb4ff80785593a64",
+    "method": "content_read"
+  },
+  {
+    "path": "보고서_시나리오수정/검토/qa-final/누적_section-9/rendered-text.txt",
+    "size": 2221,
+    "sha256": "87107329805fdca22cb7ddfb01d58ec929f671568738a433dc717beb1b603aac",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/evidence/01_index.txt",
+    "size": 83,
+    "sha256": "4ce3a25c57afeb4a73cb43d862730c534a7449f2835c61b55902ab2cf354f934",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/evidence/02_structure.txt",
+    "size": 996,
+    "sha256": "c76761919c61905830c17488714001e50835f65122b5b79a1111f8f53d8b1f19",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/evidence/03_boundary.txt",
+    "size": 401,
+    "sha256": "e5da705c9dada81154a013cae1617ab392882db797d51c1b8ae52cde12f84fdb",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/evidence/04_hourly.txt",
+    "size": 1107,
+    "sha256": "d8407e95ccfee9cf75e7dd128bdabc2650066955ac8eb5d452a47f4bdf2113bb",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/evidence/05_pattern.txt",
+    "size": 3815,
+    "sha256": "8106c0bf70577d0be55c008275c584fc728280b876c8b7782495b0f3c6682abd",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/from_w03/aiot_hourly.csv",
+    "size": 224,
+    "sha256": "c92f409629df1e9c3c51dfa70b75992bc968f8a240c1db1f2afe08ddbb9ceb42",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/from_w03/aiot_sensor.csv",
+    "size": 3422,
+    "sha256": "d1092c4770efff05af95c617d6197a0c3af777060f711d539a15d0e11e51e5e7",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/from_w03/execution_log.txt",
+    "size": 3035,
+    "sha256": "d8fe98eb49488fcd6a196c24e8c43bbd1789aa71a5f9cb83dabd9a9c512571b8",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/from_w03/hour_pattern.csv",
+    "size": 35,
+    "sha256": "f5927f5382cd2e245768f198b9ba2277eb4ed4cea6667f6a9db2873ea7ebb6fd",
+    "method": "content_read"
+  },
+  {
+    "path": "week04/from_w03/W04_지난주데이터_실습결과.md",
+    "size": 4876,
+    "sha256": "b9558db1d0f4faf3e67e016a60497fcf727a4a3c531fdb4820a7a42bf4eeb08a",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/공통/aiot.db",
+    "size": 1146880,
+    "sha256": "2cde47bde79aa99174537c92f0fcd695d8c3e5cd924841903078fbadc7323276",
+    "tables": {
+      "spaces": 64,
+      "readings": 6144,
+      "events": 106,
+      "recommendations": 106
+    },
+    "foreign_key_violations": [],
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/공통/aiot_before_63_rooms.db",
+    "size": 126976,
+    "sha256": "f81201db661cca1eca472c8b5da8c0515336900cfef3ceee6cce599f3df8788e",
+    "tables": {
+      "spaces": 7,
+      "readings": 672,
+      "events": 6,
+      "recommendations": 6
+    },
+    "foreign_key_violations": [],
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/공통/schema.sql",
+    "size": 1398,
+    "sha256": "1820459f72214736ec778bae4b54e361737c663aa8ed822a2d0cf79b73e2a474",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/공통/data/aiot_sensor.csv",
+    "size": 605507,
+    "sha256": "03bb6bcd0a7c8fc4c0b368944204774c5579e203771b9d6e47ba545df011ec83",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/공통/data/aiot_sensor_before_63_rooms.csv",
+    "size": 48757,
+    "sha256": "e84c81477e72041a02dad03f57b3ba1d4bb5de7cc9d675d5aa9cc87f27ba6d2e",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/공통/data/aiot_sensor_prior_192.csv",
+    "size": 13584,
+    "sha256": "c9a3e70997f3cefbe35f0600b0b85481073b58861ba91a8211742433a10655e7",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/공통/data/dataset_metadata.json",
+    "size": 680,
+    "sha256": "4944edad7866ccb0246ded6a79ff095513dd49f31539cad0f6bf1341069431d0",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/W06/Complete/building_summary.py",
+    "size": 3939,
+    "sha256": "e78822548ce595e1de84f33057c28037eb3f6a662ae2b076db46aaa7347a710b",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/W06/Complete/fk_probe.py",
+    "size": 1268,
+    "sha256": "3f5ca700dc63ca32e3a7ef2e4f8c9ae6bf52dcd06fe8cf5d9cd320d7dbdd1f80",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/W06/Complete/generate_synthetic_sites.py",
+    "size": 6238,
+    "sha256": "c22542aa1f1fb1eef8ea5ce04f77db03f94d65d87ccfa7c982c2164a9a06c0cb",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/W06/Complete/inspect_db.py",
+    "size": 2897,
+    "sha256": "bf4af365ef9fda9834e4fdc0b8af806bd7d31684a7b20f06bcef3931190b31e2",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/W06/Complete/load_db.py",
+    "size": 2314,
+    "sha256": "1607fb0a69f1f1ec5b1c7cb0b63c31129d63f1e08aeb6abbc3763ef7a0fbc8eb",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/W06/Complete/load_db_prior.py",
+    "size": 3053,
+    "sha256": "81592c6a9c68fb58d201ad1cf0a429fbd9dd62905b13d91f9db8b6f54dff1ad7",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/W06/Complete/study_rooms.csv",
+    "size": 2389,
+    "sha256": "9efa6101ed6b96bce4b20c9bcb5f01f1a486c35301b2f63f6649b1cb09f0af61",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/W06/Complete/study_room_synthetic_summary.csv",
+    "size": 4312,
+    "sha256": "b9a9677be055bc17ce615a2d02911e8610fa85deb59360f8d40017ed38371ee6",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/W06/Complete/SYNTHETIC_DATA_NOTES.txt",
+    "size": 2263,
+    "sha256": "c55c5c4d72b0f7c3bf16266a31ee1a00eed78a631c11789acb2b9c6be102b439",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/DeleteExperiment63/공통/aiot.db",
+    "size": 1146880,
+    "sha256": "477264902239ecc0daba69a6f58a32a84630712b0a8629a53e1c4e0f9dd29663",
+    "tables": {
+      "spaces": 64,
+      "readings": 6144,
+      "events": 106,
+      "recommendations": 106
+    },
+    "foreign_key_violations": [],
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/DeleteExperiment63/공통/schema.sql",
+    "size": 1398,
+    "sha256": "1820459f72214736ec778bae4b54e361737c663aa8ed822a2d0cf79b73e2a474",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/DeleteExperiment63/공통/data/aiot_sensor.csv",
+    "size": 605507,
+    "sha256": "03bb6bcd0a7c8fc4c0b368944204774c5579e203771b9d6e47ba545df011ec83",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/DeleteExperiment63/W06/Complete/load_db_no_delete.py",
+    "size": 2937,
+    "sha256": "f9409fb1dfe3f374002c6dd90d4ac85b2561483aa5ae983c4c087540523a8bfe",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/DeleteExperiment/공통/aiot.db",
+    "size": 61440,
+    "sha256": "1c8f742085e45fd4a8b5457694344669ddc1e78dc7a20e3e5ddcad57860dcf20",
+    "tables": {
+      "spaces": 2,
+      "readings": 192,
+      "events": 1,
+      "recommendations": 1
+    },
+    "foreign_key_violations": [],
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/DeleteExperiment/공통/schema.sql",
+    "size": 1332,
+    "sha256": "4e24fa5576cf3561cc8d7298a7eb793e621b71b6ae0b708764f1874cb727a86f",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/DeleteExperiment/공통/data/aiot_sensor.csv",
+    "size": 13584,
+    "sha256": "c9a3e70997f3cefbe35f0600b0b85481073b58861ba91a8211742433a10655e7",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/DeleteExperiment/W06/Complete/inspect_db.py",
+    "size": 2897,
+    "sha256": "bf4af365ef9fda9834e4fdc0b8af806bd7d31684a7b20f06bcef3931190b31e2",
+    "method": "content_read"
+  },
+  {
+    "path": "W06_ExerciseRun/DeleteExperiment/W06/Complete/load_db_no_delete.py",
+    "size": 2594,
+    "sha256": "f2271fabcde87b6363339b8a506a30d0ce11031bf7b00a8792817fd4fb167d74",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/provided/README.md",
+    "size": 2989,
+    "sha256": "6bcfec436587a42f4aafd984c7f97696370a2fd1f9f868af21711cc8ad26263b",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/run/aiot_sensor.csv",
+    "size": 13584,
+    "sha256": "c9a3e70997f3cefbe35f0600b0b85481073b58861ba91a8211742433a10655e7",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/run/execution_log.txt",
+    "size": 4003,
+    "sha256": "22525df55531a3be043ee019663a5aac5665180737541f61e1bca8bb01e16d5b",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/run/local_mqtt_demo.py",
+    "size": 6108,
+    "sha256": "28f0095076dab26fa7b4b50dd7e479a7dbc619bc24054595b8bd53b7dc04cf5e",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/run/local_mqtt_result.json",
+    "size": 3798,
+    "sha256": "63af6de7b365e865ffabfcbf77a4521e146aa61539de7934a67099aad3428411",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/run/PROVENANCE.md",
+    "size": 210,
+    "sha256": "aa269d03e7b1e5d47bd994c593b7d80a30391cd0bfaf7036e02a299ad92a8d06",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/provided/skeleton/publisher.py",
+    "size": 186,
+    "sha256": "73dbfc0de4e1be0ed27836ace90a6e5e4754ec2c3a59790673d78ee6f175e38d",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/provided/실행확인/제작환경_실제출력.txt",
+    "size": 4926,
+    "sha256": "82a9c1c8d4e76811a6a3b2956eea1c13735671e7807fceaca3c83278ac14005b",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/provided/완성예제/local_mqtt_demo.py",
+    "size": 5675,
+    "sha256": "8ffe222f910eaec01289dbcc574d61b5f363b01055a0812e34f70dcc65c12e74",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/provided/완성예제/local_mqtt_result.json",
+    "size": 3669,
+    "sha256": "d937de2698a18e5d05c94b07859f651d1a02fcac203172ca6433079603623299",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/provided/완성예제/publisher.py",
+    "size": 1740,
+    "sha256": "9c3ed594330c4eb6a9637a8ce57429afe7c335dd9ed45a6623fa76988009d13c",
+    "method": "content_read"
+  },
+  {
+    "path": "W05/provided/완성예제/subscriber.py",
+    "size": 815,
+    "sha256": "a22e5a06767fd2943d0d8f3a58a2645e8ed34f4402f0db0eda3a4e2d84877fc6",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/audit/sample_text.txt",
+    "size": 10483,
+    "sha256": "5862c013b0eddf3e071b86c869e57f7bb3ebac30077602e7741818e49cc59268",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/aiot_hourly.csv",
+    "size": 9370,
+    "sha256": "f0c2011d6391ee873bf2ad439c14f3cd38eb08d21ecc3a246a765877c45a5797",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/aiot_sensor.csv",
+    "size": 15891,
+    "sha256": "5ec3eaff7cae53243227ea52db5f2b4a4b57c040aa2187371a26742dd7f775a3",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/prediction.txt",
+    "size": 238,
+    "sha256": "88966fd05f9144b3ee468809b52297fd073a5d32e506b1acfe76f55999331a51",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/PROVENANCE.md",
+    "size": 721,
+    "sha256": "ff49606c23c5873d40d6b4171fe23f8738dc260782cffb6e7ede66485060a51c",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/results.json",
+    "size": 549,
+    "sha256": "3c44fcd6873d4092a50ae5b58c4f098de70c2ff8e2ccc1d18b0e6f02642a877a",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/space_hour_pattern.csv",
+    "size": 2333,
+    "sha256": "9060113cca8f83c831acbccd7cdc722b5b47d6b7bff15971f7c7ca0cd88d1478",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/verification.txt",
+    "size": 117,
+    "sha256": "35bf9c32845da910fc64554bd76ab885829c4521ffec15da7bd1bdae654f27b9",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/W04_실습보고서_합성데이터연습본.md",
+    "size": 9627,
+    "sha256": "e55d6f9ec3c7e1e4b73263cdb8d3a359c835cf982d76559e4c47030e78f6f43c",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/provided/skeleton/time_series.py",
+    "size": 186,
+    "sha256": "e2f62931ebd064bbf3f8f182691942dcf82aa6fee140c9d068af03118130d724",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/provided/완성예제/inspect_time.py",
+    "size": 1347,
+    "sha256": "e9e33c60047856b1fce232b06ed7d0e8135c96720d753f2b5db25b7823f3fdd1",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/provided/완성예제/time_series.py",
+    "size": 666,
+    "sha256": "e9c27bfef9bae3817244b62bccfb761e148f653d9d267a72375fbf6c6857b608",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/evidence/01_index.txt",
+    "size": 83,
+    "sha256": "4ce3a25c57afeb4a73cb43d862730c534a7449f2835c61b55902ab2cf354f934",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/evidence/02_structure.txt",
+    "size": 996,
+    "sha256": "c76761919c61905830c17488714001e50835f65122b5b79a1111f8f53d8b1f19",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/evidence/03_boundary.txt",
+    "size": 401,
+    "sha256": "e5da705c9dada81154a013cae1617ab392882db797d51c1b8ae52cde12f84fdb",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/evidence/04_hourly.txt",
+    "size": 1107,
+    "sha256": "d8407e95ccfee9cf75e7dd128bdabc2650066955ac8eb5d452a47f4bdf2113bb",
+    "method": "content_read"
+  },
+  {
+    "path": "W04/demo/evidence/05_pattern.txt",
+    "size": 3815,
+    "sha256": "8106c0bf70577d0be55c008275c584fc728280b876c8b7782495b0f3c6682abd",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/report_assets/01_sensor.txt",
+    "size": 318,
+    "sha256": "c8fc4d1630a31b4056101cd7569923b076cbb0bc45ce9a74f3d216e1bc8fa9c1",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/report_assets/02_collection.txt",
+    "size": 180,
+    "sha256": "35c78d36d996a2e23456cefc6612d8940f797c42e3b0580914248dd6c53ff6da",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/report_assets/03_analysis.txt",
+    "size": 1872,
+    "sha256": "c6df62f871f2a9ea22f4bcc759430f94a36d2261d343069a758914f0c3a6166c",
+    "method": "content_read"
+  },
+  {
+    "path": "W03/report_assets/05_verification.txt",
+    "size": 296,
+    "sha256": "2159d01a06696fc76c440c19ea3e96c46882973229dca3fce0a3c24e9a01b1ef",
+    "method": "content_read"
+  }
+]

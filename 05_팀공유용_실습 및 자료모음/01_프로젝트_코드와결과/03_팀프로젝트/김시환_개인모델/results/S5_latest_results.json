@@ -1,0 +1,105 @@
+{
+  "owner": "김시환",
+  "results": [
+    {
+      "scenario_id": "5",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.585858+00:00",
+      "room_id": "HEA-421",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "forecast_not_device_ack"
+      ],
+      "predicted_value": 873.4512100437589,
+      "unit": "ppm",
+      "target_definition": "observed CO2 at exactly t+8 minutes",
+      "advisory": "현재 해제 기준: 환기 끄기 검토",
+      "verified_scope": [
+        "HEA-421",
+        "LIB-B101A",
+        "STU-B102A",
+        "WON-619A"
+      ],
+      "actual_device_command_sent": false
+    },
+    {
+      "scenario_id": "5",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.586113+00:00",
+      "room_id": "LIB-B101A",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "forecast_not_device_ack"
+      ],
+      "predicted_value": 844.5096984659735,
+      "unit": "ppm",
+      "target_definition": "observed CO2 at exactly t+8 minutes",
+      "advisory": "이전 상태 유지 검토",
+      "verified_scope": [
+        "HEA-421",
+        "LIB-B101A",
+        "STU-B102A",
+        "WON-619A"
+      ],
+      "actual_device_command_sent": false
+    },
+    {
+      "scenario_id": "5",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.586237+00:00",
+      "room_id": "STU-B102A",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "forecast_not_device_ack"
+      ],
+      "predicted_value": 714.0343418083825,
+      "unit": "ppm",
+      "target_definition": "observed CO2 at exactly t+8 minutes",
+      "advisory": "현재 해제 기준: 환기 끄기 검토",
+      "verified_scope": [
+        "HEA-421",
+        "LIB-B101A",
+        "STU-B102A",
+        "WON-619A"
+      ],
+      "actual_device_command_sent": false
+    },
+    {
+      "scenario_id": "5",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.586353+00:00",
+      "room_id": "WON-619A",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "forecast_not_device_ack"
+      ],
+      "predicted_value": 741.2942160508472,
+      "unit": "ppm",
+      "target_definition": "observed CO2 at exactly t+8 minutes",
+      "advisory": "현재 해제 기준: 환기 끄기 검토",
+      "verified_scope": [
+        "HEA-421",
+        "LIB-B101A",
+        "STU-B102A",
+        "WON-619A"
+      ],
+      "actual_device_command_sent": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Descriptive evaluation assumptions, NOT health/regulatory limits. Evaluated 24h on truth.
+label_version = "v0.2"
+recovery_stable_minutes = 5
+[temperature_c]
+min = 18.0
+max = 28.0
+[humidity_pct]
+min = 20.0
+max = 80.0
+[co2_ppm]
+min = 350.0
+max = 1000.0

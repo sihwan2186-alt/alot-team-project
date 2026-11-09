@@ -1,0 +1,14 @@
+{
+  "tests_run": 30,
+  "tests_passed": true,
+  "original_snapshot_unchanged": true,
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": [],
+  "table_counts": {
+    "rooms": 6,
+    "commands": 17,
+    "audit": 62,
+    "simulation_samples": 366,
+    "simulation_events": 43
+  }
+}

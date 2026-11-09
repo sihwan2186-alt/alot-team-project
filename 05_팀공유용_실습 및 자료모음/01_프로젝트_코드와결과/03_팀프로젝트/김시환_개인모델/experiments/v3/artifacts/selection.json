@@ -1,0 +1,85 @@
+{
+  "selected_model": "hgb_absolute31",
+  "selected_ranking": "current",
+  "ensemble_members": [
+    "hgb_absolute31",
+    "hgb_absolute15",
+    "extra_trees"
+  ],
+  "validation_ranking": [
+    {
+      "policy": "current",
+      "instants": 126,
+      "qualified_instants": 80,
+      "coverage": 0.6349206349206349,
+      "regret": 4.5271495528657955,
+      "future_violation": 0.2,
+      "current_violation": 0.0
+    },
+    {
+      "policy": "forecast",
+      "instants": 126,
+      "qualified_instants": 80,
+      "coverage": 0.6349206349206349,
+      "regret": 6.396244522057862,
+      "future_violation": 0.2625,
+      "current_violation": 0.0
+    },
+    {
+      "policy": "min_co2",
+      "instants": 126,
+      "qualified_instants": 80,
+      "coverage": 0.6349206349206349,
+      "regret": 20.35205422180199,
+      "future_violation": 0.2875,
+      "current_violation": 0.0
+    },
+    {
+      "policy": "min_noise",
+      "instants": 126,
+      "qualified_instants": 80,
+      "coverage": 0.6349206349206349,
+      "regret": 5.16578517564055,
+      "future_violation": 0.15,
+      "current_violation": 0.0
+    },
+    {
+      "policy": "ensemble",
+      "instants": 126,
+      "qualified_instants": 80,
+      "coverage": 0.6349206349206349,
+      "regret": 6.023335644481409,
+      "future_violation": 0.275,
+      "current_violation": 0.0
+    },
+    {
+      "policy": "risk_5",
+      "instants": 126,
+      "qualified_instants": 80,
+      "coverage": 0.6349206349206349,
+      "regret": 6.90961772789957,
+      "future_violation": 0.225,
+      "current_violation": 0.0
+    },
+    {
+      "policy": "risk_10",
+      "instants": 126,
+      "qualified_instants": 80,
+      "coverage": 0.6349206349206349,
+      "regret": 7.050782455237055,
+      "future_violation": 0.2125,
+      "current_violation": 0.0
+    },
+    {
+      "policy": "risk_20",
+      "instants": 126,
+      "qualified_instants": 80,
+      "coverage": 0.6349206349206349,
+      "regret": 7.230584945548043,
+      "future_violation": 0.2125,
+      "current_violation": 0.0
+    }
+  ],
+  "new_audit_used_for_selection": false,
+  "selection_complete_before_new_generation": true
+}

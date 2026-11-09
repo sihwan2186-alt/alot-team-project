@@ -1,0 +1,12 @@
+start_date = "2026-09-01"
+days = 30
+step_minutes = 1
+timezone = "Asia/Seoul"
+seed = 20261102
+aggregate_minutes = 5
+output_by_day = true
+enable_faults = true
+enable_energy_model = true
+enable_control_feedback = true
+room_ids = []
+output_path = "data/runs"

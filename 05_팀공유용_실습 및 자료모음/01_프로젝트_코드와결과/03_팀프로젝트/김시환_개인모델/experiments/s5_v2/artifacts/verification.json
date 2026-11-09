@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "models_checked": 20,
+  "subgroup_rows_checked": 2000,
+  "closed_loop_traces_checked": 72,
+  "forecast_labels_are_exact_t_plus_8": true,
+  "new_seed_forecast_metrics_reproduced": true,
+  "exposure_and_ventilation_energy_recomputed": true,
+  "same_exogenous_inputs_and_minimum_run_verified": true,
+  "frozen_models_unchanged": true,
+  "validation_only_choices_reproduced": true,
+  "total_energy_note": "total is engine-integrated HVAC/lighting/standby/ventilation; ventilation term independently reconstructed"
+}

@@ -1,0 +1,26 @@
+# Synthetic assumptions, not measured meteorology or calibrated physics.
+outdoor_mean_c = 23.0
+outdoor_amplitude_c = 6.0
+outdoor_humidity_pct = 65.0
+outdoor_co2_ppm = 425.0
+outdoor_noise_dba = 52.0
+co2_m3_per_person_hour = 0.018
+moisture_g_per_person_minute = 0.5
+occupant_heat_c_per_minute = 0.012
+hvac_c_per_minute = 0.10
+lighting_lux = 450.0
+daylight_lux = 700.0
+[sensor_noise]
+temperature_c = 0.15
+humidity_pct = 0.7
+co2_ppm = 12.0
+illuminance_lux = 4.0
+noise_dba = 0.5
+occupancy_count = 0.0
+[sensor_resolution]
+temperature_c = 0.1
+humidity_pct = 0.1
+co2_ppm = 1.0
+illuminance_lux = 1.0
+noise_dba = 0.1
+occupancy_count = 1.0

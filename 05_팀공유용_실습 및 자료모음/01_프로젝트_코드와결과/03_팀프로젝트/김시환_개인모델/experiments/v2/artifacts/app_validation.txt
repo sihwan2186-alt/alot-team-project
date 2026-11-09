@@ -1,0 +1,8 @@
+PASS v1 to v2 switch; 12 held-out scenario runs
+PASS scenario normal; comparison order matches recommendation cards
+PASS scenario humid; comparison order matches recommendation cards
+PASS scenario crowded; comparison order matches recommendation cards
+PASS scenario dark; comparison order matches recommendation cards
+PASS scenario missing; comparison order matches recommendation cards
+PASS scenario hot_humid; comparison order matches recommendation cards
+PASS S5 round trip and frozen v1/v2 model hashes

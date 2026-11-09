@@ -1,0 +1,97 @@
+{
+  "scenario": "S1",
+  "selected": "hist_gradient_boosting",
+  "validation": {
+    "persistence": {
+      "n": 20305,
+      "mae": 4.173546135912966,
+      "rmse": 8.351317175171669,
+      "bias": -0.05376932280633961,
+      "p95_absolute_error": 20.708844072492617
+    },
+    "ridge_train_only_scaled": {
+      "n": 20305,
+      "mae": 4.698640185217901,
+      "rmse": 7.500854643039101,
+      "bias": 0.048134150318840635,
+      "p95_absolute_error": 17.093682922204582
+    },
+    "hist_gradient_boosting": {
+      "n": 20305,
+      "mae": 3.0272411930160787,
+      "rmse": 7.081370651661825,
+      "bias": 0.40236752544469967,
+      "p95_absolute_error": 16.3792673497645
+    }
+  },
+  "test": {
+    "persistence": {
+      "n": 25320,
+      "mae": 4.006247166569635,
+      "rmse": 8.021647003885983,
+      "bias": 0.06903360479747259,
+      "p95_absolute_error": 19.75629001891816
+    },
+    "ridge_train_only_scaled": {
+      "n": 25320,
+      "mae": 4.597624257777702,
+      "rmse": 7.30621838072455,
+      "bias": 0.17045410818305473,
+      "p95_absolute_error": 16.401605090760675
+    },
+    "hist_gradient_boosting": {
+      "n": 25320,
+      "mae": 2.9883612309732572,
+      "rmse": 6.985799750361365,
+      "bias": 0.44631236178311084,
+      "p95_absolute_error": 16.266445185734007
+    }
+  },
+  "selected_test": {
+    "n": 25320,
+    "mae": 2.9883612309732572,
+    "rmse": 6.985799750361365,
+    "bias": 0.44631236178311084,
+    "p95_absolute_error": 16.266445185734007
+  },
+  "rows": {
+    "train": 106388,
+    "validation": 20305,
+    "test": 25320
+  },
+  "source": "see data contract",
+  "features": [
+    "temp",
+    "humidity",
+    "co2",
+    "light",
+    "noise",
+    "occupancy",
+    "capacity",
+    "score_current",
+    "co2_change",
+    "noise_change",
+    "temp_change",
+    "co2_missing_ratio",
+    "hour_sin",
+    "hour_cos",
+    "weekday"
+  ],
+  "target": "target_score",
+  "model_sha256": "941c743ce83c43371d5e083aa15694afe34934f003bd3df9245ee3ed9cf220d4",
+  "test_used_for_selection": false,
+  "preference_learning": false,
+  "limitation": "synthetic known-room future-time holdout; not independent campuses or actual satisfaction",
+  "test_rank_regret": {
+    "persistence": {
+      "candidate_instants": 6,
+      "mean_regret": 1.601132970668375,
+      "definition": "design-score regret among the same currently eligible candidates; not user satisfaction or reservation approval"
+    },
+    "hist_gradient_boosting": {
+      "candidate_instants": 6,
+      "mean_regret": 0.6564746399156149,
+      "definition": "design-score regret among the same currently eligible candidates; not user satisfaction or reservation approval"
+    }
+  }
+}

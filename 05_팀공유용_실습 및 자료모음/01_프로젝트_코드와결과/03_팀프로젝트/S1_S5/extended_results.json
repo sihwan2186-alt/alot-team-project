@@ -1,0 +1,4079 @@
+{
+  "origin": "Codex offline synthetic software execution 2026-10-18",
+  "source_sha256": "d9a9c76f6b2ecc6c25dc9b788e063b62f7e994c8e1128f7a1dedce92df6bb299",
+  "source_unchanged": true,
+  "timezone_assumption": "Historical naive timestamps interpreted as +09:00 only for offline replay.",
+  "tests_run": 19,
+  "tests_passed": true,
+  "recommendation_comparisons": {
+    "historical_preference_only": {
+      "rankings": [
+        {
+          "building": "보건관",
+          "room": "421",
+          "score": 86.7496,
+          "penalty_points": {
+            "noise": 0.7,
+            "crowding": 0.0,
+            "co2": 5.077551,
+            "temp": 2.142857,
+            "humi": 1.466667,
+            "light": 3.863333
+          },
+          "values": {
+            "noise_db": 30.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 524.4,
+            "temp": 21.5,
+            "humi": 45.6,
+            "light": 68.2
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101I",
+          "score": 85.6842,
+          "penalty_points": {
+            "noise": 1.866667,
+            "crowding": 0.0,
+            "co2": 7.412245,
+            "temp": 0.428571,
+            "humi": 0.533333,
+            "light": 4.075
+          },
+          "values": {
+            "noise_db": 31.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 581.6,
+            "temp": 23.3,
+            "humi": 48.4,
+            "light": 55.5
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "410",
+          "score": 84.429,
+          "penalty_points": {
+            "noise": 3.616667,
+            "crowding": 0.0,
+            "co2": 2.465306,
+            "temp": 3.285714,
+            "humi": 2.233333,
+            "light": 3.97
+          },
+          "values": {
+            "noise_db": 33.1,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 460.4,
+            "temp": 20.7,
+            "humi": 56.7,
+            "light": 61.8
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B119",
+          "score": 84.2504,
+          "penalty_points": {
+            "noise": 0.933333,
+            "crowding": 0.0,
+            "co2": 5.804082,
+            "temp": 0.857143,
+            "humi": 3.8,
+            "light": 4.355
+          },
+          "values": {
+            "noise_db": 30.8,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 542.2,
+            "temp": 22.4,
+            "humi": 38.6,
+            "light": 38.7
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "412",
+          "score": 82.406,
+          "penalty_points": {
+            "noise": 1.633333,
+            "crowding": 0.0,
+            "co2": 7.195918,
+            "temp": 3.571429,
+            "humi": 1.433333,
+            "light": 3.76
+          },
+          "values": {
+            "noise_db": 31.4,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 576.3,
+            "temp": 20.5,
+            "humi": 54.3,
+            "light": 74.4
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "403",
+          "score": 82.1585,
+          "penalty_points": {
+            "noise": 10.733333,
+            "crowding": 0.0,
+            "co2": 2.265306,
+            "temp": 1.142857,
+            "humi": 0.533333,
+            "light": 3.166667
+          },
+          "values": {
+            "noise_db": 39.2,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 455.5,
+            "temp": 22.2,
+            "humi": 48.4,
+            "light": 110.0
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B128",
+          "score": 81.6957,
+          "penalty_points": {
+            "noise": 1.4,
+            "crowding": 0.0,
+            "co2": 9.028571,
+            "temp": 3.285714,
+            "humi": 0.466667,
+            "light": 4.123333
+          },
+          "values": {
+            "noise_db": 31.2,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 621.2,
+            "temp": 25.3,
+            "humi": 51.4,
+            "light": 52.6
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B105A",
+          "score": 80.1597,
+          "penalty_points": {
+            "noise": 8.283333,
+            "crowding": 0.0,
+            "co2": 6.555102,
+            "temp": 1.428571,
+            "humi": 0.733333,
+            "light": 2.84
+          },
+          "values": {
+            "noise_db": 37.1,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 560.6,
+            "temp": 24.0,
+            "humi": 47.8,
+            "light": 129.6
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B126",
+          "score": 79.9823,
+          "penalty_points": {
+            "noise": 10.383333,
+            "crowding": 0.0,
+            "co2": 4.746939,
+            "temp": 0.285714,
+            "humi": 1.333333,
+            "light": 3.268333
+          },
+          "values": {
+            "noise_db": 38.9,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 516.3,
+            "temp": 22.8,
+            "humi": 46.0,
+            "light": 103.9
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101B",
+          "score": 79.8589,
+          "penalty_points": {
+            "noise": 6.766667,
+            "crowding": 0.0,
+            "co2": 8.420408,
+            "temp": 1.285714,
+            "humi": 0.266667,
+            "light": 3.401667
+          },
+          "values": {
+            "noise_db": 35.8,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 606.3,
+            "temp": 22.1,
+            "humi": 49.2,
+            "light": 95.9
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B102C",
+          "score": 78.9582,
+          "penalty_points": {
+            "noise": 2.45,
+            "crowding": 0.0,
+            "co2": 9.187755,
+            "temp": 3.285714,
+            "humi": 1.966667,
+            "light": 4.151667
+          },
+          "values": {
+            "noise_db": 32.1,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 625.1,
+            "temp": 25.3,
+            "humi": 44.1,
+            "light": 50.9
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "401",
+          "score": 77.7964,
+          "penalty_points": {
+            "noise": 8.516667,
+            "crowding": 0.0,
+            "co2": 5.146939,
+            "temp": 2.0,
+            "humi": 2.5,
+            "light": 4.04
+          },
+          "values": {
+            "noise_db": 37.3,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 526.1,
+            "temp": 21.6,
+            "humi": 57.5,
+            "light": 57.6
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B129",
+          "score": 77.41,
+          "penalty_points": {
+            "noise": 10.266667,
+            "crowding": 0.0,
+            "co2": 5.828571,
+            "temp": 1.571429,
+            "humi": 1.033333,
+            "light": 3.89
+          },
+          "values": {
+            "noise_db": 38.8,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 542.8,
+            "temp": 24.1,
+            "humi": 46.9,
+            "light": 66.6
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "원화관",
+          "room": "701A",
+          "score": 77.1223,
+          "penalty_points": {
+            "noise": 7.0,
+            "crowding": 0.0,
+            "co2": 7.579592,
+            "temp": 2.571429,
+            "humi": 2.066667,
+            "light": 3.66
+          },
+          "values": {
+            "noise_db": 36.0,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 585.7,
+            "temp": 21.2,
+            "humi": 43.8,
+            "light": 80.4
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "원화관",
+          "room": "704",
+          "score": 76.4182,
+          "penalty_points": {
+            "noise": 7.816667,
+            "crowding": 0.0,
+            "co2": 8.620408,
+            "temp": 0.571429,
+            "humi": 2.633333,
+            "light": 3.94
+          },
+          "values": {
+            "noise_db": 36.7,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 611.2,
+            "temp": 23.4,
+            "humi": 57.9,
+            "light": 63.6
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B117",
+          "score": 76.2725,
+          "penalty_points": {
+            "noise": 14.933333,
+            "crowding": 0.0,
+            "co2": 1.64898,
+            "temp": 3.428571,
+            "humi": 0.333333,
+            "light": 3.383333
+          },
+          "values": {
+            "noise_db": 42.8,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 440.4,
+            "temp": 25.4,
+            "humi": 51.0,
+            "light": 97.0
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "201C",
+          "score": 75.0857,
+          "penalty_points": {
+            "noise": 11.433333,
+            "crowding": 0.0,
+            "co2": 8.314286,
+            "temp": 1.0,
+            "humi": 0.633333,
+            "light": 3.533333
+          },
+          "values": {
+            "noise_db": 39.8,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 603.7,
+            "temp": 22.3,
+            "humi": 51.9,
+            "light": 88.0
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "213",
+          "score": 74.8949,
+          "penalty_points": {
+            "noise": 16.683333,
+            "crowding": 0.0,
+            "co2": 1.730612,
+            "temp": 1.142857,
+            "humi": 2.2,
+            "light": 3.348333
+          },
+          "values": {
+            "noise_db": 44.3,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 442.4,
+            "temp": 22.2,
+            "humi": 56.6,
+            "light": 99.1
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101E",
+          "score": 74.4618,
+          "penalty_points": {
+            "noise": 11.433333,
+            "crowding": 0.0,
+            "co2": 8.408163,
+            "temp": 2.0,
+            "humi": 0.766667,
+            "light": 2.93
+          },
+          "values": {
+            "noise_db": 39.8,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 606.0,
+            "temp": 24.4,
+            "humi": 52.3,
+            "light": 124.2
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B123",
+          "score": 74.1177,
+          "penalty_points": {
+            "noise": 1.4,
+            "crowding": 10.0,
+            "co2": 11.763265,
+            "temp": 1.285714,
+            "humi": 1.433333,
+            "light": 0.0
+          },
+          "values": {
+            "noise_db": 31.2,
+            "current_people": 4.0,
+            "assumed_capacity": 8.0,
+            "co2": 688.2,
+            "temp": 23.9,
+            "humi": 45.7,
+            "light": 307.7
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "보건관",
+          "room": "423",
+          "score": 72.4816,
+          "penalty_points": {
+            "noise": 20.066667,
+            "crowding": 0.0,
+            "co2": 2.497959,
+            "temp": 0.857143,
+            "humi": 0.533333,
+            "light": 3.563333
+          },
+          "values": {
+            "noise_db": 47.2,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 461.2,
+            "temp": 23.6,
+            "humi": 48.4,
+            "light": 86.2
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B122",
+          "score": 71.8845,
+          "penalty_points": {
+            "noise": 13.066667,
+            "crowding": 0.0,
+            "co2": 6.857143,
+            "temp": 3.0,
+            "humi": 1.133333,
+            "light": 4.058333
+          },
+          "values": {
+            "noise_db": 41.2,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 568.0,
+            "temp": 20.9,
+            "humi": 46.6,
+            "light": 56.5
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B131",
+          "score": 71.7528,
+          "penalty_points": {
+            "noise": 16.1,
+            "crowding": 0.0,
+            "co2": 4.632653,
+            "temp": 2.142857,
+            "humi": 1.766667,
+            "light": 3.605
+          },
+          "values": {
+            "noise_db": 43.8,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 513.5,
+            "temp": 21.5,
+            "humi": 55.3,
+            "light": 83.7
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "원화관",
+          "room": "701B",
+          "score": 71.312,
+          "penalty_points": {
+            "noise": 17.15,
+            "crowding": 0.0,
+            "co2": 4.84898,
+            "temp": 3.285714,
+            "humi": 0.433333,
+            "light": 2.97
+          },
+          "values": {
+            "noise_db": 44.7,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 518.8,
+            "temp": 25.3,
+            "humi": 48.7,
+            "light": 121.8
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B121",
+          "score": 70.7012,
+          "penalty_points": {
+            "noise": 14.7,
+            "crowding": 0.0,
+            "co2": 7.2,
+            "temp": 1.857143,
+            "humi": 2.466667,
+            "light": 3.075
+          },
+          "values": {
+            "noise_db": 42.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 576.4,
+            "temp": 24.3,
+            "humi": 42.6,
+            "light": 115.5
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B130",
+          "score": 70.2875,
+          "penalty_points": {
+            "noise": 17.5,
+            "crowding": 0.0,
+            "co2": 7.440816,
+            "temp": 1.0,
+            "humi": 0.5,
+            "light": 3.271667
+          },
+          "values": {
+            "noise_db": 45.0,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 582.3,
+            "temp": 22.3,
+            "humi": 51.5,
+            "light": 103.7
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "215",
+          "score": 69.847,
+          "penalty_points": {
+            "noise": 15.983333,
+            "crowding": 0.0,
+            "co2": 5.077551,
+            "temp": 1.857143,
+            "humi": 3.066667,
+            "light": 4.168333
+          },
+          "values": {
+            "noise_db": 43.7,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 524.4,
+            "temp": 24.3,
+            "humi": 40.8,
+            "light": 49.9
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "201G",
+          "score": 69.6977,
+          "penalty_points": {
+            "noise": 16.45,
+            "crowding": 0.0,
+            "co2": 4.995918,
+            "temp": 1.571429,
+            "humi": 3.133333,
+            "light": 4.151667
+          },
+          "values": {
+            "noise_db": 44.1,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 522.4,
+            "temp": 21.9,
+            "humi": 40.6,
+            "light": 50.9
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "411",
+          "score": 69.138,
+          "penalty_points": {
+            "noise": 22.516667,
+            "crowding": 0.0,
+            "co2": 2.75102,
+            "temp": 0.714286,
+            "humi": 0.466667,
+            "light": 4.413333
+          },
+          "values": {
+            "noise_db": 49.3,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 467.4,
+            "temp": 22.5,
+            "humi": 51.4,
+            "light": 35.2
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101F",
+          "score": 67.9511,
+          "penalty_points": {
+            "noise": 16.566667,
+            "crowding": 0.0,
+            "co2": 7.726531,
+            "temp": 3.285714,
+            "humi": 0.1,
+            "light": 4.37
+          },
+          "values": {
+            "noise_db": 44.2,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 589.3,
+            "temp": 20.7,
+            "humi": 49.7,
+            "light": 37.8
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "원화관",
+          "room": "702",
+          "score": 67.4041,
+          "penalty_points": {
+            "noise": 1.633333,
+            "crowding": 7.5,
+            "co2": 19.053061,
+            "temp": 3.142857,
+            "humi": 1.266667,
+            "light": 0.0
+          },
+          "values": {
+            "noise_db": 31.4,
+            "current_people": 3.0,
+            "assumed_capacity": 8.0,
+            "co2": 866.8,
+            "temp": 20.8,
+            "humi": 53.8,
+            "light": 438.2
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B105B",
+          "score": 67.2833,
+          "penalty_points": {
+            "noise": 20.533333,
+            "crowding": 0.0,
+            "co2": 4.265306,
+            "temp": 2.571429,
+            "humi": 2.066667,
+            "light": 3.28
+          },
+          "values": {
+            "noise_db": 47.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 504.5,
+            "temp": 24.8,
+            "humi": 43.8,
+            "light": 103.2
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101A",
+          "score": 67.0929,
+          "penalty_points": {
+            "noise": 21.35,
+            "crowding": 0.0,
+            "co2": 4.971429,
+            "temp": 2.285714,
+            "humi": 0.9,
+            "light": 3.4
+          },
+          "values": {
+            "noise_db": 48.3,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 521.8,
+            "temp": 24.6,
+            "humi": 47.3,
+            "light": 96.0
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "201D",
+          "score": 66.6683,
+          "penalty_points": {
+            "noise": 14.583333,
+            "crowding": 0.0,
+            "co2": 8.693878,
+            "temp": 2.142857,
+            "humi": 3.7,
+            "light": 4.211667
+          },
+          "values": {
+            "noise_db": 42.5,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 613.0,
+            "temp": 24.5,
+            "humi": 38.9,
+            "light": 47.3
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "201E",
+          "score": 66.3273,
+          "penalty_points": {
+            "noise": 23.566667,
+            "crowding": 0.0,
+            "co2": 3.318367,
+            "temp": 1.714286,
+            "humi": 1.1,
+            "light": 3.973333
+          },
+          "values": {
+            "noise_db": 50.2,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 481.3,
+            "temp": 24.2,
+            "humi": 53.3,
+            "light": 61.6
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "원화관",
+          "room": "703",
+          "score": 66.1398,
+          "penalty_points": {
+            "noise": 23.566667,
+            "crowding": 0.0,
+            "co2": 4.771429,
+            "temp": 0.857143,
+            "humi": 1.266667,
+            "light": 3.398333
+          },
+          "values": {
+            "noise_db": 50.2,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 516.9,
+            "temp": 23.6,
+            "humi": 46.2,
+            "light": 96.1
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "원화관",
+          "room": "712",
+          "score": 65.1802,
+          "penalty_points": {
+            "noise": 21.35,
+            "crowding": 0.0,
+            "co2": 5.693878,
+            "temp": 0.714286,
+            "humi": 3.0,
+            "light": 4.061667
+          },
+          "values": {
+            "noise_db": 48.3,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 539.5,
+            "temp": 22.5,
+            "humi": 41.0,
+            "light": 56.3
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "원화관",
+          "room": "619B",
+          "score": 64.3581,
+          "penalty_points": {
+            "noise": 21.0,
+            "crowding": 0.0,
+            "co2": 5.971429,
+            "temp": 1.857143,
+            "humi": 2.733333,
+            "light": 4.08
+          },
+          "values": {
+            "noise_db": 48.0,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 546.3,
+            "temp": 24.3,
+            "humi": 41.8,
+            "light": 55.2
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B102B",
+          "score": 63.7714,
+          "penalty_points": {
+            "noise": 23.45,
+            "crowding": 0.0,
+            "co2": 4.485714,
+            "temp": 2.142857,
+            "humi": 1.933333,
+            "light": 4.216667
+          },
+          "values": {
+            "noise_db": 50.1,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 509.9,
+            "temp": 21.5,
+            "humi": 55.8,
+            "light": 47.0
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "원화관",
+          "room": "711",
+          "score": 63.3056,
+          "penalty_points": {
+            "noise": 20.533333,
+            "crowding": 0.0,
+            "co2": 9.322449,
+            "temp": 1.428571,
+            "humi": 1.7,
+            "light": 3.71
+          },
+          "values": {
+            "noise_db": 47.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 628.4,
+            "temp": 24.0,
+            "humi": 55.1,
+            "light": 77.4
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "402",
+          "score": 63.2046,
+          "penalty_points": {
+            "noise": 25.666667,
+            "crowding": 0.0,
+            "co2": 2.710204,
+            "temp": 2.428571,
+            "humi": 1.833333,
+            "light": 4.156667
+          },
+          "values": {
+            "noise_db": 52.0,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 466.4,
+            "temp": 21.3,
+            "humi": 44.5,
+            "light": 50.6
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "201I",
+          "score": 63.0542,
+          "penalty_points": {
+            "noise": 19.6,
+            "crowding": 0.0,
+            "co2": 9.526531,
+            "temp": 1.714286,
+            "humi": 1.866667,
+            "light": 4.238333
+          },
+          "values": {
+            "noise_db": 46.8,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 633.4,
+            "temp": 21.8,
+            "humi": 44.4,
+            "light": 45.7
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "408",
+          "score": 62.9735,
+          "penalty_points": {
+            "noise": 24.033333,
+            "crowding": 0.0,
+            "co2": 2.146939,
+            "temp": 4.142857,
+            "humi": 2.633333,
+            "light": 4.07
+          },
+          "values": {
+            "noise_db": 50.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 452.6,
+            "temp": 25.9,
+            "humi": 57.9,
+            "light": 55.8
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B116",
+          "score": 62.6103,
+          "penalty_points": {
+            "noise": 18.55,
+            "crowding": 0.0,
+            "co2": 8.130612,
+            "temp": 3.285714,
+            "humi": 3.233333,
+            "light": 4.19
+          },
+          "values": {
+            "noise_db": 45.9,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 599.2,
+            "temp": 20.7,
+            "humi": 40.3,
+            "light": 48.6
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101H",
+          "score": 62.5731,
+          "penalty_points": {
+            "noise": 24.85,
+            "crowding": 0.0,
+            "co2": 7.195918,
+            "temp": 0.714286,
+            "humi": 1.5,
+            "light": 3.166667
+          },
+          "values": {
+            "noise_db": 51.3,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 576.3,
+            "temp": 23.5,
+            "humi": 54.5,
+            "light": 110.0
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B118",
+          "score": 62.1834,
+          "penalty_points": {
+            "noise": 26.833333,
+            "crowding": 0.0,
+            "co2": 3.510204,
+            "temp": 1.571429,
+            "humi": 1.566667,
+            "light": 4.335
+          },
+          "values": {
+            "noise_db": 53.0,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 486.0,
+            "temp": 21.9,
+            "humi": 54.7,
+            "light": 39.9
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "409",
+          "score": 60.4279,
+          "penalty_points": {
+            "noise": 28.7,
+            "crowding": 0.0,
+            "co2": 5.420408,
+            "temp": 0.0,
+            "humi": 1.233333,
+            "light": 4.218333
+          },
+          "values": {
+            "noise_db": 54.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 532.8,
+            "temp": 23.0,
+            "humi": 46.3,
+            "light": 46.9
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "404",
+          "score": 60.3871,
+          "penalty_points": {
+            "noise": 29.4,
+            "crowding": 0.0,
+            "co2": 4.35102,
+            "temp": 1.428571,
+            "humi": 0.666667,
+            "light": 3.766667
+          },
+          "values": {
+            "noise_db": 55.2,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 506.6,
+            "temp": 24.0,
+            "humi": 52.0,
+            "light": 74.0
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "보건관",
+          "room": "424",
+          "score": 59.6431,
+          "penalty_points": {
+            "noise": 19.483333,
+            "crowding": 0.0,
+            "co2": 9.453061,
+            "temp": 3.857143,
+            "humi": 3.833333,
+            "light": 3.73
+          },
+          "values": {
+            "noise_db": 46.7,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 631.6,
+            "temp": 25.7,
+            "humi": 38.5,
+            "light": 76.2
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "보건관",
+          "room": "422",
+          "score": 57.4628,
+          "penalty_points": {
+            "noise": 25.2,
+            "crowding": 0.0,
+            "co2": 9.432653,
+            "temp": 3.142857,
+            "humi": 0.933333,
+            "light": 3.828333
+          },
+          "values": {
+            "noise_db": 51.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 631.1,
+            "temp": 25.2,
+            "humi": 52.8,
+            "light": 70.3
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101C",
+          "score": 57.141,
+          "penalty_points": {
+            "noise": 30.8,
+            "crowding": 0.0,
+            "co2": 3.02449,
+            "temp": 3.142857,
+            "humi": 2.066667,
+            "light": 3.825
+          },
+          "values": {
+            "noise_db": 56.4,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 474.1,
+            "temp": 25.2,
+            "humi": 43.8,
+            "light": 70.5
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "400",
+          "score": 56.5515,
+          "penalty_points": {
+            "noise": 31.266667,
+            "crowding": 0.0,
+            "co2": 3.102041,
+            "temp": 3.571429,
+            "humi": 1.2,
+            "light": 4.308333
+          },
+          "values": {
+            "noise_db": 56.8,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 476.0,
+            "temp": 20.5,
+            "humi": 46.4,
+            "light": 41.5
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101J",
+          "score": 56.3732,
+          "penalty_points": {
+            "noise": 25.2,
+            "crowding": 0.0,
+            "co2": 9.387755,
+            "temp": 3.285714,
+            "humi": 1.766667,
+            "light": 3.986667
+          },
+          "values": {
+            "noise_db": 51.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 630.0,
+            "temp": 25.3,
+            "humi": 44.7,
+            "light": 60.8
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B102A",
+          "score": 56.2311,
+          "penalty_points": {
+            "noise": 34.533333,
+            "crowding": 0.0,
+            "co2": 2.179592,
+            "temp": 1.714286,
+            "humi": 1.733333,
+            "light": 3.608333
+          },
+          "values": {
+            "noise_db": 59.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 453.4,
+            "temp": 24.2,
+            "humi": 44.8,
+            "light": 83.5
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101D",
+          "score": 55.9402,
+          "penalty_points": {
+            "noise": 31.85,
+            "crowding": 0.0,
+            "co2": 5.546939,
+            "temp": 2.142857,
+            "humi": 1.566667,
+            "light": 2.953333
+          },
+          "values": {
+            "noise_db": 57.3,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 535.9,
+            "temp": 24.5,
+            "humi": 54.7,
+            "light": 122.8
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "201F",
+          "score": 54.8706,
+          "penalty_points": {
+            "noise": 25.433333,
+            "crowding": 0.0,
+            "co2": 8.808163,
+            "temp": 3.142857,
+            "humi": 3.433333,
+            "light": 4.311667
+          },
+          "values": {
+            "noise_db": 51.8,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 615.8,
+            "temp": 25.2,
+            "humi": 39.7,
+            "light": 41.3
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B102D",
+          "score": 53.8772,
+          "penalty_points": {
+            "noise": 34.533333,
+            "crowding": 0.0,
+            "co2": 6.963265,
+            "temp": 0.142857,
+            "humi": 0.433333,
+            "light": 4.05
+          },
+          "values": {
+            "noise_db": 59.6,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 570.6,
+            "temp": 22.9,
+            "humi": 51.3,
+            "light": 57.0
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B124",
+          "score": 52.1488,
+          "penalty_points": {
+            "noise": 34.883333,
+            "crowding": 0.0,
+            "co2": 6.138776,
+            "temp": 2.285714,
+            "humi": 0.766667,
+            "light": 3.776667
+          },
+          "values": {
+            "noise_db": 59.9,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 550.4,
+            "temp": 24.6,
+            "humi": 47.7,
+            "light": 73.4
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "201H",
+          "score": 50.8444,
+          "penalty_points": {
+            "noise": 32.55,
+            "crowding": 0.0,
+            "co2": 9.530612,
+            "temp": 2.0,
+            "humi": 1.066667,
+            "light": 4.008333
+          },
+          "values": {
+            "noise_db": 57.9,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 633.5,
+            "temp": 24.4,
+            "humi": 46.8,
+            "light": 59.5
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "원화관",
+          "room": "619A",
+          "score": 49.4828,
+          "penalty_points": {
+            "noise": 34.65,
+            "crowding": 0.0,
+            "co2": 7.893878,
+            "temp": 3.0,
+            "humi": 1.533333,
+            "light": 3.44
+          },
+          "values": {
+            "noise_db": 59.7,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 593.4,
+            "temp": 25.1,
+            "humi": 54.6,
+            "light": 93.6
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101G",
+          "score": 49.1269,
+          "penalty_points": {
+            "noise": 21.816667,
+            "crowding": 17.5,
+            "co2": 9.346939,
+            "temp": 1.142857,
+            "humi": 1.066667,
+            "light": 0.0
+          },
+          "values": {
+            "noise_db": 48.7,
+            "current_people": 7.0,
+            "assumed_capacity": 8.0,
+            "co2": 629.0,
+            "temp": 22.2,
+            "humi": 53.2,
+            "light": 392.5
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "학생회관",
+          "room": "B125",
+          "score": 47.9275,
+          "penalty_points": {
+            "noise": 34.416667,
+            "crowding": 0.0,
+            "co2": 9.159184,
+            "temp": 4.0,
+            "humi": 0.166667,
+            "light": 4.33
+          },
+          "values": {
+            "noise_db": 59.5,
+            "current_people": 0.0,
+            "assumed_capacity": 8.0,
+            "co2": 624.4,
+            "temp": 25.8,
+            "humi": 50.5,
+            "light": 40.2
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        }
+      ],
+      "excluded": [
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102E"
+          ],
+          "reason": [
+            "no_assumed_seat"
+          ]
+        }
+      ],
+      "status": "recommendations_available",
+      "message": "필수 조건 통과 후 선호 점수 순위입니다."
+    },
+    "historical_required_light_temp_humidity": {
+      "rankings": [
+        {
+          "building": "학생회관",
+          "room": "B123",
+          "score": 74.1177,
+          "penalty_points": {
+            "noise": 1.4,
+            "crowding": 10.0,
+            "co2": 11.763265,
+            "temp": 1.285714,
+            "humi": 1.433333,
+            "light": 0.0
+          },
+          "values": {
+            "noise_db": 31.2,
+            "current_people": 4.0,
+            "assumed_capacity": 8.0,
+            "co2": 688.2,
+            "temp": 23.9,
+            "humi": 45.7,
+            "light": 307.7
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "원화관",
+          "room": "702",
+          "score": 67.4041,
+          "penalty_points": {
+            "noise": 1.633333,
+            "crowding": 7.5,
+            "co2": 19.053061,
+            "temp": 3.142857,
+            "humi": 1.266667,
+            "light": 0.0
+          },
+          "values": {
+            "noise_db": 31.4,
+            "current_people": 3.0,
+            "assumed_capacity": 8.0,
+            "co2": 866.8,
+            "temp": 20.8,
+            "humi": 53.8,
+            "light": 438.2
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        },
+        {
+          "building": "도서관",
+          "room": "B101G",
+          "score": 49.1269,
+          "penalty_points": {
+            "noise": 21.816667,
+            "crowding": 17.5,
+            "co2": 9.346939,
+            "temp": 1.142857,
+            "humi": 1.066667,
+            "light": 0.0
+          },
+          "values": {
+            "noise_db": 48.7,
+            "current_people": 7.0,
+            "assumed_capacity": 8.0,
+            "co2": 629.0,
+            "temp": 22.2,
+            "humi": 53.2,
+            "light": 392.5
+          },
+          "explanation": "가중 감점이 작을수록 선호 조건에 가까움. 정원·소음·인원은 가정값, 예약 미확인.",
+          "team_id": "team01",
+          "observed_at": "2026-09-22T23:30:00+09:00",
+          "age_seconds": 0.0,
+          "reservation_available": null,
+          "data_origin": "historical_synthetic_replay_timezone_assumed_Asia_Seoul"
+        }
+      ],
+      "excluded": [
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101A"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101B"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101C"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101D"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101E"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101F"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101H"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101I"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101J"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B105A"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B105B"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "421"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "422"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "423"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "424"
+          ],
+          "reason": [
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "619A"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "619B"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "701A"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "701B"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "703"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "704"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "711"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "712"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201C"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201D"
+          ],
+          "reason": [
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201E"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201F"
+          ],
+          "reason": [
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201G"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201H"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201I"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "213"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "215"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "400"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "401"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "402"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "403"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "404"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "408"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "409"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "410"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "411"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "412"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102A"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102B"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102C"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102D"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102E"
+          ],
+          "reason": [
+            "no_assumed_seat"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B116"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B117"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B118"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B119"
+          ],
+          "reason": [
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B121"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B122"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B124"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B125"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B126"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B128"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B129"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B130"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B131"
+          ],
+          "reason": [
+            "below_required_light"
+          ]
+        }
+      ],
+      "status": "recommendations_available",
+      "message": "필수 조건 통과 후 선호 점수 순위입니다."
+    },
+    "historical_reservation_required": {
+      "rankings": [],
+      "excluded": [
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101A"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101B"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101C"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101D"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101E"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101F"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101G"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101H"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101I"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101J"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B105A"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B105B"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "421"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "422"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "423"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "424"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "619A"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "619B"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "701A"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "701B"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "702"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "703"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "704"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "711"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "712"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201C"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201D"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201E"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201F"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201G"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201H"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201I"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "213"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "215"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "400"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "401"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "402"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "403"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "404"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "408"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "409"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "410"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "411"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "412"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102A"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102B"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102C"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102D"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102E"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B116"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B117"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B118"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B119"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B121"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B122"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B123"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B124"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B125"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B126"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B128"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B129"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B130"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B131"
+          ],
+          "reason": [
+            "reservation_not_confirmed_available",
+            "below_required_light"
+          ]
+        }
+      ],
+      "status": "no_matching_room",
+      "message": "조건을 만족하는 방이 없습니다. 조건 변경 또는 환경 조정 후 새 관측이 필요합니다."
+    },
+    "historical_snapshot_used_on_review_day": {
+      "rankings": [],
+      "excluded": [
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101A"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101B"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101C"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101D"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101E"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101F"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101G"
+          ],
+          "reason": [
+            "future_or_stale_observation"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101H"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101I"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B101J"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B105A"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "도서관",
+            "B105B"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "421"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "422"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "423"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "보건관",
+            "424"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "619A"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "619B"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "701A"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "701B"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "702"
+          ],
+          "reason": [
+            "future_or_stale_observation"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "703"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "704"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "711"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "원화관",
+            "712"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201C"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201D"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201E"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201F"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201G"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201H"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "201I"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "213"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "215"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "400"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "401"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "402"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "403"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "404"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "408"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "409"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "410"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "411"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "412"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102A"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102B"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102C"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102D"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B102E"
+          ],
+          "reason": [
+            "future_or_stale_observation"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B116"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B117"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B118"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B119"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light",
+            "outside_required_humi"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B121"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B122"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B123"
+          ],
+          "reason": [
+            "future_or_stale_observation"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B124"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B125"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B126"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B128"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B129"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B130"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        },
+        {
+          "key": [
+            "team01",
+            "학생회관",
+            "B131"
+          ],
+          "reason": [
+            "future_or_stale_observation",
+            "below_required_light"
+          ]
+        }
+      ],
+      "status": "no_matching_room",
+      "message": "조건을 만족하는 방이 없습니다. 조건 변경 또는 환경 조정 후 새 관측이 필요합니다."
+    }
+  },
+  "control_events": [
+    {
+      "event": "A_mock_on_request",
+      "result": {
+        "status": "mock_command_created",
+        "command_id": "mock-69ef8696fa8b4dd1bd7c12e05e056f80",
+        "desired": true,
+        "room_key": [
+          "team02",
+          "시연용가상건물",
+          "A"
+        ]
+      }
+    },
+    {
+      "event": "B_mock_on_request",
+      "result": {
+        "status": "mock_command_created",
+        "command_id": "mock-a2d33fff5882414fa5101f1ff0cf755d",
+        "desired": true,
+        "room_key": [
+          "team02",
+          "시연용가상건물",
+          "B"
+        ]
+      }
+    },
+    {
+      "event": "A_duplicate_blocked",
+      "result": {
+        "status": "pending_no_duplicate"
+      }
+    },
+    {
+      "event": "A_ack_after_storage_reopen",
+      "result": "acked"
+    },
+    {
+      "event": "B_timeout",
+      "result": "ack_timeout"
+    },
+    {
+      "event": "B_late_ack_ignored",
+      "result": "ignored_ack"
+    },
+    {
+      "event": "B_unknown_state_blocks_request",
+      "result": {
+        "status": "reconcile_device_state_first"
+      }
+    },
+    {
+      "event": "B_fresh_device_state_reconciled",
+      "result": true
+    },
+    {
+      "event": "A_observation_before_due_time",
+      "result": "wait_new_observation_after_8_minutes"
+    },
+    {
+      "event": "A_target_at_due_time",
+      "result": "target_reached"
+    },
+    {
+      "event": "A_mock_off_request",
+      "result": {
+        "status": "mock_command_created",
+        "command_id": "mock-74fbd5419f624e3d9f2d390d9d496fd0",
+        "desired": false,
+        "room_key": [
+          "team02",
+          "시연용가상건물",
+          "A"
+        ]
+      }
+    },
+    {
+      "event": "A_mock_off_ack",
+      "result": "acked"
+    },
+    {
+      "event": "A_off_remeasurement",
+      "result": "off_state_confirmed_environment_ok"
+    }
+  ],
+  "mock_database_export": {
+    "rooms": [
+      {
+        "room_key": "[\"team02\", \"시연용가상건물\", \"A\"]",
+        "confirmed": 0,
+        "manual": 0,
+        "last_time": "2026-10-18T01:16:04+00:00"
+      },
+      {
+        "room_key": "[\"team02\", \"시연용가상건물\", \"B\"]",
+        "confirmed": 1,
+        "manual": 0,
+        "last_time": "2026-10-18T01:00:08+00:00"
+      }
+    ],
+    "commands": [
+      {
+        "command_id": "mock-69ef8696fa8b4dd1bd7c12e05e056f80",
+        "room_key": "[\"team02\", \"시연용가상건물\", \"A\"]",
+        "desired": 1,
+        "sent_at": "2026-10-18T01:00:00+00:00",
+        "status": "target_reached",
+        "ack_at": "2026-10-18T01:00:02+00:00",
+        "actual": 1,
+        "verified_at": "2026-10-18T01:08:02+00:00"
+      },
+      {
+        "command_id": "mock-a2d33fff5882414fa5101f1ff0cf755d",
+        "room_key": "[\"team02\", \"시연용가상건물\", \"B\"]",
+        "desired": 1,
+        "sent_at": "2026-10-18T01:00:00+00:00",
+        "status": "timeout",
+        "ack_at": null,
+        "actual": null,
+        "verified_at": null
+      },
+      {
+        "command_id": "mock-74fbd5419f624e3d9f2d390d9d496fd0",
+        "room_key": "[\"team02\", \"시연용가상건물\", \"A\"]",
+        "desired": 0,
+        "sent_at": "2026-10-18T01:08:03+00:00",
+        "status": "off_state_confirmed_environment_ok",
+        "ack_at": "2026-10-18T01:08:04+00:00",
+        "actual": 0,
+        "verified_at": "2026-10-18T01:16:04+00:00"
+      }
+    ],
+    "audit": [
+      {
+        "id": 1,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"A\"]",
+        "at": "2026-10-18T01:00:00+00:00",
+        "event": "device_state_reconciled",
+        "detail": "{\"actual\": false, \"observed_at\": \"2026-10-18T10:00:00+09:00\"}"
+      },
+      {
+        "id": 2,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"B\"]",
+        "at": "2026-10-18T01:00:00+00:00",
+        "event": "device_state_reconciled",
+        "detail": "{\"actual\": false, \"observed_at\": \"2026-10-18T10:00:00+09:00\"}"
+      },
+      {
+        "id": 3,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"A\"]",
+        "at": "2026-10-18T01:00:00+00:00",
+        "event": "mock_command_created",
+        "detail": "{\"command_id\": \"mock-69ef8696fa8b4dd1bd7c12e05e056f80\", \"desired\": true, \"co2\": 1000}"
+      },
+      {
+        "id": 4,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"B\"]",
+        "at": "2026-10-18T01:00:00+00:00",
+        "event": "mock_command_created",
+        "detail": "{\"command_id\": \"mock-a2d33fff5882414fa5101f1ff0cf755d\", \"desired\": true, \"co2\": 1000}"
+      },
+      {
+        "id": 5,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"A\"]",
+        "at": "2026-10-18T01:00:02+00:00",
+        "event": "acked",
+        "detail": "{\"command_id\": \"mock-69ef8696fa8b4dd1bd7c12e05e056f80\", \"actual\": true}"
+      },
+      {
+        "id": 6,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"B\"]",
+        "at": "2026-10-18T01:00:05+00:00",
+        "event": "ack_timeout",
+        "detail": "{\"command_id\": \"mock-a2d33fff5882414fa5101f1ff0cf755d\", \"room_key\": \"[\\\"team02\\\", \\\"시연용가상건물\\\", \\\"B\\\"]\", \"desired\": 1, \"sent_at\": \"2026-10-18T01:00:00+00:00\", \"status\": \"pending\", \"ack_at\": null, \"actual\": null, \"verified_at\": null}"
+      },
+      {
+        "id": 7,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"B\"]",
+        "at": "2026-10-18T01:00:06+00:00",
+        "event": "ignored_ack",
+        "detail": "{\"command_id\": \"mock-a2d33fff5882414fa5101f1ff0cf755d\"}"
+      },
+      {
+        "id": 8,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"B\"]",
+        "at": "2026-10-18T01:00:08+00:00",
+        "event": "device_state_reconciled",
+        "detail": "{\"actual\": true, \"observed_at\": \"2026-10-18T10:00:08+09:00\"}"
+      },
+      {
+        "id": 9,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"A\"]",
+        "at": "2026-10-18T01:08:02+00:00",
+        "event": "target_reached",
+        "detail": "{\"command_id\": \"mock-69ef8696fa8b4dd1bd7c12e05e056f80\", \"co2\": 840, \"observed_at\": \"2026-10-18T10:08:02+09:00\"}"
+      },
+      {
+        "id": 10,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"A\"]",
+        "at": "2026-10-18T01:08:03+00:00",
+        "event": "mock_command_created",
+        "detail": "{\"command_id\": \"mock-74fbd5419f624e3d9f2d390d9d496fd0\", \"desired\": false, \"co2\": 840}"
+      },
+      {
+        "id": 11,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"A\"]",
+        "at": "2026-10-18T01:08:04+00:00",
+        "event": "acked",
+        "detail": "{\"command_id\": \"mock-74fbd5419f624e3d9f2d390d9d496fd0\", \"actual\": false}"
+      },
+      {
+        "id": 12,
+        "room_key": "[\"team02\", \"시연용가상건물\", \"A\"]",
+        "at": "2026-10-18T01:16:04+00:00",
+        "event": "off_state_confirmed_environment_ok",
+        "detail": "{\"command_id\": \"mock-74fbd5419f624e3d9f2d390d9d496fd0\", \"co2\": 840, \"observed_at\": \"2026-10-18T10:16:04+09:00\"}"
+      }
+    ]
+  }
+}

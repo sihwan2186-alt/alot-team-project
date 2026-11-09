@@ -1,0 +1,187 @@
+{
+  "version": "S1_v2_synthetic_benchmark",
+  "scenarios": {
+    "normal": {
+      "label": "건조 외기",
+      "rh": 45,
+      "temp": 23,
+      "crowding": 0.3,
+      "dark_fraction": 0,
+      "missing": false
+    },
+    "humid": {
+      "label": "기존 다습 외기",
+      "rh": 65,
+      "temp": 23,
+      "crowding": 0.3,
+      "dark_fraction": 0,
+      "missing": false
+    },
+    "crowded": {
+      "label": "혼잡",
+      "rh": 45,
+      "temp": 23,
+      "crowding": 0.85,
+      "dark_fraction": 0,
+      "missing": false
+    },
+    "dark": {
+      "label": "일부 조명 고장",
+      "rh": 45,
+      "temp": 23,
+      "crowding": 0.3,
+      "dark_fraction": 0.3,
+      "missing": false
+    },
+    "missing": {
+      "label": "센서 결측",
+      "rh": 45,
+      "temp": 23,
+      "crowding": 0.3,
+      "dark_fraction": 0,
+      "missing": true
+    },
+    "hot_humid": {
+      "label": "고온다습",
+      "rh": 70,
+      "temp": 29,
+      "crowding": 0.3,
+      "dark_fraction": 0,
+      "missing": false
+    }
+  },
+  "seeds": {
+    "train": [
+      1201,
+      1202
+    ],
+    "validation": [
+      2201
+    ],
+    "test": [
+      3201,
+      3202
+    ]
+  },
+  "dates": {
+    "train": [
+      "2026-09-02",
+      "2026-09-16"
+    ],
+    "validation": [
+      "2026-09-23"
+    ],
+    "test": [
+      "2026-09-27",
+      "2026-09-29"
+    ]
+  },
+  "scope": "63 fixed synthetic rooms, 09:00 warmup, 10:00–13:00 observation; not full-day validation",
+  "preferences": {
+    "owner": "김시환",
+    "student_id": "2022451032",
+    "scenarios": [
+      "S1",
+      "S5"
+    ],
+    "p": 2,
+    "q": 3,
+    "analysis_start_hour": 10,
+    "horizon_minutes": 8,
+    "ventilation_on_ppm": 890,
+    "ventilation_off_ppm": 850,
+    "target_temperature_c": 23,
+    "target_humidity_pct": 50,
+    "minimum_illuminance_lux": 300,
+    "maximum_noise_dba": 45,
+    "temperature_range_c": [
+      20,
+      26
+    ],
+    "humidity_range_pct": [
+      40,
+      60
+    ],
+    "weights": {
+      "noise": 0.35,
+      "crowding": 0.2,
+      "co2": 0.2,
+      "temperature": 0.1,
+      "humidity": 0.1,
+      "light": 0.05
+    },
+    "preference_origin": "existing design conditions explicitly retained by user; not observed satisfaction labels",
+    "source_run": "v02-full-30d",
+    "train_dates": [
+      "2026-09-01",
+      "2026-09-21"
+    ],
+    "validation_dates": [
+      "2026-09-22",
+      "2026-09-25"
+    ],
+    "test_dates": [
+      "2026-09-26",
+      "2026-09-30"
+    ],
+    "unknown": [
+      "q mod 3 type-0 fault definition",
+      "actual satisfaction and chosen-room records"
+    ],
+    "simulation_representative_rooms": [
+      "HEA-421",
+      "LIB-B101A",
+      "STU-B102A",
+      "WON-619A"
+    ]
+  },
+  "features": {
+    "core": [
+      "temp",
+      "humidity",
+      "co2",
+      "light",
+      "noise",
+      "occupancy",
+      "capacity",
+      "score_current",
+      "hour_sin",
+      "hour_cos",
+      "weekday"
+    ],
+    "full": [
+      "temp",
+      "humidity",
+      "co2",
+      "light",
+      "noise",
+      "occupancy",
+      "capacity",
+      "score_current",
+      "co2_change",
+      "noise_change",
+      "temp_change",
+      "co2_missing_ratio",
+      "hour_sin",
+      "hour_cos",
+      "weekday"
+    ]
+  },
+  "candidates": [
+    "persistence",
+    "ridge_core",
+    "hgb_core",
+    "hgb_full",
+    "hgb_full_small"
+  ],
+  "selection": "pooled validation MAE; complex model must improve persistence by >=1%; no test selection or refit",
+  "policy": "strict unchanged; supplementary nearest-condition alternatives never called qualified recommendations",
+  "missing_scenario": "minute 32..47 modulo 90, half of rooms: CO2 and humidity absent; no fault labels in X",
+  "randomness": "independent occupancy and sensor RNGs; matched across scenarios within each seed",
+  "known_limitations": [
+    "synthetic design-score target, no actual satisfaction",
+    "existing weather and moisture equations remain unchanged",
+    "scenario weather/occupancy/fault assumptions are interventions, not corrected campus measurements",
+    "uniform 13:00 benchmark stop with complete observed future windows only"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [
+    "Aggregation has not been generated"
+  ],
+  "sensor_rows": 172800,
+  "expected_sensor_rows": 172800,
+  "aggregate_rows": 0,
+  "total_energy_kwh": 379.14678656658975,
+  "physics_and_labels": {
+    "valid": true,
+    "errors": [],
+    "max_thermal_balance_residual_kwh": 1.0685896612017132e-15,
+    "net_thermal_balance_residual_kwh": -1.4467849990643336e-13,
+    "maximum_temperature_c": 27.423599472445588,
+    "thermal_rows": 172800,
+    "recovery_events": 5,
+    "recovered": 5,
+    "label_rows": 172800,
+    "environment_anomaly_rows": 5118,
+    "recovery_rows": 328
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "selected": "hgb_full",
+  "rows": {
+    "test": 15492,
+    "train": 15492,
+    "validation": 7746
+  },
+  "test": {
+    "selected": {
+      "overall": {
+        "n": 15492,
+        "mae": 2.8902111951795946,
+        "rmse": 4.666695244050567,
+        "p95_error": 10.976153852640898
+      },
+      "recommendation": {
+        "instants": 252,
+        "qualified_instants": 167,
+        "coverage": 0.6626984126984127,
+        "top1_regret": 5.892618672672935,
+        "current_constraint_violation_fraction": 0.0,
+        "future_violation_fraction": 0.3473053892215569,
+        "future_condition_note": "future observed window conditions, offline evaluation only"
+      },
+      "by_scenario": {
+        "crowded": {
+          "regression": {
+            "n": 2646,
+            "mae": 1.7073424539524535,
+            "rmse": 2.7503542565193495,
+            "p95_error": 5.725031294386036
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 26,
+            "coverage": 0.6190476190476191,
+            "top1_regret": 0.7596483180350369,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 0.7692307692307693,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        },
+        "dark": {
+          "regression": {
+            "n": 2646,
+            "mae": 3.1244741345385387,
+            "rmse": 4.998648007403057,
+            "p95_error": 11.910923706785448
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 42,
+            "coverage": 1.0,
+            "top1_regret": 7.175907914539525,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 0.16666666666666666,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        },
+        "hot_humid": {
+          "regression": {
+            "n": 2646,
+            "mae": 3.1787896483228595,
+            "rmse": 4.951812575627308,
+            "p95_error": 11.539594232718398
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 1,
+            "coverage": 0.023809523809523808,
+            "top1_regret": 0.0,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 1.0,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        },
+        "humid": {
+          "regression": {
+            "n": 2646,
+            "mae": 3.137384830128285,
+            "rmse": 4.948723284691898,
+            "p95_error": 11.65071603845081
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 14,
+            "coverage": 0.3333333333333333,
+            "top1_regret": 1.6438097013879371,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 0.5714285714285714,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        },
+        "missing": {
+          "regression": {
+            "n": 2262,
+            "mae": 3.1036830845869985,
+            "rmse": 4.956975621384018,
+            "p95_error": 12.042500506640609
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 42,
+            "coverage": 1.0,
+            "top1_regret": 7.000283455344892,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 0.23809523809523808,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        },
+        "normal": {
+          "regression": {
+            "n": 2646,
+            "mae": 3.120573066990774,
+            "rmse": 4.994079928696118,
+            "p95_error": 11.903664313505631
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 42,
+            "coverage": 1.0,
+            "top1_regret": 8.235787826497447,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 0.2857142857142857,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        }
+      }
+    },
+    "persistence": {
+      "overall": {
+        "n": 15492,
+        "mae": 4.533688243679132,
+        "rmse": 7.281181368230454,
+        "p95_error": 16.268264316764323
+      },
+      "recommendation": {
+        "instants": 252,
+        "qualified_instants": 167,
+        "coverage": 0.6626984126984127,
+        "top1_regret": 7.288339216366523,
+        "current_constraint_violation_fraction": 0.0,
+        "future_violation_fraction": 0.2634730538922156,
+        "future_condition_note": "future observed window conditions, offline evaluation only"
+      },
+      "by_scenario": {
+        "crowded": {
+          "regression": {
+            "n": 2646,
+            "mae": 1.7661951761897512,
+            "rmse": 2.9296926154315557,
+            "p95_error": 6.223921887163141
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 26,
+            "coverage": 0.6190476190476191,
+            "top1_regret": 0.0,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 0.7307692307692307,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        },
+        "dark": {
+          "regression": {
+            "n": 2646,
+            "mae": 5.108059879759799,
+            "rmse": 7.917318160064948,
+            "p95_error": 17.334889934196646
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 42,
+            "coverage": 1.0,
+            "top1_regret": 9.63754492370281,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 0.11904761904761904,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        },
+        "hot_humid": {
+          "regression": {
+            "n": 2646,
+            "mae": 5.12104203781964,
+            "rmse": 7.907788774672037,
+            "p95_error": 17.60004696084512
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 1,
+            "coverage": 0.023809523809523808,
+            "top1_regret": 0.0,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 1.0,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        },
+        "humid": {
+          "regression": {
+            "n": 2646,
+            "mae": 5.144168260489764,
+            "rmse": 7.912870220555756,
+            "p95_error": 17.41233246511484
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 14,
+            "coverage": 0.3333333333333333,
+            "top1_regret": 4.176784194642663,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 0.5,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        },
+        "missing": {
+          "regression": {
+            "n": 2262,
+            "mae": 5.036173816904266,
+            "rmse": 7.785496890744984,
+            "p95_error": 16.904803970517353
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 42,
+            "coverage": 1.0,
+            "top1_regret": 8.72682235861334,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 0.11904761904761904,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        },
+        "normal": {
+          "regression": {
+            "n": 2646,
+            "mae": 5.099413367297987,
+            "rmse": 7.884712839809301,
+            "p95_error": 17.208665293765463
+          },
+          "recommendation": {
+            "instants": 42,
+            "qualified_instants": 42,
+            "coverage": 1.0,
+            "top1_regret": 9.223196298831748,
+            "current_constraint_violation_fraction": 0.0,
+            "future_violation_fraction": 0.16666666666666666,
+            "future_condition_note": "future observed window conditions, offline evaluation only"
+          }
+        }
+      }
+    },
+    "v1_transfer_same_new_test": {
+      "overall": {
+        "n": 15492,
+        "mae": 4.234517114283759,
+        "rmse": 6.6793242680674725,
+        "p95_error": 14.337821571134981
+      },
+      "recommendation": {
+        "instants": 252,
+        "qualified_instants": 167,
+        "coverage": 0.6626984126984127,
+        "top1_regret": 5.775977945814134,
+        "current_constraint_violation_fraction": 0.0,
+        "future_violation_fraction": 0.3413173652694611,
+        "future_condition_note": "future observed window conditions, offline evaluation only"
+      },
+      "note": "different training distribution and sample size; not a pure algorithm comparison"
+    }
+  },
+  "policy_comparison": "strict candidates unchanged; fallback alternatives must remain labelled nonqualified",
+  "all_v1_model_hashes_unchanged": true,
+  "model_sha256": "bc08f945259f4155ee3a0c35e1c687efed346a042fb218fb1f647f9643b5dbf2",
+  "synthetic_only": true,
+  "actual_satisfaction_learning": false
+}

@@ -1,0 +1,24 @@
+test_boundaries (demo.Checks.test_boundaries) ... ok
+test_duplicate_and_ack_identity (demo.Checks.test_duplicate_and_ack_identity) ... ok
+test_input_manual (demo.Checks.test_input_manual) ... ok
+test_late_and_wrong_state_ack (demo.Checks.test_late_and_wrong_state_ack) ... ok
+test_recommendation (demo.Checks.test_recommendation) ... ok
+test_timeout (demo.Checks.test_timeout) ... ok
+test_expiry_and_recovery (test_runtime.ControlTests.test_expiry_and_recovery) ... ok
+test_initial_unknown_and_persisted_pending (test_runtime.ControlTests.test_initial_unknown_and_persisted_pending) ... ok
+test_invalid_stale_and_clock (test_runtime.ControlTests.test_invalid_stale_and_clock) ... ok
+test_late_ack_without_tick (test_runtime.ControlTests.test_late_ack_without_tick) ... ok
+test_manual_cancels_pending_and_requires_reconcile (test_runtime.ControlTests.test_manual_cancels_pending_and_requires_reconcile) ... ok
+test_multi_room_wrong_ack_and_replay (test_runtime.ControlTests.test_multi_room_wrong_ack_and_replay) ... ok
+test_remeasurement_uses_observed_time (test_runtime.ControlTests.test_remeasurement_uses_observed_time) ... ok
+test_switch_off_and_superseded_verification (test_runtime.ControlTests.test_switch_off_and_superseded_verification) ... ok
+test_age_and_timezone (test_runtime.RecommendationTests.test_age_and_timezone) ... ok
+test_latest_and_conflict (test_runtime.RecommendationTests.test_latest_and_conflict) ... ok
+test_required_light_and_empty_result (test_runtime.RecommendationTests.test_required_light_and_empty_result) ... ok
+test_required_ranges_and_integer_count (test_runtime.RecommendationTests.test_required_ranges_and_integer_count) ... ok
+test_unknown_reservation_and_sensor (test_runtime.RecommendationTests.test_unknown_reservation_and_sensor) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.134s
+
+OK

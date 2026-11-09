@@ -1,0 +1,146 @@
+{
+  "scenario": "S5",
+  "selected": "hist_gradient_boosting",
+  "validation": {
+    "persistence": {
+      "n": 1308,
+      "mae": 33.88676906695384,
+      "rmse": 46.873701828734674,
+      "bias": 0.25382262996941896,
+      "p95_absolute_error": 94.0,
+      "future_co2_risk": {
+        "TP": 212,
+        "FP": 101,
+        "FN": 95,
+        "TN": 900,
+        "f1": 0.6838709677419355,
+        "recall": 0.6905537459283387,
+        "definition": "observed CO2 at t+8 >= 890, not sensor-fault truth"
+      }
+    },
+    "ridge_train_only_scaled": {
+      "n": 1308,
+      "mae": 28.92941282600649,
+      "rmse": 39.35053465839907,
+      "bias": 0.030179807868033367,
+      "p95_absolute_error": 74.79383265739372,
+      "future_co2_risk": {
+        "TP": 207,
+        "FP": 57,
+        "FN": 100,
+        "TN": 944,
+        "f1": 0.7250437828371279,
+        "recall": 0.6742671009771987,
+        "definition": "observed CO2 at t+8 >= 890, not sensor-fault truth"
+      }
+    },
+    "hist_gradient_boosting": {
+      "n": 1308,
+      "mae": 19.398951855164295,
+      "rmse": 29.639602259041357,
+      "bias": -0.9473018215118204,
+      "p95_absolute_error": 53.626823824118226,
+      "future_co2_risk": {
+        "TP": 205,
+        "FP": 16,
+        "FN": 102,
+        "TN": 985,
+        "f1": 0.7765151515151515,
+        "recall": 0.6677524429967426,
+        "definition": "observed CO2 at t+8 >= 890, not sensor-fault truth"
+      }
+    }
+  },
+  "test": {
+    "persistence": {
+      "n": 1634,
+      "mae": 33.288249694002445,
+      "rmse": 45.024233245841735,
+      "bias": -1.934516523867809,
+      "p95_absolute_error": 90.0,
+      "future_co2_risk": {
+        "TP": 210,
+        "FP": 163,
+        "FN": 160,
+        "TN": 1101,
+        "f1": 0.5652759084791387,
+        "recall": 0.5675675675675675,
+        "definition": "observed CO2 at t+8 >= 890, not sensor-fault truth"
+      }
+    },
+    "ridge_train_only_scaled": {
+      "n": 1634,
+      "mae": 29.95320597004426,
+      "rmse": 39.40970266041158,
+      "bias": 1.0198340698923523,
+      "p95_absolute_error": 75.62529487180613,
+      "future_co2_risk": {
+        "TP": 226,
+        "FP": 127,
+        "FN": 144,
+        "TN": 1137,
+        "f1": 0.6251728907330567,
+        "recall": 0.6108108108108108,
+        "definition": "observed CO2 at t+8 >= 890, not sensor-fault truth"
+      }
+    },
+    "hist_gradient_boosting": {
+      "n": 1634,
+      "mae": 19.12611966668257,
+      "rmse": 27.61673126706924,
+      "bias": -3.04224523516077,
+      "p95_absolute_error": 51.96501387302411,
+      "future_co2_risk": {
+        "TP": 204,
+        "FP": 38,
+        "FN": 166,
+        "TN": 1226,
+        "f1": 0.6666666666666666,
+        "recall": 0.5513513513513514,
+        "definition": "observed CO2 at t+8 >= 890, not sensor-fault truth"
+      }
+    }
+  },
+  "selected_test": {
+    "n": 1634,
+    "mae": 19.12611966668257,
+    "rmse": 27.61673126706924,
+    "bias": -3.04224523516077,
+    "p95_absolute_error": 51.96501387302411,
+    "future_co2_risk": {
+      "TP": 204,
+      "FP": 38,
+      "FN": 166,
+      "TN": 1226,
+      "f1": 0.6666666666666666,
+      "recall": 0.5513513513513514,
+      "definition": "observed CO2 at t+8 >= 890, not sensor-fault truth"
+    }
+  },
+  "rows": {
+    "train": 6845,
+    "validation": 1308,
+    "test": 1634
+  },
+  "source": "C:\\Users\\sihwa\\OneDrive\\바탕 화면\\지능형사물인터넷\\03_팀프로젝트\\김시환_개인모델\\simulations\\personal_baseline",
+  "features": [
+    "co2",
+    "co2_lag1",
+    "co2_lag8",
+    "co2_trend",
+    "occupancy",
+    "ventilation_on",
+    "ventilation_level",
+    "volume_m3",
+    "ventilation_off_ach",
+    "ventilation_on_ach",
+    "hour_sin",
+    "hour_cos",
+    "weekday"
+  ],
+  "target": "target_co2",
+  "model_sha256": "dac43b750543ed93e73fb3f297f45cbb9b47d484b8ea54957ee447e059d9b8b0",
+  "test_used_for_selection": false,
+  "preference_learning": false,
+  "limitation": "synthetic known-room future-time holdout; not independent campuses or actual satisfaction"
+}

@@ -1,0 +1,11 @@
+# Synthetic control targets; not health or regulatory limits.
+cooling_on_c = 26.0
+cooling_off_c = 24.5
+heating_on_c = 20.0
+heating_off_c = 21.5
+ventilation_on_ppm = 1000.0
+ventilation_off_ppm = 750.0
+lighting_target_lux = 350.0
+lighting_hysteresis_lux = 50.0
+minimum_run_minutes = 5
+hvac_power_fraction = 0.8

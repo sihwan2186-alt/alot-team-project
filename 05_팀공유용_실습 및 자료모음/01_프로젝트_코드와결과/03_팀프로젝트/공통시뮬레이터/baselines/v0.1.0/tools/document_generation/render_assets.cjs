@@ -1,0 +1,2 @@
+const fs=require('fs');const path=require('path');const sharp=require('/Users/kimjunghoon/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+(async()=>{const a=path.resolve(__dirname,'../../deliverables/assets');for(const name of fs.readdirSync(a).filter(n=>n.endsWith('.svg'))){await sharp(path.join(a,name),{density:240}).png().toFile(path.join(a,name.replace('.svg','.png')))}})().catch(e=>{console.error(e);process.exit(1)});

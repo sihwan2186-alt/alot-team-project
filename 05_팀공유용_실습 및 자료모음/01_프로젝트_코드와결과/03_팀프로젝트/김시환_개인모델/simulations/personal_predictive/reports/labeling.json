@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "label_version": "v0.2",
+  "thresholds": {
+    "label_version": "v0.2",
+    "recovery_stable_minutes": 5,
+    "temperature_c": {
+      "min": 18.0,
+      "max": 28.0
+    },
+    "humidity_pct": {
+      "min": 20.0,
+      "max": 80.0
+    },
+    "co2_ppm": {
+      "min": 350.0,
+      "max": 1000.0
+    }
+  },
+  "rows": 172800,
+  "environment_anomaly_rows": 5118,
+  "recovery_rows": 328,
+  "environment_events": 160,
+  "recovery_events": 5,
+  "recovered": 5
+}

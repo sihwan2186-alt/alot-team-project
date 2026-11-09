@@ -1,0 +1,297 @@
+{
+  "status": "complete",
+  "software_version": "0.2.0",
+  "thermal_model_version": "one_zone_heat_balance_v0.2",
+  "label_version": "v0.2",
+  "config": {
+    "start_date": "2026-09-01",
+    "days": 30,
+    "step_minutes": 1,
+    "timezone": "Asia/Seoul",
+    "seed": 20261102,
+    "aggregate_minutes": 5,
+    "output_by_day": true,
+    "enable_faults": true,
+    "enable_energy_model": true,
+    "enable_control_feedback": true,
+    "room_ids": [
+      "HEA-421",
+      "LIB-B101A",
+      "STU-B102A",
+      "WON-619A"
+    ],
+    "output_path": "C:\\Users\\sihwa\\OneDrive\\바탕 화면\\지능형사물인터넷\\03_팀프로젝트\\김시환_개인모델\\simulations",
+    "rules": {
+      "room_profile": {
+        "seed": 20261102,
+        "opening_time": "09:00",
+        "closing_time": "21:00",
+        "ceiling_height_m": [
+          2.7,
+          3.2
+        ],
+        "ventilation_off_ach": [
+          0.15,
+          0.4
+        ],
+        "ventilation_on_ach": [
+          2.0,
+          5.0
+        ],
+        "hvac_power_kw": [
+          1.0,
+          4.0
+        ],
+        "ventilation_power_kw": [
+          0.05,
+          0.2
+        ],
+        "lighting_power_kw": [
+          0.05,
+          0.25
+        ],
+        "standby_power_kw": [
+          0.01,
+          0.04
+        ],
+        "noise_baseline_dba": [
+          28.0,
+          36.0
+        ],
+        "thermal_response_factor": [
+          0.003,
+          0.009
+        ],
+        "daylight_exposure_factor": [
+          0.1,
+          0.8
+        ],
+        "types": {
+          "SMALL": {
+            "count": 25,
+            "capacities": [
+              4,
+              6
+            ],
+            "area": [
+              12,
+              18
+            ],
+            "monitor_probability": 0.4,
+            "projector_probability": 0.1,
+            "whiteboard_probability": 0.6
+          },
+          "MEDIUM": {
+            "count": 28,
+            "capacities": [
+              8,
+              12
+            ],
+            "area": [
+              22,
+              36
+            ],
+            "monitor_probability": 0.65,
+            "projector_probability": 0.35,
+            "whiteboard_probability": 0.85
+          },
+          "LARGE": {
+            "count": 10,
+            "capacities": [
+              16,
+              20
+            ],
+            "area": [
+              42,
+              60
+            ],
+            "monitor_probability": 0.8,
+            "projector_probability": 0.8,
+            "whiteboard_probability": 0.95
+          }
+        }
+      },
+      "environment": {
+        "outdoor_mean_c": 23.0,
+        "outdoor_amplitude_c": 6.0,
+        "outdoor_humidity_pct": 65.0,
+        "outdoor_co2_ppm": 425.0,
+        "outdoor_noise_dba": 52.0,
+        "co2_m3_per_person_hour": 0.018,
+        "moisture_g_per_person_minute": 0.5,
+        "lighting_lux": 450.0,
+        "daylight_lux": 700.0,
+        "sensor_noise": {
+          "temperature_c": 0.15,
+          "humidity_pct": 0.7,
+          "co2_ppm": 12.0,
+          "illuminance_lux": 4.0,
+          "noise_dba": 0.5,
+          "occupancy_count": 0.0
+        },
+        "sensor_resolution": {
+          "temperature_c": 0.1,
+          "humidity_pct": 0.1,
+          "co2_ppm": 1.0,
+          "illuminance_lux": 1.0,
+          "noise_dba": 0.1,
+          "occupancy_count": 1.0
+        },
+        "thermal": {
+          "model_version": "one_zone_heat_balance_v0.2",
+          "effective_capacity_kj_m2_k": 120.0,
+          "envelope_ua_w_m2_k": 3.0,
+          "people_sensible_heat_w": 75.0,
+          "cooling_cop": 3.2,
+          "heating_cop": 3.0,
+          "air_density_kg_m3": 1.2,
+          "air_specific_heat_kj_kg_k": 1.006,
+          "other_heat_w_m2": 2.0,
+          "lighting_heat_fraction": 1.0,
+          "standby_heat_fraction": 1.0
+        }
+      },
+      "occupancy": {
+        "weekday_probability": 0.75,
+        "weekend_probability": 0.35,
+        "durations_minutes": [
+          30,
+          60,
+          90,
+          120
+        ],
+        "no_show_probability": 0.1,
+        "cancellation_probability": 0.08,
+        "arrival_delay_minutes": [
+          0,
+          10
+        ],
+        "lead_hours": [
+          1,
+          72
+        ],
+        "walk_in_probability": 0.015,
+        "hourly_demand": {
+          "9": 0.6,
+          "12": 0.4,
+          "15": 1.0,
+          "18": 0.8
+        }
+      },
+      "fault": {
+        "probability_per_minute": 0.0008,
+        "duration_minutes": [
+          5,
+          40
+        ],
+        "spike": 1200.0,
+        "bias_per_minute": 4.0,
+        "severity": "moderate",
+        "weights": {
+          "missing": 2,
+          "spike": 1,
+          "stuck": 1,
+          "bias": 1,
+          "ventilation_failure": 1,
+          "hvac_failure": 1,
+          "high_occupancy": 1
+        }
+      },
+      "facility": {
+        "cooling_on_c": 26.0,
+        "cooling_off_c": 24.5,
+        "heating_on_c": 20.0,
+        "heating_off_c": 21.5,
+        "ventilation_on_ppm": 1000.0,
+        "ventilation_off_ppm": 750.0,
+        "lighting_target_lux": 350.0,
+        "lighting_hysteresis_lux": 50.0,
+        "minimum_run_minutes": 5,
+        "hvac_power_fraction": 0.8
+      },
+      "anomaly_label": {
+        "label_version": "v0.2",
+        "recovery_stable_minutes": 5,
+        "temperature_c": {
+          "min": 18.0,
+          "max": 28.0
+        },
+        "humidity_pct": {
+          "min": 20.0,
+          "max": 80.0
+        },
+        "co2_ppm": {
+          "min": 350.0,
+          "max": 1000.0
+        }
+      }
+    },
+    "personal_profile": {
+      "owner": "김시환",
+      "student_id": "2022451032",
+      "scenarios": [
+        "S1",
+        "S5"
+      ],
+      "p": 2,
+      "q": 3,
+      "analysis_start_hour": 10,
+      "horizon_minutes": 8,
+      "ventilation_on_ppm": 890,
+      "ventilation_off_ppm": 850,
+      "target_temperature_c": 23,
+      "target_humidity_pct": 50,
+      "minimum_illuminance_lux": 300,
+      "maximum_noise_dba": 45,
+      "temperature_range_c": [
+        20,
+        26
+      ],
+      "humidity_range_pct": [
+        40,
+        60
+      ],
+      "weights": {
+        "noise": 0.35,
+        "crowding": 0.2,
+        "co2": 0.2,
+        "temperature": 0.1,
+        "humidity": 0.1,
+        "light": 0.05
+      },
+      "preference_origin": "existing design conditions explicitly retained by user; not observed satisfaction labels",
+      "source_run": "v02-full-30d",
+      "train_dates": [
+        "2026-09-01",
+        "2026-09-21"
+      ],
+      "validation_dates": [
+        "2026-09-22",
+        "2026-09-25"
+      ],
+      "test_dates": [
+        "2026-09-26",
+        "2026-09-30"
+      ],
+      "unknown": [
+        "q mod 3 type-0 fault definition",
+        "actual satisfaction and chosen-room records"
+      ],
+      "simulation_representative_rooms": [
+        "HEA-421",
+        "LIB-B101A",
+        "STU-B102A",
+        "WON-619A"
+      ]
+    },
+    "policy_name": "baseline"
+  },
+  "room_ids": [
+    "HEA-421",
+    "LIB-B101A",
+    "STU-B102A",
+    "WON-619A"
+  ],
+  "sensor_rows": 172800,
+  "profile_sha256": "da8fa24cc66a4ac9601acd517c1cf00abe5ca2cd799ce4119834a40a9fd3ef1e"
+}

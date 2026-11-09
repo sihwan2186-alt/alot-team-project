@@ -1,0 +1,67 @@
+{
+  "exogenous_inputs_identical": {
+    "events/reservations.csv": {
+      "baseline_sha256": "86e4662027146769287e8ac75fc92225bb3232c1c724434605a8721d2b1ec30c",
+      "predictive_sha256": "86e4662027146769287e8ac75fc92225bb3232c1c724434605a8721d2b1ec30c"
+    },
+    "events/occupancy_events.csv": {
+      "baseline_sha256": "3533d988682ae654684d226c2b6305fd7f91bb8504653e5642987625497fed78",
+      "predictive_sha256": "3533d988682ae654684d226c2b6305fd7f91bb8504653e5642987625497fed78"
+    },
+    "truth/anomaly_events.csv": {
+      "baseline_sha256": "42afa541eb67abd71799401fdd3fdb43c01df552d274b85c56ee2a84276b35ea",
+      "predictive_sha256": "42afa541eb67abd71799401fdd3fdb43c01df552d274b85c56ee2a84276b35ea"
+    }
+  },
+  "warmup_before_test_identical": true,
+  "evaluation_dates": [
+    "2026-09-26",
+    "2026-09-30"
+  ],
+  "daily_window": "10:00 inclusive to 21:00 exclusive",
+  "rooms": [
+    "HEA-421",
+    "LIB-B101A",
+    "STU-B102A",
+    "WON-619A"
+  ],
+  "results": {
+    "baseline": {
+      "occupied_minutes": 7734,
+      "occupied_co2_ge_890_minutes": 2445,
+      "occupied_co2_excess_ppm_minutes": 115377.05449530853,
+      "total_energy_kwh": 62.66715614666668,
+      "max_true_co2_ppm": 1114.5624896748582,
+      "ventilation_minutes": 3862,
+      "occupied_true_co2_mean_ppm": 860.6946894238083,
+      "occupied_co2_ge_890_fraction": 0.3161365399534523
+    },
+    "predictive": {
+      "occupied_minutes": 7734,
+      "occupied_co2_ge_890_minutes": 2406,
+      "occupied_co2_excess_ppm_minutes": 112186.58405444084,
+      "total_energy_kwh": 62.53160883000001,
+      "max_true_co2_ppm": 1113.835696132474,
+      "ventilation_minutes": 3873,
+      "occupied_true_co2_mean_ppm": 860.1048025761926,
+      "occupied_co2_ge_890_fraction": 0.3110938712179985
+    }
+  },
+  "delta_predictive_minus_baseline": {
+    "occupied_minutes": 0,
+    "occupied_co2_ge_890_minutes": -39,
+    "occupied_co2_excess_ppm_minutes": -3190.4704408676917,
+    "total_energy_kwh": -0.13554731666666697,
+    "max_true_co2_ppm": -0.7267935423842573,
+    "ventilation_minutes": 11,
+    "occupied_true_co2_mean_ppm": -0.5898868476157304,
+    "occupied_co2_ge_890_fraction": -0.005042668735453837
+  },
+  "decision": "retain personal rule baseline unless exposure improves with acceptable energy tradeoff; regression MAE alone is insufficient",
+  "scope": "paired synthetic intervention on 4 fixed rooms; no actual equipment, no 63-room deployment claim",
+  "advisory_acceptance": {
+    "exposure_reduced": true,
+    "energy_increase_at_most_5pct": true,
+    "provisional_synthetic_pilot_only": true
+  }
+}

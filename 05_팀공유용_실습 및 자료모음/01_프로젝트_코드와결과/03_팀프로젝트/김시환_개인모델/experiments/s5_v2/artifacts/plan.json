@@ -1,0 +1,248 @@
+{
+  "created_date": "2026-11-05",
+  "scope": "synthetic S5 multi-method; actual measurements not used",
+  "scenarios": {
+    "normal": {
+      "label": "보통 재실",
+      "probability": 0.3,
+      "interval": 16
+    },
+    "crowded": {
+      "label": "높은 재실",
+      "probability": 0.85,
+      "interval": 16
+    },
+    "arrival": {
+      "label": "급격한 입실",
+      "probability": 0.3,
+      "interval": 8
+    },
+    "turnover": {
+      "label": "빠른 인원 변화",
+      "probability": 0.3,
+      "interval": 8
+    },
+    "missing": {
+      "label": "CO₂ 센서 결측",
+      "probability": 0.3,
+      "interval": 16
+    },
+    "vent_failure": {
+      "label": "일부 환기 작동 실패",
+      "probability": 0.3,
+      "interval": 16
+    }
+  },
+  "seeds": {
+    "train": [
+      1301,
+      1302
+    ],
+    "validation": [
+      2301
+    ],
+    "audit": [
+      6401,
+      6402
+    ]
+  },
+  "dates": {
+    "train": [
+      "2026-09-02",
+      "2026-09-16"
+    ],
+    "validation": [
+      "2026-09-23"
+    ],
+    "audit": [
+      "2026-09-30",
+      "2026-10-01"
+    ]
+  },
+  "features": [
+    "co2",
+    "co2_lag1",
+    "co2_lag8",
+    "co2_trend",
+    "occupancy",
+    "ventilation_on",
+    "ventilation_level",
+    "volume_m3",
+    "ventilation_off_ach",
+    "ventilation_on_ach",
+    "hour_sin",
+    "hour_cos",
+    "weekday"
+  ],
+  "model_methods": [
+    "persistence",
+    "train_median",
+    "ridge_1",
+    "ridge_100",
+    "elastic_net",
+    "knn_15",
+    "knn_51",
+    "tree_depth6",
+    "tree_depth12",
+    "random_forest",
+    "extra_trees",
+    "hgb_absolute15",
+    "hgb_squared15",
+    "hgb_absolute7",
+    "hgb_absolute31",
+    "gradient_huber",
+    "linear_svr",
+    "mlp_64_32",
+    "linear_trend",
+    "mass_balance"
+  ],
+  "feature_ablations": {
+    "full": [
+      "co2",
+      "co2_lag1",
+      "co2_lag8",
+      "co2_trend",
+      "occupancy",
+      "ventilation_on",
+      "ventilation_level",
+      "volume_m3",
+      "ventilation_off_ach",
+      "ventilation_on_ach",
+      "hour_sin",
+      "hour_cos",
+      "weekday"
+    ],
+    "co2_only": [
+      "co2"
+    ],
+    "co2_history": [
+      "co2",
+      "co2_lag1",
+      "co2_lag8",
+      "co2_trend"
+    ],
+    "no_history": [
+      "co2",
+      "occupancy",
+      "ventilation_on",
+      "ventilation_level",
+      "volume_m3",
+      "ventilation_off_ach",
+      "ventilation_on_ach",
+      "hour_sin",
+      "hour_cos",
+      "weekday"
+    ],
+    "no_occupancy": [
+      "co2",
+      "co2_lag1",
+      "co2_lag8",
+      "co2_trend",
+      "ventilation_on",
+      "ventilation_level",
+      "volume_m3",
+      "ventilation_off_ach",
+      "ventilation_on_ach",
+      "hour_sin",
+      "hour_cos",
+      "weekday"
+    ],
+    "no_ventilation": [
+      "co2",
+      "co2_lag1",
+      "co2_lag8",
+      "co2_trend",
+      "occupancy",
+      "volume_m3",
+      "ventilation_off_ach",
+      "ventilation_on_ach",
+      "hour_sin",
+      "hour_cos",
+      "weekday"
+    ],
+    "no_geometry": [
+      "co2",
+      "co2_lag1",
+      "co2_lag8",
+      "co2_trend",
+      "occupancy",
+      "ventilation_on",
+      "ventilation_level",
+      "hour_sin",
+      "hour_cos",
+      "weekday"
+    ],
+    "no_clock": [
+      "co2",
+      "co2_lag1",
+      "co2_lag8",
+      "co2_trend",
+      "occupancy",
+      "ventilation_on",
+      "ventilation_level",
+      "volume_m3",
+      "ventilation_off_ach",
+      "ventilation_on_ach"
+    ],
+    "current_people_vent": [
+      "co2",
+      "occupancy",
+      "ventilation_on",
+      "ventilation_level"
+    ],
+    "history_people_vent": [
+      "co2",
+      "co2_lag1",
+      "co2_lag8",
+      "co2_trend",
+      "occupancy",
+      "ventilation_on",
+      "ventilation_level"
+    ]
+  },
+  "forecast_rooms": 63,
+  "control_rooms": [
+    "HEA-421",
+    "HEA-423",
+    "HEA-424",
+    "LIB-B101A",
+    "LIB-B101G",
+    "LIB-B101H",
+    "STU-201C",
+    "STU-B118",
+    "STU-B131",
+    "WON-619A",
+    "WON-701A",
+    "WON-701B"
+  ],
+  "hours": "09–10 warmup, 10–13 evaluation",
+  "personal_on_off_ppm": [
+    890,
+    850
+  ],
+  "minimum_run_minutes": 5,
+  "model_selection": "validation MAE; >1% improvement over persistence; no convergence warnings",
+  "control_policies": {
+    "rule_baseline": null,
+    "forecast_0": 0,
+    "forecast_20": 20,
+    "forecast_40": 40
+  },
+  "control_selection": "validation excess exposure minimum with energy <= baseline*1.05; otherwise baseline",
+  "physical_baseline": "8-minute analytical mass balance assuming constant current occupancy/ventilation and outdoor 425ppm",
+  "generalization": "fixed HGB 15 leaves, omit building/scenario/train seed or late training hours",
+  "residual_methods": [
+    "ridge_delta",
+    "hgb_delta"
+  ],
+  "learning_fractions": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "no_safety_claim": true,
+  "no_actual_device_command": true,
+  "no_type0_definition_assumed": true,
+  "limitations": "one validation seed and two fresh audit seeds; synthetic occupancy/fault assumptions; no real-world significance"
+}

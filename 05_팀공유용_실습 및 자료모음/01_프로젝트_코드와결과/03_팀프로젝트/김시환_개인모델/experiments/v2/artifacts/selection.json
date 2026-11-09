@@ -1,0 +1,91 @@
+{
+  "selected": "hgb_full",
+  "validation": {
+    "persistence": {
+      "regression": {
+        "n": 7746,
+        "mae": 4.215843570601909,
+        "rmse": 6.717013418313233,
+        "p95_error": 14.863607127548615
+      },
+      "recommendation": {
+        "instants": 126,
+        "qualified_instants": 80,
+        "coverage": 0.6349206349206349,
+        "top1_regret": 4.5271495528657955,
+        "current_constraint_violation_fraction": 0.0,
+        "future_violation_fraction": 0.2,
+        "future_condition_note": "future observed window conditions, offline evaluation only"
+      }
+    },
+    "ridge_core": {
+      "regression": {
+        "n": 7746,
+        "mae": 3.9435175907004183,
+        "rmse": 5.615663331124672,
+        "p95_error": 12.804966364914721
+      },
+      "recommendation": {
+        "instants": 126,
+        "qualified_instants": 80,
+        "coverage": 0.6349206349206349,
+        "top1_regret": 4.904248509597724,
+        "current_constraint_violation_fraction": 0.0,
+        "future_violation_fraction": 0.2375,
+        "future_condition_note": "future observed window conditions, offline evaluation only"
+      }
+    },
+    "hgb_core": {
+      "regression": {
+        "n": 7746,
+        "mae": 2.8991927796683434,
+        "rmse": 4.6705286004959765,
+        "p95_error": 10.888771429099481
+      },
+      "recommendation": {
+        "instants": 126,
+        "qualified_instants": 80,
+        "coverage": 0.6349206349206349,
+        "top1_regret": 6.003931948171823,
+        "current_constraint_violation_fraction": 0.0,
+        "future_violation_fraction": 0.3,
+        "future_condition_note": "future observed window conditions, offline evaluation only"
+      }
+    },
+    "hgb_full": {
+      "regression": {
+        "n": 7746,
+        "mae": 2.8495790972143533,
+        "rmse": 4.656351908126603,
+        "p95_error": 10.579667156229771
+      },
+      "recommendation": {
+        "instants": 126,
+        "qualified_instants": 80,
+        "coverage": 0.6349206349206349,
+        "top1_regret": 6.899938871667286,
+        "current_constraint_violation_fraction": 0.0,
+        "future_violation_fraction": 0.225,
+        "future_condition_note": "future observed window conditions, offline evaluation only"
+      }
+    },
+    "hgb_full_small": {
+      "regression": {
+        "n": 7746,
+        "mae": 2.9033918670208396,
+        "rmse": 4.688402762669804,
+        "p95_error": 10.760722127028174
+      },
+      "recommendation": {
+        "instants": 126,
+        "qualified_instants": 80,
+        "coverage": 0.6349206349206349,
+        "top1_regret": 5.896491580668244,
+        "current_constraint_violation_fraction": 0.0,
+        "future_violation_fraction": 0.275,
+        "future_condition_note": "future observed window conditions, offline evaluation only"
+      }
+    }
+  },
+  "test_used_for_selection": false
+}

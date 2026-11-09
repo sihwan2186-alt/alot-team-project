@@ -1,0 +1,39 @@
+# Synthetic assumptions, not measured meteorology or calibrated physics.
+outdoor_mean_c = 23.0
+outdoor_amplitude_c = 6.0
+outdoor_humidity_pct = 65.0
+outdoor_co2_ppm = 425.0
+outdoor_noise_dba = 52.0
+co2_m3_per_person_hour = 0.018
+moisture_g_per_person_minute = 0.5
+lighting_lux = 450.0
+daylight_lux = 700.0
+[sensor_noise]
+temperature_c = 0.15
+humidity_pct = 0.7
+co2_ppm = 12.0
+illuminance_lux = 4.0
+noise_dba = 0.5
+occupancy_count = 0.0
+[sensor_resolution]
+temperature_c = 0.1
+humidity_pct = 0.1
+co2_ppm = 1.0
+illuminance_lux = 1.0
+noise_dba = 0.1
+occupancy_count = 1.0
+
+# v0.2.0 lumped model assumptions. NOT measured campus construction or HVAC data.
+# Capacity per floor area represents coupled walls/furniture; zone air is added separately.
+[thermal]
+model_version = "one_zone_heat_balance_v0.2"
+effective_capacity_kj_m2_k = 120.0
+envelope_ua_w_m2_k = 3.0
+people_sensible_heat_w = 75.0
+cooling_cop = 3.2
+heating_cop = 3.0
+air_density_kg_m3 = 1.2
+air_specific_heat_kj_kg_k = 1.006
+other_heat_w_m2 = 2.0
+lighting_heat_fraction = 1.0
+standby_heat_fraction = 1.0

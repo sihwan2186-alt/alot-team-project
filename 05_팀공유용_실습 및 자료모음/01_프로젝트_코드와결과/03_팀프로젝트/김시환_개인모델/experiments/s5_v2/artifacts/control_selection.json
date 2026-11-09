@@ -1,0 +1,63 @@
+{
+  "selected_policy": "forecast_40",
+  "validation_totals": [
+    {
+      "policy": "forecast_0",
+      "occupied_room_minutes": 11616,
+      "co2_ge_890_occupied_room_minutes": 4477,
+      "excess_ppm_room_minutes": 479052.66007053596,
+      "total_energy_kwh": 121.72327583000092,
+      "ventilation_energy_kwh": 14.953170383333292,
+      "ventilation_applied_room_minutes": 6663,
+      "ventilation_requested_switches": 1150,
+      "blocked_on_room_minutes": 298,
+      "missing_observation_room_minutes": 192,
+      "minimum_run_violations": 0,
+      "max_true_co2_ppm": 2072.044177005328
+    },
+    {
+      "policy": "forecast_20",
+      "occupied_room_minutes": 11616,
+      "co2_ge_890_occupied_room_minutes": 4288,
+      "excess_ppm_room_minutes": 476891.4435320806,
+      "total_energy_kwh": 122.00193582000092,
+      "ventilation_energy_kwh": 15.146262666666622,
+      "ventilation_applied_room_minutes": 6738,
+      "ventilation_requested_switches": 1192,
+      "blocked_on_room_minutes": 304,
+      "missing_observation_room_minutes": 192,
+      "minimum_run_violations": 0,
+      "max_true_co2_ppm": 2072.044177005328
+    },
+    {
+      "policy": "forecast_40",
+      "occupied_room_minutes": 11616,
+      "co2_ge_890_occupied_room_minutes": 4246,
+      "excess_ppm_room_minutes": 471201.2746725125,
+      "total_energy_kwh": 122.01660447666757,
+      "ventilation_energy_kwh": 15.213999483333291,
+      "ventilation_applied_room_minutes": 6781,
+      "ventilation_requested_switches": 1248,
+      "blocked_on_room_minutes": 299,
+      "missing_observation_room_minutes": 192,
+      "minimum_run_violations": 0,
+      "max_true_co2_ppm": 2072.044177005328
+    },
+    {
+      "policy": "rule_baseline",
+      "occupied_room_minutes": 11616,
+      "co2_ge_890_occupied_room_minutes": 4478,
+      "excess_ppm_room_minutes": 478659.1259726287,
+      "total_energy_kwh": 121.72039484666759,
+      "ventilation_energy_kwh": 14.950289399999956,
+      "ventilation_applied_room_minutes": 6665,
+      "ventilation_requested_switches": 1132,
+      "blocked_on_room_minutes": 298,
+      "missing_observation_room_minutes": 192,
+      "minimum_run_violations": 0,
+      "max_true_co2_ppm": 2072.044177005328
+    }
+  ],
+  "audit_used_for_selection": false,
+  "selection_before_new_audit_generation": true
+}

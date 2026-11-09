@@ -1,0 +1,24 @@
+{
+  "use_forecast_for_ranking": false,
+  "ranking_key": "score_current",
+  "evidence": "validation recommendation regret and future violation; test not consulted",
+  "note": "conservative operational review distinct from original MAE model-selection rule",
+  "selected_validation": {
+    "instants": 126,
+    "qualified_instants": 80,
+    "coverage": 0.6349206349206349,
+    "top1_regret": 6.899938871667286,
+    "current_constraint_violation_fraction": 0.0,
+    "future_violation_fraction": 0.225,
+    "future_condition_note": "future observed window conditions, offline evaluation only"
+  },
+  "baseline_validation": {
+    "instants": 126,
+    "qualified_instants": 80,
+    "coverage": 0.6349206349206349,
+    "top1_regret": 4.5271495528657955,
+    "current_constraint_violation_fraction": 0.0,
+    "future_violation_fraction": 0.2,
+    "future_condition_note": "future observed window conditions, offline evaluation only"
+  }
+}

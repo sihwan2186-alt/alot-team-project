@@ -1,0 +1,35 @@
+{
+  "feature_removals": {
+    "none": [],
+    "humidity": [
+      "humidity"
+    ],
+    "temperature": [
+      "temp",
+      "temp_change"
+    ],
+    "co2": [
+      "co2",
+      "co2_change",
+      "co2_missing_ratio"
+    ],
+    "noise": [
+      "noise",
+      "noise_change"
+    ],
+    "light": [
+      "light"
+    ],
+    "seats": [
+      "capacity",
+      "occupancy"
+    ]
+  },
+  "remove_score_current_in_all_variants": true,
+  "residual_methods": [
+    "ridge_delta",
+    "hgb_delta"
+  ],
+  "new_candidates_not_used_to_change_primary_selection": true,
+  "permutation_importance": "selected primary model on validation only; 3 repeats; not causal attribution"
+}

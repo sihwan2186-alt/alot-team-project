@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "checks": [
+    "12 new-seed runs, 63 rooms, exact 8-minute labels",
+    "inference labels excluded",
+    "18 model metrics independently recomputed from saved predictions",
+    "13 subgroup dimensions reconcile to identical row totals",
+    "validation-only model and ranking choices reproduced",
+    "selected model inference reproduced",
+    "v1 S1/S5 and v2 model hashes unchanged"
+  ],
+  "completed_date": "2026-11-05"
+}

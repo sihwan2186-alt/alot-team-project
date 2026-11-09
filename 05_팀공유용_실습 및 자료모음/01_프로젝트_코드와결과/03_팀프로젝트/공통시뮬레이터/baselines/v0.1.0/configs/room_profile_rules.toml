@@ -1,0 +1,36 @@
+# All numerical values below are synthetic assumptions, not campus specifications.
+seed = 20261102
+opening_time = "09:00"
+closing_time = "21:00"
+ceiling_height_m = [2.7, 3.2]
+ventilation_off_ach = [0.15, 0.4]
+ventilation_on_ach = [2.0, 5.0]
+hvac_power_kw = [1.0, 4.0]
+ventilation_power_kw = [0.05, 0.2]
+lighting_power_kw = [0.05, 0.25]
+standby_power_kw = [0.01, 0.04]
+noise_baseline_dba = [28.0, 36.0]
+thermal_response_factor = [0.003, 0.009]
+daylight_exposure_factor = [0.1, 0.8]
+[types.SMALL]
+count = 25
+capacities = [4, 6]
+area = [12, 18]
+monitor_probability = 0.4
+projector_probability = 0.1
+whiteboard_probability = 0.6
+[types.MEDIUM]
+count = 28
+capacities = [8, 12]
+area = [22, 36]
+monitor_probability = 0.65
+projector_probability = 0.35
+whiteboard_probability = 0.85
+[types.LARGE]
+count = 10
+capacities = [16, 20]
+area = [42, 60]
+monitor_probability = 0.8
+projector_probability = 0.8
+whiteboard_probability = 0.95
+# Override example: [overrides."LIB-B101A"] opening_time = "10:00"

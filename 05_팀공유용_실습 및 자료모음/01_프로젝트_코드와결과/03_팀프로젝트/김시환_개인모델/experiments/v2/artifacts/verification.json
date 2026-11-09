@@ -1,0 +1,54 @@
+{
+  "checks_passed": true,
+  "frozen_hashes_match": true,
+  "no_label_or_scenario_features": true,
+  "separate_seed_and_date_splits": true,
+  "policy_comparison": {
+    "validation": {
+      "instants": 126,
+      "qualified_instants": 80,
+      "reference_only_instants": 46,
+      "no_qualified_or_reference_instants": 0,
+      "qualified_coverage": 0.6349206349206349,
+      "reference_is_not_recommendation": true,
+      "qualified_constraints_unchanged": true
+    },
+    "test": {
+      "instants": 252,
+      "qualified_instants": 167,
+      "reference_only_instants": 85,
+      "no_qualified_or_reference_instants": 0,
+      "qualified_coverage": 0.6626984126984127,
+      "reference_is_not_recommendation": true,
+      "qualified_constraints_unchanged": true
+    }
+  },
+  "scenario_humidity": {
+    "crowded": {
+      "median_rh": 46.6,
+      "mean_fraction_rh_in_range": 0.9981305114638449
+    },
+    "dark": {
+      "median_rh": 46.06,
+      "mean_fraction_rh_in_range": 0.9970899470899471
+    },
+    "hot_humid": {
+      "median_rh": 95.72,
+      "mean_fraction_rh_in_range": 0.0004409171075837742
+    },
+    "humid": {
+      "median_rh": 64.64,
+      "mean_fraction_rh_in_range": 0.05779541446208113
+    },
+    "missing": {
+      "median_rh": 46.160000000000004,
+      "mean_fraction_rh_in_range": 0.9062962962962964
+    },
+    "normal": {
+      "median_rh": 46.12,
+      "mean_fraction_rh_in_range": 0.9964021164021164
+    }
+  },
+  "raw_rows": 340200,
+  "note": "humidity summaries average run-level summaries; synthetic only"
+}

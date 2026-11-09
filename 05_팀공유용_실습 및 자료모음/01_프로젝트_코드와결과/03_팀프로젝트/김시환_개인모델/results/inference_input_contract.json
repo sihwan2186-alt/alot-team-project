@@ -1,0 +1,12 @@
+{
+  "origin": "current and past observed values only; no target-label availability filter",
+  "scheduled_target_time": "known asof + 8 minutes; not an observed future value",
+  "sha256": {
+    "S1": "57565e44751296606ffd66d17d218f843dfccb39340e250178ef7ae3d9e5336d",
+    "S5": "f47f64a03f3e5acf6a34d3789b9c59f309cbea880e1713cef87df2e11b70c415"
+  },
+  "test_dates": [
+    "2026-09-26",
+    "2026-09-30"
+  ]
+}

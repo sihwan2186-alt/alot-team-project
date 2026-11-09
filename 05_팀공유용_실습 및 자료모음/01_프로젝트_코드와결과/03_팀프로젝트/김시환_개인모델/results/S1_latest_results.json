@@ -1,0 +1,1618 @@
+{
+  "owner": "김시환",
+  "results": [
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.528221+00:00",
+      "room_id": "HEA-421",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 38.15516900482713,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.528611+00:00",
+      "room_id": "HEA-422",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 16.293008025502182,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "소음 기준",
+        "여유 좌석"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.528741+00:00",
+      "room_id": "HEA-423",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 57.914234973370725,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.528850+00:00",
+      "room_id": "HEA-424",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 32.84166602270638,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.528957+00:00",
+      "room_id": "LIB-B101A",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 58.548402390595726,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.529061+00:00",
+      "room_id": "LIB-B101B",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 52.61113384696048,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.529164+00:00",
+      "room_id": "LIB-B101C",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 56.94068147633464,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.529266+00:00",
+      "room_id": "LIB-B101D",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 67.33222958439822,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.529369+00:00",
+      "room_id": "LIB-B101E",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 53.15365491205759,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.529476+00:00",
+      "room_id": "LIB-B101F",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 62.21694245830575,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.529584+00:00",
+      "room_id": "LIB-B101G",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 57.96417203584522,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.529691+00:00",
+      "room_id": "LIB-B101H",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 35.794491393498035,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.529811+00:00",
+      "room_id": "LIB-B101I",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 56.86468102344369,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.529925+00:00",
+      "room_id": "LIB-B101J",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 45.79341195186842,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.530048+00:00",
+      "room_id": "LIB-B105A",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 54.515974520122185,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.530165+00:00",
+      "room_id": "LIB-B105B",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 65.93838507597607,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.530279+00:00",
+      "room_id": "STU-201C",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 30.908507711579848,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": true,
+      "exclusion_reasons": [],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.530385+00:00",
+      "room_id": "STU-201D",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 68.99257262675927,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.530515+00:00",
+      "room_id": "STU-201E",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 54.424811085588686,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.530649+00:00",
+      "room_id": "STU-201F",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 60.97468408150956,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.530779+00:00",
+      "room_id": "STU-201G",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 62.90005870849748,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.530875+00:00",
+      "room_id": "STU-201H",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 35.032363916396584,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.530959+00:00",
+      "room_id": "STU-201I",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 62.35183114810997,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.531039+00:00",
+      "room_id": "STU-213",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 20.844940211297867,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "소음 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.531120+00:00",
+      "room_id": "STU-400",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 14.10884641176056,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "소음 기준",
+        "여유 좌석"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.531215+00:00",
+      "room_id": "STU-401",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 66.60806990009219,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.531303+00:00",
+      "room_id": "STU-402",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 50.922588658876094,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.531447+00:00",
+      "room_id": "STU-403",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 69.03883674010763,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.531591+00:00",
+      "room_id": "STU-404",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 33.71600628645412,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.531700+00:00",
+      "room_id": "STU-408",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 58.945015125616166,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "소음 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.531807+00:00",
+      "room_id": "STU-409",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 17.00262694627546,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "소음 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.531912+00:00",
+      "room_id": "STU-410",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 58.32043867699574,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.532020+00:00",
+      "room_id": "STU-411",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 33.57097793908238,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "소음 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.532134+00:00",
+      "room_id": "STU-412",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 61.08228171343875,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.532238+00:00",
+      "room_id": "STU-B102A",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 62.82470482568259,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.532345+00:00",
+      "room_id": "STU-B102B",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 26.803300328594577,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "소음 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.532451+00:00",
+      "room_id": "STU-B102C",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 45.45224303877784,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.532555+00:00",
+      "room_id": "STU-B102D",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 46.217698929563035,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.532669+00:00",
+      "room_id": "STU-B102E",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 57.64709110644141,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.532773+00:00",
+      "room_id": "STU-B116",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 69.00659304987657,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.532877+00:00",
+      "room_id": "STU-B117",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 63.52451961246432,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.532979+00:00",
+      "room_id": "STU-B118",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 48.15121019550685,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.533085+00:00",
+      "room_id": "STU-B119",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 56.16076237314516,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.533188+00:00",
+      "room_id": "STU-B121",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 56.762422578762994,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "소음 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.533293+00:00",
+      "room_id": "STU-B122",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 57.97198212005177,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "소음 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.533396+00:00",
+      "room_id": "STU-B123",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 71.2462497899793,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.533496+00:00",
+      "room_id": "STU-B124",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 67.32839604052721,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.533597+00:00",
+      "room_id": "STU-B125",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 41.36272279967879,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.533701+00:00",
+      "room_id": "STU-B126",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 69.3428130392146,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.533829+00:00",
+      "room_id": "STU-B128",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 41.68778920941437,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.533930+00:00",
+      "room_id": "STU-B129",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 43.10986468603901,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.534031+00:00",
+      "room_id": "STU-B130",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 41.39406714273825,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.534144+00:00",
+      "room_id": "STU-B131",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 40.33802003761913,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.534252+00:00",
+      "room_id": "WON-619A",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 70.97198179804249,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.534369+00:00",
+      "room_id": "WON-619B",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 46.384048774373746,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.534477+00:00",
+      "room_id": "WON-701A",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 69.17209123827243,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.534582+00:00",
+      "room_id": "WON-701B",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 57.3385074327114,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.534689+00:00",
+      "room_id": "WON-702",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 75.17530700679752,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.534802+00:00",
+      "room_id": "WON-703",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 71.23099950208413,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "조도 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.534917+00:00",
+      "room_id": "WON-704",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 42.9468984876679,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.535027+00:00",
+      "room_id": "WON-711",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 14.62287051258376,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위",
+        "CO₂ 기준",
+        "소음 기준",
+        "여유 좌석"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    },
+    {
+      "scenario_id": "1",
+      "model_name": "hist_gradient_boosting",
+      "model_version": "kim_sihwan_20261103_v1",
+      "generated_at": "2026-11-03T15:08:00.535134+00:00",
+      "room_id": "WON-712",
+      "input_data_end_time": "2026-09-30T20:48:00+09:00",
+      "prediction_target_time": "2026-09-30T20:56:00+09:00",
+      "mode": "retrospective_heldout_replay",
+      "data_origin": "synthetic",
+      "reason_codes": [
+        "not_observed_user_satisfaction"
+      ],
+      "score": 40.68270902149096,
+      "score_range": [
+        0,
+        100
+      ],
+      "eligible": false,
+      "exclusion_reasons": [
+        "습도 범위"
+      ],
+      "target_definition": "design-preference score of the next completed 8-minute window",
+      "operational_adoption": "withheld_due_to_preference_coverage"
+    }
+  ]
+}

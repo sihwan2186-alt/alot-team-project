@@ -1,0 +1,598 @@
+{
+  "profile": {
+    "owner": "김시환",
+    "student_id": "2022451032",
+    "scenarios": [
+      "S1",
+      "S5"
+    ],
+    "p": 2,
+    "q": 3,
+    "analysis_start_hour": 10,
+    "horizon_minutes": 8,
+    "ventilation_on_ppm": 890,
+    "ventilation_off_ppm": 850,
+    "target_temperature_c": 23,
+    "target_humidity_pct": 50,
+    "minimum_illuminance_lux": 300,
+    "maximum_noise_dba": 45,
+    "temperature_range_c": [
+      20,
+      26
+    ],
+    "humidity_range_pct": [
+      40,
+      60
+    ],
+    "weights": {
+      "noise": 0.35,
+      "crowding": 0.2,
+      "co2": 0.2,
+      "temperature": 0.1,
+      "humidity": 0.1,
+      "light": 0.05
+    },
+    "preference_origin": "existing design conditions explicitly retained by user; not observed satisfaction labels",
+    "source_run": "v02-full-30d",
+    "train_dates": [
+      "2026-09-01",
+      "2026-09-21"
+    ],
+    "validation_dates": [
+      "2026-09-22",
+      "2026-09-25"
+    ],
+    "test_dates": [
+      "2026-09-26",
+      "2026-09-30"
+    ],
+    "unknown": [
+      "q mod 3 type-0 fault definition",
+      "actual satisfaction and chosen-room records"
+    ],
+    "simulation_representative_rooms": [
+      "HEA-421",
+      "LIB-B101A",
+      "STU-B102A",
+      "WON-619A"
+    ]
+  },
+  "models": {
+    "S1": {
+      "features": [
+        "temp",
+        "humidity",
+        "co2",
+        "light",
+        "noise",
+        "occupancy",
+        "capacity",
+        "score_current",
+        "co2_change",
+        "noise_change",
+        "temp_change",
+        "co2_missing_ratio",
+        "hour_sin",
+        "hour_cos",
+        "weekday"
+      ],
+      "target": "target_score",
+      "rows": 152013,
+      "splits": {
+        "test": {
+          "rows": 25320,
+          "asof_min": "2026-09-26 10:08:00+09:00",
+          "asof_max": "2026-09-30 20:48:00+09:00",
+          "target_max": "2026-09-30 20:56:00+09:00"
+        },
+        "train": {
+          "rows": 106388,
+          "asof_min": "2026-09-01 10:08:00+09:00",
+          "asof_max": "2026-09-21 20:48:00+09:00",
+          "target_max": "2026-09-21 20:56:00+09:00"
+        },
+        "validation": {
+          "rows": 20305,
+          "asof_min": "2026-09-22 10:08:00+09:00",
+          "asof_max": "2026-09-25 20:48:00+09:00",
+          "target_max": "2026-09-25 20:56:00+09:00"
+        }
+      },
+      "baseline_feature": "score_current",
+      "definition": "future design-preference proxy score, not satisfaction",
+      "origin": "synthetic v0.2 observations, source snapshot unchanged",
+      "source_root": "C:\\Users\\sihwa\\OneDrive\\바탕 화면\\지능형사물인터넷\\03_팀프로젝트\\공통시뮬레이터\\data\\runs\\v02-full-30d"
+    },
+    "S5": {
+      "features": [
+        "co2",
+        "co2_lag1",
+        "co2_lag8",
+        "co2_trend",
+        "occupancy",
+        "ventilation_on",
+        "ventilation_level",
+        "volume_m3",
+        "ventilation_off_ach",
+        "ventilation_on_ach",
+        "hour_sin",
+        "hour_cos",
+        "weekday"
+      ],
+      "target": "target_co2",
+      "baseline_feature": "co2",
+      "rows": 9787,
+      "splits": {
+        "test": {
+          "rows": 1634,
+          "asof_min": "2026-09-26 10:00:00+09:00",
+          "asof_max": "2026-09-30 20:48:00+09:00",
+          "target_max": "2026-09-30 20:56:00+09:00"
+        },
+        "train": {
+          "rows": 6845,
+          "asof_min": "2026-09-01 10:00:00+09:00",
+          "asof_max": "2026-09-21 20:48:00+09:00",
+          "target_max": "2026-09-21 20:56:00+09:00"
+        },
+        "validation": {
+          "rows": 1308,
+          "asof_min": "2026-09-22 10:00:00+09:00",
+          "asof_max": "2026-09-25 20:48:00+09:00",
+          "target_max": "2026-09-25 20:56:00+09:00"
+        }
+      },
+      "source_root": "C:\\Users\\sihwa\\OneDrive\\바탕 화면\\지능형사물인터넷\\03_팀프로젝트\\김시환_개인모델\\simulations\\personal_baseline",
+      "rooms": [
+        "HEA-421",
+        "LIB-B101A",
+        "STU-B102A",
+        "WON-619A"
+      ],
+      "definition": "CO2 eight minutes ahead under personal 890/850 policy; four fixed representative rooms",
+      "origin": "new synthetic personal baseline; not all common-run rooms or actual observations"
+    }
+  },
+  "daily_counts": [
+    {
+      "date": "2026-09-01",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5054
+    },
+    {
+      "date": "2026-09-02",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5074
+    },
+    {
+      "date": "2026-09-03",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5066
+    },
+    {
+      "date": "2026-09-04",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5085
+    },
+    {
+      "date": "2026-09-05",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5058
+    },
+    {
+      "date": "2026-09-06",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5071
+    },
+    {
+      "date": "2026-09-07",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5068
+    },
+    {
+      "date": "2026-09-08",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5068
+    },
+    {
+      "date": "2026-09-09",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5066
+    },
+    {
+      "date": "2026-09-10",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5060
+    },
+    {
+      "date": "2026-09-11",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5092
+    },
+    {
+      "date": "2026-09-12",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5058
+    },
+    {
+      "date": "2026-09-13",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5055
+    },
+    {
+      "date": "2026-09-14",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5067
+    },
+    {
+      "date": "2026-09-15",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5046
+    },
+    {
+      "date": "2026-09-16",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5060
+    },
+    {
+      "date": "2026-09-17",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5051
+    },
+    {
+      "date": "2026-09-18",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5085
+    },
+    {
+      "date": "2026-09-19",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5079
+    },
+    {
+      "date": "2026-09-20",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5058
+    },
+    {
+      "date": "2026-09-21",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5067
+    },
+    {
+      "date": "2026-09-22",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5082
+    },
+    {
+      "date": "2026-09-23",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5081
+    },
+    {
+      "date": "2026-09-24",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5075
+    },
+    {
+      "date": "2026-09-25",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5067
+    },
+    {
+      "date": "2026-09-26",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5075
+    },
+    {
+      "date": "2026-09-27",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5046
+    },
+    {
+      "date": "2026-09-28",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5063
+    },
+    {
+      "date": "2026-09-29",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5057
+    },
+    {
+      "date": "2026-09-30",
+      "raw_sensor_rows": 90720,
+      "s1_candidates": 5079
+    }
+  ],
+  "source_sha256": {
+    "inputs\\room_profiles.csv": "da8fa24cc66a4ac9601acd517c1cf00abe5ca2cd799ce4119834a40a9fd3ef1e",
+    "inputs\\rooms.csv": "8fcc54b31110489a3daf11d1ab68afb51fc3faef5bd3ae16d5d74e3e28d7da96",
+    "raw\\sensors_1min\\sensor_readings_2026-09-01.csv": "13e327a01a442679e48cee84b251cc607549f90c323a3bbe228a1f20e4054cd0",
+    "raw\\facility_states_1min\\facility_states_2026-09-01.csv": "1e239965667b8c773ce0a623827373b956380813e600fd630aede4b0025d2c85",
+    "raw\\sensors_1min\\sensor_readings_2026-09-02.csv": "09e72cedc5c3340ebfae01d8dc8292c89897f789667aded1ab9412a0de35c9f0",
+    "raw\\facility_states_1min\\facility_states_2026-09-02.csv": "78413ba217caf9cd964f36df74ec1e64771df8931c5f249dcc4e7da0e92da2fa",
+    "raw\\sensors_1min\\sensor_readings_2026-09-03.csv": "f54079f99b46bfe89a2f1a0d492a688871dc843d32bedad3ae6eb887e59c7863",
+    "raw\\facility_states_1min\\facility_states_2026-09-03.csv": "7e0cb1435470ab5ae39b2c5e6d812a514fd0f91866919c114e7dfc772ff9df3a",
+    "raw\\sensors_1min\\sensor_readings_2026-09-04.csv": "fce74efc70e4eb92cb01de35fbac913a0f18498bdb801ff706a336e08f1ccaa8",
+    "raw\\facility_states_1min\\facility_states_2026-09-04.csv": "ea278ad3acfb34cd4cb1e45318f22cb3e56631740e0e135b3e2dd98725f466df",
+    "raw\\sensors_1min\\sensor_readings_2026-09-05.csv": "4bba979bd5a4c405cf7bed5f6f825b1edb434b22ae2d2911e72903da6bc50eae",
+    "raw\\facility_states_1min\\facility_states_2026-09-05.csv": "965a4d7bd4c9f7fd3a7cfe5980e79c738807025db04a6ed3c14068f19cb09105",
+    "raw\\sensors_1min\\sensor_readings_2026-09-06.csv": "a23c6965ffe6ef1bbf9c36223695bc0825aef6001be25592dbc49ad9713eeddf",
+    "raw\\facility_states_1min\\facility_states_2026-09-06.csv": "ea24e192797530ff1b4605f67042117dec45103837e0f56e65c12ef730e1222c",
+    "raw\\sensors_1min\\sensor_readings_2026-09-07.csv": "fc44ec631e6c7c37becbaa4a9679d253f0a56e0b1fa794b1df819dd8bf15bccd",
+    "raw\\facility_states_1min\\facility_states_2026-09-07.csv": "8fd09b43b6d4b46b226bd2d6ddd30f551ada4e629c5a649fccb0696c8a7f6cb0",
+    "raw\\sensors_1min\\sensor_readings_2026-09-08.csv": "468a113c8a32605c42a61b1fa73e34c453bc929adcb9b40f469f054fdb426cfa",
+    "raw\\facility_states_1min\\facility_states_2026-09-08.csv": "e96986012ecce1a10fdae9450973ca8521cc0a8256e4991ea1589be93d2ad225",
+    "raw\\sensors_1min\\sensor_readings_2026-09-09.csv": "743ba0bea3c148b59d0d2103e6d18a32bdd752f7564534e1afcb524fbdd84cc1",
+    "raw\\facility_states_1min\\facility_states_2026-09-09.csv": "edff5b9e499d9dbeaf9f88f98db066c8c75060e918062f7f4181ded5681131af",
+    "raw\\sensors_1min\\sensor_readings_2026-09-10.csv": "da526166529562dc960498ccea8cafa0ff8c514c1e026e71d4dc1763175b02e8",
+    "raw\\facility_states_1min\\facility_states_2026-09-10.csv": "4d069a89df4c3cbe90324c38d0a03c77d7ae9cb5d7c85862e4604927e095d394",
+    "raw\\sensors_1min\\sensor_readings_2026-09-11.csv": "de71ddd050e50141042d2bd3de9b710a674889bef1e2ab0c7519424f79e25b3f",
+    "raw\\facility_states_1min\\facility_states_2026-09-11.csv": "01eb5a0c596e40818d1b394e01b73c41ef5ca1312de7cf4738ad310da26e64f7",
+    "raw\\sensors_1min\\sensor_readings_2026-09-12.csv": "dcec65c77477b518e2fb7a09c10a6d38a5bcbe24e91026d8be653b34001a5896",
+    "raw\\facility_states_1min\\facility_states_2026-09-12.csv": "c5b1cef6cf3dfa2b6b0ad56554b769716a6b7d8f975b3f6284b263898f732ff8",
+    "raw\\sensors_1min\\sensor_readings_2026-09-13.csv": "cea9451903486ad3708cb1b5409953c2c9dc57df5b5ed1c191a8d836e409d4ac",
+    "raw\\facility_states_1min\\facility_states_2026-09-13.csv": "9c05e9bfc2dfaf0e9f1f657f299a9dfbf71ef0668db7485e6f22feb2c3860e65",
+    "raw\\sensors_1min\\sensor_readings_2026-09-14.csv": "21ed54111fb8ebea3a01eab24a5ab6bcd76d58f0d43952e5992741d1a1724e5e",
+    "raw\\facility_states_1min\\facility_states_2026-09-14.csv": "48aed79957452c8323d37d59558b24baa813d78f85aa465ee04313782e40e3e0",
+    "raw\\sensors_1min\\sensor_readings_2026-09-15.csv": "ec91c9b8ae89527e3602f402f285ddf671ec34abc541f1225bfb295d6e1952af",
+    "raw\\facility_states_1min\\facility_states_2026-09-15.csv": "ff866b0015287be92e3c26bb2d690a6bd01fc42c1867e3e5352914625c3838b9",
+    "raw\\sensors_1min\\sensor_readings_2026-09-16.csv": "dc8a66ca0649705203232c8bfb3505df48556dccc450231e89035d4ffaf22ac2",
+    "raw\\facility_states_1min\\facility_states_2026-09-16.csv": "0e724318508144c54259a8b4a26e7831c64f2a642b7fe60cb2034e41b63745a7",
+    "raw\\sensors_1min\\sensor_readings_2026-09-17.csv": "97bd17f1ecd318d890f5212dd99250dc0b278b2cec625bbcf9dddce5adf952a9",
+    "raw\\facility_states_1min\\facility_states_2026-09-17.csv": "4d65361badc015f8eefc8c288d9342799ecc3031cc66042fb7ebc4f53f8860ee",
+    "raw\\sensors_1min\\sensor_readings_2026-09-18.csv": "03b57447f4af78b5fec368367d4d6672e110961f30826588deb7d753ed7e633c",
+    "raw\\facility_states_1min\\facility_states_2026-09-18.csv": "070c13d2bbd28694cf7b00db0cfcb338516ff7964fb67cf93ef60afb2d048f36",
+    "raw\\sensors_1min\\sensor_readings_2026-09-19.csv": "7d8779f130e83f5a80e65e41695247aa0eec9109cce44c288bdb40a2540c72a8",
+    "raw\\facility_states_1min\\facility_states_2026-09-19.csv": "b515126ffaf91735f08eb65c95d1a4925198c300ad1440797fef8d7fa364b37e",
+    "raw\\sensors_1min\\sensor_readings_2026-09-20.csv": "b4ec59b2e56b8de66d9d1003775ed98f0fe8aeae3398c4002bd0ed0ed5169d4d",
+    "raw\\facility_states_1min\\facility_states_2026-09-20.csv": "39ba4f25072d62da27215b9bdbee0b57acd81603cb18f14c785d9898b51b43db",
+    "raw\\sensors_1min\\sensor_readings_2026-09-21.csv": "762342471693499a8ee0a4a818a15644023f0bc08425ed2d2b5512521fe4327f",
+    "raw\\facility_states_1min\\facility_states_2026-09-21.csv": "0d2dc156d5bec3a610397cd86e4a205ddadf87b0d65965f99b7a9eb7f25879f2",
+    "raw\\sensors_1min\\sensor_readings_2026-09-22.csv": "1e056c37ac067ddaefc2333f2b3ea5abf86064c3d493ac6d398d6e9d536b150e",
+    "raw\\facility_states_1min\\facility_states_2026-09-22.csv": "a8a72114bb7b8c38671df1566daf6f3b97bfca8557104afce718419c7f327feb",
+    "raw\\sensors_1min\\sensor_readings_2026-09-23.csv": "46f933b74668a6e16e53d3ee78f09d62e6bae79861b102ae60ac2713136f7433",
+    "raw\\facility_states_1min\\facility_states_2026-09-23.csv": "728854b3025b50dc0a8171c4af9f1a257ff779db872f8d7e6d4c4b3acf0308d5",
+    "raw\\sensors_1min\\sensor_readings_2026-09-24.csv": "d96bfd92ec481f45b26e56cbca2116a8307de2103c0d7272f625e967b6a7d420",
+    "raw\\facility_states_1min\\facility_states_2026-09-24.csv": "01268911fd7feaadd2a64abf3977b7805ab9b4f181b41f37021911a97fa02a8f",
+    "raw\\sensors_1min\\sensor_readings_2026-09-25.csv": "38e23e91f8c8b9f1c44f738bcebef16507abc2c7fca67c645cf82c27432690ad",
+    "raw\\facility_states_1min\\facility_states_2026-09-25.csv": "b2d9b3aaca8087369b1d895e1a3e399578af92f30b1b5304c458f1be7abf59d8",
+    "raw\\sensors_1min\\sensor_readings_2026-09-26.csv": "2ed877cad06046db875a53f06159cb32644580ea8ed5eac1de7331d9e0e53c8c",
+    "raw\\facility_states_1min\\facility_states_2026-09-26.csv": "d41dff8636347c4218d2a6e9fe8da4ced4fd5d16409493151f435eafa61f12dd",
+    "raw\\sensors_1min\\sensor_readings_2026-09-27.csv": "08d8c696356002614a47679551b50f28e817d029939501fb7b9019e9b24ad0ef",
+    "raw\\facility_states_1min\\facility_states_2026-09-27.csv": "31e87e6d189491b846f74482b6441e1262313afbfd465f293a8a59bc67e5a4d4",
+    "raw\\sensors_1min\\sensor_readings_2026-09-28.csv": "2b2bdaa8beb4cdf041ba5f0abf9d87ee8c8a1b045ac626e958fed944bc449c09",
+    "raw\\facility_states_1min\\facility_states_2026-09-28.csv": "b8555b0319d5a691c94b3c3116e682b6b761da2c1cc0813b6cb7014299f190a1",
+    "raw\\sensors_1min\\sensor_readings_2026-09-29.csv": "8dbd9b5e3d217f0e5c8b47fea15b837d342cc959f3f97fc900a30587a94d0417",
+    "raw\\facility_states_1min\\facility_states_2026-09-29.csv": "2fed4ba2b278d3ca5f1e718be47b45b1b64e402d4cc851ad91a675dcd44304a0",
+    "raw\\sensors_1min\\sensor_readings_2026-09-30.csv": "f81cfe388c5867ae04d5b6f342d241fc32ab410175a9eafe77af0cf8b6c65244",
+    "raw\\facility_states_1min\\facility_states_2026-09-30.csv": "dc44952697c40963bc161561e263c6910c49622c6910f41e54cc23016fb32eca"
+  },
+  "source_root": "C:\\Users\\sihwa\\OneDrive\\바탕 화면\\지능형사물인터넷\\03_팀프로젝트\\공통시뮬레이터\\data\\runs\\v02-full-30d",
+  "excluded_files": [
+    "truth/*",
+    "events/reservations.csv",
+    "raw/energy_usage_1min/*"
+  ],
+  "sampling": "10:00 to synthetic profile closing time; 8-minute forecast; S5 may use 8 minutes of earlier observed context",
+  "personal_s5_daily_counts": [
+    {
+      "date": "2026-09-01",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 322
+    },
+    {
+      "date": "2026-09-02",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 318
+    },
+    {
+      "date": "2026-09-03",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-04",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 326
+    },
+    {
+      "date": "2026-09-05",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-06",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 325
+    },
+    {
+      "date": "2026-09-07",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 326
+    },
+    {
+      "date": "2026-09-08",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-09",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-10",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 323
+    },
+    {
+      "date": "2026-09-11",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-12",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-13",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-14",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-15",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-16",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 324
+    },
+    {
+      "date": "2026-09-17",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 322
+    },
+    {
+      "date": "2026-09-18",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-19",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-20",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 323
+    },
+    {
+      "date": "2026-09-21",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-22",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 324
+    },
+    {
+      "date": "2026-09-23",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-24",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-25",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-26",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-27",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-28",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 322
+    },
+    {
+      "date": "2026-09-29",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    },
+    {
+      "date": "2026-09-30",
+      "raw_sensor_rows": 5760,
+      "s5_candidates": 328
+    }
+  ],
+  "personal_s5_source_sha256": {
+    "raw\\sensors_1min\\sensor_readings_2026-09-01.csv": "c9b2e07fd800d385abd38e384a919e1b7d63163172361b545a6d5390c691ac39",
+    "raw\\facility_states_1min\\facility_states_2026-09-01.csv": "4cd6a6b7cf2d4440520cc9017db906f107f4ca9b1334fcea4bd28f8418cfe4c0",
+    "raw\\sensors_1min\\sensor_readings_2026-09-02.csv": "c2b60f817a9fb05e04661f705ac74c54b204b700657ca38fee2591bc7f1a8513",
+    "raw\\facility_states_1min\\facility_states_2026-09-02.csv": "c235f528405d4e20b99d686787f85535edd70cecc96413e1eb4f719ce39e47e3",
+    "raw\\sensors_1min\\sensor_readings_2026-09-03.csv": "2d24d1a28ef1105116b190e848ed5199f8c5b65c655b438fc8a18700329a807c",
+    "raw\\facility_states_1min\\facility_states_2026-09-03.csv": "296f1caa5e87400f4f9972dd36cb6fae4aa93fefb2aeb96478b9472dfe9183c9",
+    "raw\\sensors_1min\\sensor_readings_2026-09-04.csv": "e853b4295fc2e3bd47a470d96ed3e4c23eb9b8f429d589035cc4e914a9363151",
+    "raw\\facility_states_1min\\facility_states_2026-09-04.csv": "63561f1eff73f40713dde63a359d927ad59a2537fd0d943348d05a3abc8022a7",
+    "raw\\sensors_1min\\sensor_readings_2026-09-05.csv": "faea6d1bfdbe398680f9080936ebe6941ebdbd5b4d43ecb86005fcfaa3a2db4e",
+    "raw\\facility_states_1min\\facility_states_2026-09-05.csv": "6f9e9844d450e3b5166d0de302ca5d073e743e793d55cca9f5f2eb77a13dcb4d",
+    "raw\\sensors_1min\\sensor_readings_2026-09-06.csv": "42d977efc4398de25c70b50b0806d32ef4a50c69f2c8dc570a571932861f74df",
+    "raw\\facility_states_1min\\facility_states_2026-09-06.csv": "292440b846053de9641ad0776f2dab7b49686462274ff66ef4eceed1d3f5b31c",
+    "raw\\sensors_1min\\sensor_readings_2026-09-07.csv": "fdb04bffe046c7e698827170f2fd19408d4d89a7bb256085db9cb965b5362fcd",
+    "raw\\facility_states_1min\\facility_states_2026-09-07.csv": "e57894ccf88f1ef0d717f67747a700ef13c242da48f8cc6bc09af737ce668ada",
+    "raw\\sensors_1min\\sensor_readings_2026-09-08.csv": "81528464c51bdb9c29013d968ae9883972b17a8f09ff921c38da17b778458960",
+    "raw\\facility_states_1min\\facility_states_2026-09-08.csv": "315eec4a176587ab28f99408d90a6c22e0f75ecd8c9cf09d6c54e1f0bedc5f5a",
+    "raw\\sensors_1min\\sensor_readings_2026-09-09.csv": "bdf061d874245a8f3789537b94e77cf8381714eeadbe85539f48768d294b6de1",
+    "raw\\facility_states_1min\\facility_states_2026-09-09.csv": "8f0d642e6ee22a3e54e1b5a4bb3134be3255f4de030a1f13414e98fb2f48ff7b",
+    "raw\\sensors_1min\\sensor_readings_2026-09-10.csv": "12e99a7591b9302663f6d3a6ed60e7aa1183456de2e76e6dd4dfeed3ad497deb",
+    "raw\\facility_states_1min\\facility_states_2026-09-10.csv": "70653e7e01f2019ce75fbbd13d7b01870be6b6eabd18d56616bed88154d66740",
+    "raw\\sensors_1min\\sensor_readings_2026-09-11.csv": "e94bdc3a4d46a421d8795e0705ba1907de721bf8e36a88611104c4734365e008",
+    "raw\\facility_states_1min\\facility_states_2026-09-11.csv": "0b9ff87dc5dc4890484e62a422d1db59775f51e12fbbcf5bc3fe6046df604d60",
+    "raw\\sensors_1min\\sensor_readings_2026-09-12.csv": "65a4f306c2aa9389c102939812318d9075f686bac6829bd844db852e6553a98d",
+    "raw\\facility_states_1min\\facility_states_2026-09-12.csv": "0f460caf2a97d0ab18f5bd470631fd0e2049e71a1cc5e2b3a958d1806f18d42c",
+    "raw\\sensors_1min\\sensor_readings_2026-09-13.csv": "76f511caedc7b004e915906826b4a5664d0609ef1c55e9116ea8a1866df13611",
+    "raw\\facility_states_1min\\facility_states_2026-09-13.csv": "d2cbfa90c5ae7ee733b2b466ebe996f20fff6ffc65246f6fa4543d1499685539",
+    "raw\\sensors_1min\\sensor_readings_2026-09-14.csv": "847aff0678d30e1834aa20621c09b14a081d45033fee624a37711204c3fbda59",
+    "raw\\facility_states_1min\\facility_states_2026-09-14.csv": "86564882bda095583b88df267c4f3cf7153ed7fe24c6c717d1d4fa849f9fcd6b",
+    "raw\\sensors_1min\\sensor_readings_2026-09-15.csv": "46437a3b93c5ed54bf15f025cc1f10e62f168c8c17f986ffcd409c3480c77209",
+    "raw\\facility_states_1min\\facility_states_2026-09-15.csv": "2697982b8de79840ee5de5858c803736b4bc8486967b639ee7e6d9d4e2263d8d",
+    "raw\\sensors_1min\\sensor_readings_2026-09-16.csv": "dc75f20c7fe533bcc2e935cf49359de1839c079502c30da5fbed4e9977eb1a8e",
+    "raw\\facility_states_1min\\facility_states_2026-09-16.csv": "a8f0af9a1a61540272368a422ea126c35870544d1e08c4f10b6eea1b9307ad59",
+    "raw\\sensors_1min\\sensor_readings_2026-09-17.csv": "27ea9ae14ec34dbdd237ebe66b4b1c32577da9f86e9e12d3468b4d99a7ab9fda",
+    "raw\\facility_states_1min\\facility_states_2026-09-17.csv": "bacc1dcd4a9e5a17ee7dec1e1ea584487e7b26688a779d6f64e63989dd319a90",
+    "raw\\sensors_1min\\sensor_readings_2026-09-18.csv": "2bc45126d89eb3695c47f4783fd2d3e11ff8d3abea8723eaf09d4e4700cc6253",
+    "raw\\facility_states_1min\\facility_states_2026-09-18.csv": "87b8aef150e6b7f506b5f4d910e3b921860ebe60be4edd39145c143beff3d871",
+    "raw\\sensors_1min\\sensor_readings_2026-09-19.csv": "a475206bb94ebc2af4984f574c0e4a4bb57e202a7cf54907a630daf9071c53a7",
+    "raw\\facility_states_1min\\facility_states_2026-09-19.csv": "bacb10cabe097297dca9cfbab8e9f77afb4a244d8d04ab4ff4e48bd8d06ff147",
+    "raw\\sensors_1min\\sensor_readings_2026-09-20.csv": "7631dad27e28250da68ee7d042eba77c9ae9b4b945b76a6762cd4c19efd45756",
+    "raw\\facility_states_1min\\facility_states_2026-09-20.csv": "08a502c36ebb64ef4e4a6544e8643cb76e90afdd19c4e2c46a3e115c22b48557",
+    "raw\\sensors_1min\\sensor_readings_2026-09-21.csv": "8be5616ee2dada58431a9ded063ef371656b9fd1b879208dec828d58402820d8",
+    "raw\\facility_states_1min\\facility_states_2026-09-21.csv": "ec0811b88d673779b91eb20bca0a53a524ece3f24b5bd4604d59f2a5144c478b",
+    "raw\\sensors_1min\\sensor_readings_2026-09-22.csv": "2507973d2fdd6a3ca92cfcc917dad31a1c70dc63ea36ec0b28601c27257f5a0c",
+    "raw\\facility_states_1min\\facility_states_2026-09-22.csv": "8d1b46600c99b0ab4e1b89e0faa5c30fee85c10cbe91fbf8bf4163e85088f896",
+    "raw\\sensors_1min\\sensor_readings_2026-09-23.csv": "d1cd3292d2fd09052da920a8a5fdbd3b10f9ee56a38f6985e1503d1cd32d0913",
+    "raw\\facility_states_1min\\facility_states_2026-09-23.csv": "f4d629efa97eadc00964d5db7fe01465a69d3b76767083ee8388b83a87f639a2",
+    "raw\\sensors_1min\\sensor_readings_2026-09-24.csv": "13c06b2d170f116d47c82e1004970de00dec2f92da862365d508f2cee8f17c0f",
+    "raw\\facility_states_1min\\facility_states_2026-09-24.csv": "7311a741f29b2f3b50e53e443262561ec81c22fa9b1509aeb75202c0bf136e59",
+    "raw\\sensors_1min\\sensor_readings_2026-09-25.csv": "9412a65ebee888cabf776548389b82fd9191e2241355604ac670bffed2069fe1",
+    "raw\\facility_states_1min\\facility_states_2026-09-25.csv": "646a8d345fde50b8978e16c8a045bb16faf28d17c1683b450772e4556275a21c",
+    "raw\\sensors_1min\\sensor_readings_2026-09-26.csv": "03263ceec175bb2194bbc9728089de902efe1d9bac3c583024cab6c4df314060",
+    "raw\\facility_states_1min\\facility_states_2026-09-26.csv": "617a4e4a07d9121e377b707cf407f2cc9b191ccbd61a0b87b1186d8114d45a12",
+    "raw\\sensors_1min\\sensor_readings_2026-09-27.csv": "92538342375fcf5cefa3bffac89a8c7febc009ccdf4fb71d64dd50c17f73d559",
+    "raw\\facility_states_1min\\facility_states_2026-09-27.csv": "17f1552c76864252008e8debecd936d2c4119842691f1d435c5b16cbcb5450e2",
+    "raw\\sensors_1min\\sensor_readings_2026-09-28.csv": "52251b3a9c168fa0b81d71ae86aa2d7dac656dc1d84d3132737b9857ea340331",
+    "raw\\facility_states_1min\\facility_states_2026-09-28.csv": "b8f6a8ecace99d9194ade5eafa491787e5de1a1065f118c67a9187cca7af0163",
+    "raw\\sensors_1min\\sensor_readings_2026-09-29.csv": "9fc14e74c19cacd9b91ebb19885221765c586d25054666caf7bc6c63c6193e59",
+    "raw\\facility_states_1min\\facility_states_2026-09-29.csv": "f21f9e92f518b97146b68e9cba15d1b98cb7e844676a1f61463de0a679d99bae",
+    "raw\\sensors_1min\\sensor_readings_2026-09-30.csv": "0ce9feb2b958196d5e4ac152bf96103f90d89ec82dcbf996b55f20063495299a",
+    "raw\\facility_states_1min\\facility_states_2026-09-30.csv": "e58b564ac9819908917a6582910c71e1e14bf82eeac19532f297c3a69bdbb80f"
+  },
+  "personal_s5_sampling": "Every 8 minutes from 10:00 to before closing, exact t+8 target; 8-minute observed lookback allowed",
+  "source_usage": {
+    "S1": "common v0.2 sensors plus room/profile snapshots only",
+    "S5": "personal baseline sensors, present ventilation states and static profile; four fixed rooms"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "algorithm": "standard_library_CART_gini_depth8_minleaf6",
+  "seed": 20261019,
+  "origin": "synthetic_design_rule_labels_not_real_user_or_device_truth",
+  "feature_order": {
+    "environment": [
+      "temp_deviation",
+      "humidity_deviation",
+      "co2",
+      "light",
+      "noise_db",
+      "crowding"
+    ],
+    "ventilation": [
+      "co2",
+      "co2_trend_ppm_per_min"
+    ]
+  },
+  "models": {
+    "environment": {
+      "probability": 0.5023148148148148,
+      "samples": 1728,
+      "feature": 1,
+      "threshold": 10.009976665130015,
+      "left": {
+        "probability": 0.7387234042553191,
+        "samples": 1175,
+        "feature": 2,
+        "threshold": 879.9133222930473,
+        "left": {
+          "probability": 0.8902564102564102,
+          "samples": 975,
+          "feature": 4,
+          "threshold": 45.12402148789833,
+          "left": {
+            "probability": 0.9623059866962306,
+            "samples": 902,
+            "feature": 0,
+            "threshold": 3.2023651664143777,
+            "left": {
+              "probability": 0.985244040862656,
+              "samples": 881,
+              "feature": 3,
+              "threshold": 299.72697094224475,
+              "left": {
+                "probability": 0.0,
+                "samples": 9
+              },
+              "right": {
+                "probability": 0.9954128440366973,
+                "samples": 872,
+                "feature": 5,
+                "threshold": 0.6875,
+                "left": {
+                  "probability": 1.0,
+                  "samples": 758
+                },
+                "right": {
+                  "probability": 0.9649122807017544,
+                  "samples": 114,
+                  "feature": 2,
+                  "threshold": 840.0613719844368,
+                  "left": {
+                    "probability": 0.9805825242718447,
+                    "samples": 103,
+                    "feature": 0,
+                    "threshold": 2.2670771097811304,
+                    "left": {
+                      "probability": 1.0,
+                      "samples": 81
+                    },
+                    "right": {
+                      "probability": 0.9090909090909091,
+                      "samples": 22
+                    }
+                  },
+                  "right": {
+                    "probability": 0.8181818181818182,
+                    "samples": 11
+                  }
+                }
+              }
+            },
+            "right": {
+              "probability": 0.0,
+              "samples": 21
+            }
+          },
+          "right": {
+            "probability": 0.0,
+            "samples": 73
+          }
+        },
+        "right": {
+          "probability": 0.0,
+          "samples": 200
+        }
+      },
+      "right": {
+        "probability": 0.0,
+        "samples": 553
+      }
+    },
+    "ventilation": {
+      "probability": 0.3136574074074074,
+      "samples": 1728,
+      "feature": 0,
+      "threshold": 888.1909573463198,
+      "left": {
+        "probability": 0.02064409578860446,
+        "samples": 1211,
+        "feature": 0,
+        "threshold": 849.9765813362997,
+        "left": {
+          "probability": 0.0,
+          "samples": 1132
+        },
+        "right": {
+          "probability": 0.31645569620253167,
+          "samples": 79,
+          "feature": 1,
+          "threshold": 12.15458584529166,
+          "left": {
+            "probability": 0.0,
+            "samples": 54
+          },
+          "right": {
+            "probability": 1.0,
+            "samples": 25
+          }
+        }
+      },
+      "right": {
+        "probability": 1.0,
+        "samples": 517
+      }
+    }
+  },
+  "dataset_sha256": "f4db6e10a12f52cc6c37a793d1d7b5f48b8eeb34cbe5a7286e51b324459667a5",
+  "evaluation": {
+    "environment": {
+      "train": {
+        "n": 1728,
+        "tp": 868,
+        "tn": 856,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.9954128440366973,
+        "recall": 1.0,
+        "f1": 0.9977011494252873,
+        "accuracy": 0.9976851851851852
+      },
+      "validation": {
+        "n": 576,
+        "tp": 296,
+        "tn": 274,
+        "fp": 6,
+        "fn": 0,
+        "precision": 0.9801324503311258,
+        "recall": 1.0,
+        "f1": 0.9899665551839465,
+        "accuracy": 0.9895833333333334
+      },
+      "test": {
+        "n": 576,
+        "tp": 294,
+        "tn": 281,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.9966101694915255,
+        "recall": 1.0,
+        "f1": 0.99830220713073,
+        "accuracy": 0.9982638888888888
+      }
+    },
+    "ventilation": {
+      "train": {
+        "n": 1728,
+        "tp": 542,
+        "tn": 1186,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "validation": {
+        "n": 576,
+        "tp": 184,
+        "tn": 392,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      "test": {
+        "n": 576,
+        "tp": 172,
+        "tn": 404,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "split_rooms": {
+    "train": 72,
+    "validation": 24,
+    "test": 24
+  },
+  "split_rows": {
+    "train": 1728,
+    "validation": 576,
+    "test": 576
+  }
+}

@@ -1,0 +1,6 @@
+S1: label-free input rows=25363; exported JSON parsed
+S5: label-free input rows=1635; exported JSON parsed
+PASS S1 label-free input display
+PASS S5 four-room display
+PASS role round trip
+PASS frozen model hashes unchanged
